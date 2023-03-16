@@ -6,7 +6,7 @@
         "type": "dimension"
       },
       "xs": {
-        "value": "4",
+        "value": "{dimension.scale} * {dimension.scale}",
         "type": "dimension"
       },
       "sm": {
@@ -14,19 +14,27 @@
         "type": "dimension"
       },
       "md": {
-        "value": "{dimension.sm} * {dimension.scale}",
+        "value": "{dimension.sm} + {dimension.sm}",
         "type": "dimension"
       },
       "lg": {
-        "value": "{dimension.md} * {dimension.scale}",
+        "value": "{dimension.md} + {dimension.sm}",
         "type": "dimension"
       },
       "xl": {
-        "value": "{dimension.lg} * {dimension.scale}",
+        "value": "{dimension.lg} + {dimension.sm}",
+        "type": "dimension"
+      },
+      "xxl": {
+        "value": "{dimension.xl} + {dimension.sm}",
         "type": "dimension"
       }
     },
     "spacing": {
+      "xxs": {
+        "value": "{dimension.scale}",
+        "type": "spacing"
+      },
       "xs": {
         "value": "{dimension.xs}",
         "type": "spacing"
@@ -45,6 +53,10 @@
       },
       "xl": {
         "value": "{dimension.xl}",
+        "type": "spacing"
+      },
+      "xxl": {
+        "value": "{dimension.xxl}",
         "type": "spacing"
       }
     },
