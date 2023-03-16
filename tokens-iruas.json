@@ -489,90 +489,90 @@
   },
   "dark": {
     "content": {
-      "Primary": {
-        "value": "{Global.Greyscale.white}",
+      "primary": {
+        "value": "{colors.base.gray.white}",
         "type": "color"
       },
       "secondary": {
-        "value": "{Global.Greyscale.300}",
+        "value": "{colors.base.gray.300}",
         "type": "color"
       },
       "tertiary": {
-        "value": "{Global.Greyscale.400}",
+        "value": "{colors.base.gray.400}",
         "type": "color"
       },
       "disabled": {
-        "value": "{Global.Greyscale.600}",
+        "value": "{colors.base.gray.600}",
         "type": "color"
       },
       "inverse": {
-        "value": "{Global.Greyscale.black}",
+        "value": "{colors.base.gray.black}",
         "type": "color"
       },
       "information": {
-        "value": "{Global.Blue.600}",
+        "value": "{colors.base.blue.600}",
         "type": "color"
       },
       "warning": {
-        "value": "{Global.Yellow.600}",
+        "value": "{colors.base.yellow.600}",
         "type": "color"
       },
       "error": {
-        "value": "{Global.Red.600}",
+        "value": "{colors.base.red.600}",
         "type": "color"
       },
       "success": {
-        "value": "{Global.Green.600}",
+        "value": "{colors.base.green.600}",
         "type": "color"
       }
     },
     "background": {
       "information": {
-        "value": "{Global.Blue.100}",
+        "value": "{colors.base.blue.100}",
         "type": "color"
       },
       "warning": {
-        "value": "{Global.Yellow.200}",
+        "value": "{colors.base.yellow.200}",
         "type": "color"
       },
       "error": {
-        "value": "{Global.Red.100}",
+        "value": "{colors.base.red.100}",
         "type": "color"
       },
       "busy": {
-        "value": "{Global.Red.400}",
+        "value": "{colors.base.red.400}",
         "type": "color"
       },
       "success": {
-        "value": "{Global.Green.100}",
+        "value": "{colors.base.green.100}",
         "type": "color"
       },
       "button": {
-        "value": "{Global.Brand.300}",
+        "value": "{colors.brand.300}",
         "type": "color"
       },
       "online": {
-        "value": "{Global.Green.400}",
+        "value": "{colors.base.green.400}",
         "type": "color"
       },
       "message sent": {
-        "value": "{Global.Green.600}",
+        "value": "{colors.base.green.600}",
         "type": "color"
       },
       "avatar": {
-        "value": "{Global.Greyscale.600}",
+        "value": "{colors.base.gray.600}",
         "type": "color"
       },
       "offline": {
-        "value": "{Global.Greyscale.600}",
+        "value": "{colors.base.gray.600}",
         "type": "color"
       },
       "selected chip": {
-        "value": "{Global.Greyscale.800}",
+        "value": "{colors.base.gray.800}",
         "type": "color"
       },
       "property card": {
-        "value": "{Global.Greyscale.800}",
+        "value": "{colors.base.gray.800}",
         "type": "color"
       },
       "transparent regular": {
@@ -580,49 +580,49 @@
         "type": "color"
       },
       "message received": {
-        "value": "{Global.Greyscale.900}",
+        "value": "{colors.base.gray.900}",
         "type": "color"
       },
       "button disabled": {
-        "value": "{Global.Greyscale.900}",
+        "value": "{colors.base.gray.900}",
         "type": "color"
       },
       "message request": {
-        "value": "{Global.Greyscale.900}",
+        "value": "{colors.base.gray.900}",
         "type": "color"
       },
       "header modal": {
-        "value": "{Global.Greyscale.900}",
+        "value": "{colors.base.gray.900}",
         "type": "color"
       }
     },
     "border": {
       "information": {
-        "value": "{Global.Blue.300}",
+        "value": "{colors.base.blue.300}",
         "type": "color"
       },
       "warning": {
-        "value": "{Global.Yellow.400}",
+        "value": "{colors.base.yellow.400}",
         "type": "color"
       },
       "error": {
-        "value": "{Global.Red.300}",
+        "value": "{colors.base.red.300}",
         "type": "color"
       },
       "success": {
-        "value": "{Global.Green.300}",
+        "value": "{colors.base.green.300}",
         "type": "color"
       },
       "divisor": {
-        "value": "{Global.Greyscale.700}",
+        "value": "{colors.base.gray.700}",
         "type": "color"
       },
       "chip": {
-        "value": "{Global.Greyscale.700}",
+        "value": "{colors.base.gray.700}",
         "type": "color"
       },
       "list": {
-        "value": "{Global.Greyscale.900}",
+        "value": "{colors.base.gray.900}",
         "type": "color"
       }
     },
@@ -636,89 +636,89 @@
   "light": {
     "content": {
       "primary": {
-        "value": "{Global.Greyscale.black}",
+        "value": "{colors.base.gray.black}",
         "type": "color"
       },
       "secondary": {
-        "value": "{Global.Greyscale.600}",
+        "value": "{colors.base.gray.600}",
         "type": "color"
       },
       "tertiary": {
-        "value": "{Global.Greyscale.500}",
+        "value": "{colors.base.gray.500}",
         "type": "color"
       },
       "disabled": {
-        "value": "{Global.Greyscale.400}",
+        "value": "{colors.base.gray.400}",
         "type": "color"
       },
       "inverse": {
-        "value": "{Global.Greyscale.white}",
+        "value": "{colors.base.gray.white}",
         "type": "color"
       },
       "information": {
-        "value": "{Global.Blue.600}",
+        "value": "{colors.base.blue.600}",
         "type": "color"
       },
       "warning": {
-        "value": "{Global.Yellow.600}",
+        "value": "{colors.base.yellow.600}",
         "type": "color"
       },
       "error": {
-        "value": "{Global.Red.600}",
+        "value": "{colors.base.red.600}",
         "type": "color"
       },
       "success": {
-        "value": "{Global.Green.600}",
+        "value": "{colors.base.green.600}",
         "type": "color"
       }
     },
     "background": {
       "information": {
-        "value": "{Global.Blue.100}",
+        "value": "{colors.base.blue.100}",
         "type": "color"
       },
       "warning": {
-        "value": "{Global.Yellow.200}",
+        "value": "{colors.base.yellow.200}",
         "type": "color"
       },
       "error": {
-        "value": "{Global.Red.100}",
+        "value": "{colors.base.red.100}",
         "type": "color"
       },
       "busy": {
-        "value": "{Global.Red.400}",
+        "value": "{colors.base.red.400}",
         "type": "color"
       },
       "success": {
-        "value": "{Global.Green.100}",
+        "value": "{colors.base.green.100}",
         "type": "color"
       },
       "button": {
-        "value": "{Global.Greyscale.black}",
+        "value": "{colors.base.gray.black}",
         "type": "color"
       },
       "online": {
-        "value": "{Global.Green.400}",
+        "value": "{colors.base.green.400}",
         "type": "color"
       },
       "message send": {
-        "value": "{Global.Green.400}",
+        "value": "{colors.base.green.400}",
         "type": "color"
       },
       "avatar": {
-        "value": "{Global.Greyscale.300}",
+        "value": "{colors.base.gray.300}",
         "type": "color"
       },
       "offline": {
-        "value": "{Global.Greyscale.600}",
+        "value": "{colors.base.gray.600}",
         "type": "color"
       },
       "selected chip": {
-        "value": "{Global.Greyscale.100}",
+        "value": "{colors.base.gray.100}",
         "type": "color"
       },
       "property card": {
-        "value": "{Global.Greyscale.white}",
+        "value": "{colors.base.gray.white}",
         "type": "color"
       },
       "transparent regular": {
@@ -726,49 +726,49 @@
         "type": "color"
       },
       "button disabled": {
-        "value": "{Global.Greyscale.300}",
+        "value": "{colors.base.gray.300}",
         "type": "color"
       },
       "message received": {
-        "value": "{Global.Greyscale.300}",
+        "value": "{colors.base.gray.300}",
         "type": "color"
       },
       "message request": {
-        "value": "{Global.Greyscale.100}",
+        "value": "{colors.base.gray.100}",
         "type": "color"
       },
       "header modal": {
-        "value": "{Global.Greyscale.100}",
+        "value": "{colors.base.gray.100}",
         "type": "color"
       }
     },
-    "Border": {
+    "border": {
       "information": {
-        "value": "{Global.Blue.300}",
+        "value": "{colors.base.blue.300}",
         "type": "color"
       },
       "warning": {
-        "value": "{Global.Yellow.400}",
+        "value": "{colors.base.yellow.400}",
         "type": "color"
       },
       "error": {
-        "value": "{Global.Red.300}",
+        "value": "{colors.base.red.300}",
         "type": "color"
       },
       "success": {
-        "value": "{Global.Green.300}",
+        "value": "{colors.base.green.300}",
         "type": "color"
       },
       "divisor": {
-        "value": "{Global.Greyscale.300}",
+        "value": "{colors.base.gray.300}",
         "type": "color"
       },
       "chip": {
-        "value": "{Global.Greyscale.400}",
+        "value": "{colors.base.gray.400}",
         "type": "color"
       },
       "list": {
-        "value": "{Global.Greyscale.100}",
+        "value": "{colors.base.gray.100}",
         "type": "color"
       }
     },
