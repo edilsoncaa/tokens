@@ -1805,7 +1805,42 @@
       }
     }
   },
-  "Dark": {},
+  "Dark": {
+    "colors": {
+      "content": {
+        "primary": {
+          "value": "{colors.base.white}",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "{colors.neutral.200}",
+          "type": "color"
+        },
+        "tertiary": {
+          "value": "{colors.neutral.400}",
+          "type": "color"
+        },
+        "inactive": {
+          "value": "{colors.neutral.600}",
+          "type": "color"
+        },
+        "inverse": {
+          "value": "{colors.base.black}",
+          "type": "color"
+        },
+        "menuActive": {
+          "value": "{colors.primary.400}",
+          "type": "color"
+        }
+      },
+      "background": {
+        "page": {
+          "value": "{colors.base.black}",
+          "type": "color"
+        }
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
