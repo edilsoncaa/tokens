@@ -1845,7 +1845,17 @@
       },
       "background": {
         "page": {
-          "value": "{colors.base.black}",
+          "value": "{colors.neutral.900}",
+          "type": "color"
+        }
+      },
+      "border": {
+        "header": {
+          "value": "{colors.neutral.700}",
+          "type": "color"
+        },
+        "menuActive": {
+          "value": "{colors.primary.400}",
           "type": "color"
         }
       }
