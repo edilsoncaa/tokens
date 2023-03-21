@@ -1727,25 +1727,33 @@
     "colors": {
       "content": {
         "primary": {
-          "value": "{colors.global.gray.700}",
+          "value": "{colors.base.black}",
           "type": "color"
         },
         "secondary": {
-          "value": "{colors.global.gray.500}",
+          "value": "{colors.neutral.500}",
           "type": "color"
         },
         "tertiary": {
-          "value": "{colors.global.gray.300}",
+          "value": "{colors.neutral.300}",
+          "type": "color"
+        },
+        "inactive": {
+          "value": "{colors.neutral.200}",
+          "type": "color"
+        },
+        "inverse": {
+          "value": "{colors.base.white}",
           "type": "color"
         },
         "menuActive": {
-          "value": "{colors.brand.primary.300}",
+          "value": "{colors.primary.400}",
           "type": "color"
         }
       },
       "background": {
         "page": {
-          "value": "{colors.global.gray.50}",
+          "value": "{colors.base.white}",
           "type": "color"
         }
       }
