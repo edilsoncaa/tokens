@@ -1756,6 +1756,16 @@
           "value": "{colors.base.white}",
           "type": "color"
         }
+      },
+      "border": {
+        "header": {
+          "value": "{colors.neutral.50}",
+          "type": "color"
+        },
+        "menuActive": {
+          "value": "{colors.primary.400}",
+          "type": "color"
+        }
       }
     },
     "shadow": {
