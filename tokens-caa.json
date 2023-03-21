@@ -1797,11 +1797,13 @@
       }
     }
   },
+  "Dark": {},
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
       "Base",
-      "Light"
+      "Light",
+      "Dark"
     ]
   }
 }
