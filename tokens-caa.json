@@ -2024,11 +2024,11 @@
       "color": {
         "content": {
           "avatar": {
-            "value": "{colors.red.200}",
+            "value": "{colors.base.white}",
             "type": "color"
           },
           "inverse": {
-            "value": "{colors.base.white}",
+            "value": "{colors.base.black}",
             "type": "color"
           }
         }
