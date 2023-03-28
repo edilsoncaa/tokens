@@ -2184,6 +2184,22 @@
           "tagLive": {
             "value": "{colors.neutral.600}",
             "type": "color"
+          },
+          "buttonDisabled": {
+            "value": "{colors.neutral.200}",
+            "type": "color"
+          },
+          "inputDisabled": {
+            "value": "{colors.neutral.200}",
+            "type": "color"
+          },
+          "buttonSecondary": {
+            "value": "{colors.primary.400}",
+            "type": "color"
+          },
+          "inputError": {
+            "value": "{colors.red.400}",
+            "type": "color"
           }
         },
         "background": {
@@ -2226,11 +2242,55 @@
           "page": {
             "value": "{colors.neutral.900}",
             "type": "color"
+          },
+          "buttonPrimary": {
+            "value": "{colors.primary.400}",
+            "type": "color"
+          },
+          "buttonPrimaryHover": {
+            "value": "{colors.primary.500}",
+            "type": "color"
+          },
+          "buttonPrimaryOnPress": {
+            "value": "{colors.primary.600}",
+            "type": "color"
+          },
+          "buttonPrimaryDisabled": {
+            "value": "{colors.neutral.100}",
+            "type": "color"
+          },
+          "input": {
+            "value": "{colors.base.black}",
+            "type": "color"
+          },
+          "inputDisabled": {
+            "value": "{colors.neutral.100}",
+            "type": "color"
           }
         },
         "border": {
           "avatar": {
             "value": "{colors.neutral.500}",
+            "type": "color"
+          },
+          "buttonPrimary": {
+            "value": "{colors.primary.400}",
+            "type": "color"
+          },
+          "buttonPrimaryFocus": {
+            "value": "{colors.primary.100}",
+            "type": "color"
+          },
+          "inputHover": {
+            "value": "{colors.neutral.200}",
+            "type": "color"
+          },
+          "input": {
+            "value": "{colors.neutral.700}",
+            "type": "color"
+          },
+          "inputError": {
+            "value": "{colors.red.600}",
             "type": "color"
           }
         },
