@@ -2251,12 +2251,12 @@
             "value": "{colors.primary.500}",
             "type": "color"
           },
-          "buttonPrimaryOnPress": {
-            "value": "{colors.primary.600}",
-            "type": "color"
-          },
           "buttonPrimaryDisabled": {
             "value": "{colors.neutral.800}",
+            "type": "color"
+          },
+          "buttonPrimaryOnPress": {
+            "value": "{colors.primary.600}",
             "type": "color"
           },
           "input": {
@@ -2264,7 +2264,7 @@
             "type": "color"
           },
           "inputDisabled": {
-            "value": "{colors.neutral.100}",
+            "value": "{colors.neutral.800}",
             "type": "color"
           }
         },
