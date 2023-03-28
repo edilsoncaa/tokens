@@ -2190,7 +2190,7 @@
             "type": "color"
           },
           "inputDisabled": {
-            "value": "{colors.neutral.200}",
+            "value": "{colors.neutral.600}",
             "type": "color"
           },
           "buttonSecondary": {
@@ -2256,7 +2256,7 @@
             "type": "color"
           },
           "buttonPrimaryDisabled": {
-            "value": "{colors.neutral.100}",
+            "value": "{colors.neutral.800}",
             "type": "color"
           },
           "input": {
@@ -2282,7 +2282,7 @@
             "type": "color"
           },
           "inputHover": {
-            "value": "{colors.neutral.200}",
+            "value": "{colors.neutral.500}",
             "type": "color"
           },
           "input": {
@@ -2290,7 +2290,7 @@
             "type": "color"
           },
           "inputError": {
-            "value": "{colors.red.600}",
+            "value": "{colors.red.400}",
             "type": "color"
           }
         },
