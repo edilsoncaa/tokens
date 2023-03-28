@@ -1999,6 +1999,12 @@
         "value": "100%",
         "type": "borderRadius"
       }
+    },
+    "opacity": {
+      "transparent": {
+        "value": "0%",
+        "type": "opacity"
+      }
     }
   },
   "theme/light": {
@@ -2027,6 +2033,14 @@
           },
           "tagLive": {
             "value": "{colors.neutral.600}",
+            "type": "color"
+          },
+          "buttonDisabled": {
+            "value": "{colors.neutral.200}",
+            "type": "color"
+          },
+          "buttonSecondary": {
+            "value": "{colors.primary.400}",
             "type": "color"
           }
         },
@@ -2070,11 +2084,35 @@
           "page": {
             "value": "{colors.neutral.50}",
             "type": "color"
+          },
+          "buttonPrimary": {
+            "value": "{colors.primary.400}",
+            "type": "color"
+          },
+          "buttonPrimaryHover": {
+            "value": "{colors.primary.500}",
+            "type": "color"
+          },
+          "buttonPrimaryOnPress": {
+            "value": "{colors.primary.600}",
+            "type": "color"
+          },
+          "buttonPrimaryDisabled": {
+            "value": "{colors.neutral.100}",
+            "type": "color"
           }
         },
         "border": {
           "avatar": {
             "value": "{colors.neutral.100}",
+            "type": "color"
+          },
+          "buttonPrimary": {
+            "value": "{colors.primary.400}",
+            "type": "color"
+          },
+          "buttonPrimaryFocus": {
+            "value": "{colors.primary.100}",
             "type": "color"
           }
         },
