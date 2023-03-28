@@ -2100,6 +2100,14 @@
           "buttonPrimaryDisabled": {
             "value": "{colors.neutral.100}",
             "type": "color"
+          },
+          "input": {
+            "value": "{colors.base.white}",
+            "type": "color"
+          },
+          "inputDisabled": {
+            "value": "{colors.neutral.100}",
+            "type": "color"
           }
         },
         "border": {
@@ -2113,6 +2121,14 @@
           },
           "buttonPrimaryFocus": {
             "value": "{colors.primary.100}",
+            "type": "color"
+          },
+          "input": {
+            "value": "{colors.neutral.100}",
+            "type": "color"
+          },
+          "inputHover": {
+            "value": "{colors.neutral.200}",
             "type": "color"
           }
         },
