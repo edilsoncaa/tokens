@@ -1955,6 +1955,50 @@
         "value": "8px",
         "type": "dimension"
       }
+    },
+    "borderWidth": {
+      "xs": {
+        "value": "1",
+        "type": "borderWidth"
+      },
+      "sm": {
+        "value": "1.5",
+        "type": "borderWidth"
+      },
+      "md": {
+        "value": "{dimension.1}",
+        "type": "borderWidth"
+      },
+      "lg": {
+        "value": "{dimension.2}",
+        "type": "borderWidth"
+      }
+    },
+    "borderRadius": {
+      "1": {
+        "value": "{dimension.1}",
+        "type": "borderRadius"
+      },
+      "2": {
+        "value": "{dimension.2}",
+        "type": "borderRadius"
+      },
+      "3": {
+        "value": "{dimension.3}",
+        "type": "borderRadius"
+      },
+      "4": {
+        "value": "{dimension.4}",
+        "type": "borderRadius"
+      },
+      "5": {
+        "value": "{dimension.5}",
+        "type": "borderRadius"
+      },
+      "circle": {
+        "value": "100%",
+        "type": "borderRadius"
+      }
     }
   },
   "theme/light": {
@@ -1980,6 +2024,10 @@
           "white": {
             "value": "{colors.base.white}",
             "type": "color"
+          },
+          "tagLive": {
+            "value": "{colors.neutral.600}",
+            "type": "color"
           }
         },
         "background": {
@@ -2011,8 +2059,16 @@
             "value": "{colors.primary.300}",
             "type": "color"
           },
+          "addStory": {
+            "value": "{colors.blue.400}",
+            "type": "color"
+          },
           "addStoryHover": {
-            "value": "{colors.blue.200}",
+            "value": "{colors.blue.300}",
+            "type": "color"
+          },
+          "page": {
+            "value": "{colors.neutral.50}",
             "type": "color"
           }
         },
@@ -2036,7 +2092,7 @@
     }
   },
   "theme/dark": {
-    "light": {
+    "dark": {
       "color": {
         "content": {
           "primary": {
@@ -2044,25 +2100,29 @@
             "type": "color"
           },
           "secondary": {
-            "value": "{colors.neutral.400}",
-            "type": "color"
-          },
-          "tertiary": {
             "value": "{colors.neutral.200}",
             "type": "color"
           },
+          "tertiary": {
+            "value": "{colors.neutral.400}",
+            "type": "color"
+          },
           "inactive": {
-            "value": "{colors.neutral.100}",
+            "value": "{colors.neutral.600}",
             "type": "color"
           },
           "white": {
             "value": "{colors.base.white}",
             "type": "color"
+          },
+          "tagLive": {
+            "value": "{colors.neutral.600}",
+            "type": "color"
           }
         },
         "background": {
           "avatarInitial": {
-            "value": "{colors.neutral.100}",
+            "value": "{colors.neutral.500}",
             "type": "color"
           },
           "live": {
@@ -2089,14 +2149,22 @@
             "value": "{colors.primary.300}",
             "type": "color"
           },
+          "addStory": {
+            "value": "{colors.blue.400}",
+            "type": "color"
+          },
           "addStoryHover": {
-            "value": "{colors.blue.200}",
+            "value": "{colors.blue.300}",
+            "type": "color"
+          },
+          "page": {
+            "value": "{colors.neutral.900}",
             "type": "color"
           }
         },
         "border": {
           "avatar": {
-            "value": "{colors.neutral.100}",
+            "value": "{colors.neutral.500}",
             "type": "color"
           }
         },
