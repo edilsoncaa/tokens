@@ -2093,19 +2093,19 @@
             "value": "{colors.neutral.50}",
             "type": "color"
           },
-          "buttonPrimary": {
+          "button": {
             "value": "{colors.primary.400}",
             "type": "color"
           },
-          "buttonPrimaryHover": {
+          "buttonHover": {
             "value": "{colors.primary.500}",
             "type": "color"
           },
-          "buttonPrimaryOnPress": {
+          "buttonClick": {
             "value": "{colors.primary.600}",
             "type": "color"
           },
-          "buttonPrimaryDisabled": {
+          "buttonDisabled": {
             "value": "{colors.neutral.100}",
             "type": "color"
           },
@@ -2116,6 +2116,10 @@
           "inputDisabled": {
             "value": "{colors.neutral.100}",
             "type": "color"
+          },
+          "buttonSecondaryHover": {
+            "value": "{colors.primary.50}",
+            "type": "color"
           }
         },
         "border": {
@@ -2123,12 +2127,16 @@
             "value": "{colors.neutral.100}",
             "type": "color"
           },
-          "buttonPrimary": {
+          "button": {
             "value": "{colors.primary.400}",
             "type": "color"
           },
-          "buttonPrimaryFocus": {
+          "buttonFocus": {
             "value": "{colors.primary.100}",
+            "type": "color"
+          },
+          "buttonSecondyFocus": {
+            "value": "{colors.primary.400}",
             "type": "color"
           },
           "inputHover": {
@@ -2186,7 +2194,7 @@
             "type": "color"
           },
           "buttonDisabled": {
-            "value": "{colors.neutral.200}",
+            "value": "{colors.neutral.600}",
             "type": "color"
           },
           "inputDisabled": {
@@ -2243,27 +2251,31 @@
             "value": "{colors.neutral.900}",
             "type": "color"
           },
-          "buttonPrimary": {
+          "button": {
             "value": "{colors.primary.400}",
             "type": "color"
           },
-          "buttonPrimaryHover": {
+          "buttonHover": {
             "value": "{colors.primary.500}",
             "type": "color"
           },
-          "buttonPrimaryDisabled": {
+          "buttonClick": {
+            "value": "{colors.primary.600}",
+            "type": "color"
+          },
+          "buttonDisabled": {
             "value": "{colors.neutral.800}",
             "type": "color"
           },
-          "buttonPrimaryOnPress": {
-            "value": "{colors.primary.600}",
+          "inputDisabled": {
+            "value": "{colors.neutral.800}",
             "type": "color"
           },
           "input": {
             "value": "{colors.base.black}",
             "type": "color"
           },
-          "inputDisabled": {
+          "buttonSecondaryHover": {
             "value": "{colors.neutral.800}",
             "type": "color"
           }
@@ -2273,20 +2285,24 @@
             "value": "{colors.neutral.500}",
             "type": "color"
           },
-          "buttonPrimary": {
+          "button": {
             "value": "{colors.primary.400}",
             "type": "color"
           },
-          "buttonPrimaryFocus": {
-            "value": "{colors.primary.100}",
+          "buttonFocus": {
+            "value": "{colors.primary.600}",
             "type": "color"
           },
-          "inputHover": {
-            "value": "{colors.neutral.500}",
+          "buttonSecondyFocus": {
+            "value": "{colors.primary.400}",
             "type": "color"
           },
           "input": {
             "value": "{colors.neutral.700}",
+            "type": "color"
+          },
+          "inputHover": {
+            "value": "{colors.neutral.500}",
             "type": "color"
           },
           "inputError": {
