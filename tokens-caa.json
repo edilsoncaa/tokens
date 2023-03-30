@@ -2005,6 +2005,70 @@
         "value": "0%",
         "type": "opacity"
       }
+    },
+    "composition": {
+      "buttons": {
+        "xs": {
+          "value": {
+            "paddingTop": "{dimension.3}",
+            "paddingRight": "{dimension.4}",
+            "paddingBottom": "{dimension.3}",
+            "paddingLeft": "{dimension.4}",
+            "borderWidth": "{borderWidth.xs}",
+            "borderRadius": "{borderRadius.circle}",
+            "itemSpacing": "{dimension.2}"
+          },
+          "type": "composition"
+        },
+        "sm": {
+          "value": {
+            "paddingTop": "{dimension.4}",
+            "paddingRight": "{dimension.5}",
+            "paddingBottom": "{dimension.4}",
+            "paddingLeft": "{dimension.5}",
+            "borderWidth": "{borderWidth.xs}",
+            "borderRadius": "{borderRadius.circle}",
+            "itemSpacing": "{dimension.2}"
+          },
+          "type": "composition"
+        },
+        "md": {
+          "value": {
+            "paddingTop": "{dimension.5}",
+            "paddingRight": "{dimension.6}",
+            "paddingBottom": "{dimension.5}",
+            "paddingLeft": "{dimension.6}",
+            "borderWidth": "{borderWidth.xs}",
+            "borderRadius": "{borderRadius.circle}",
+            "itemSpacing": "{dimension.3}"
+          },
+          "type": "composition"
+        },
+        "lg": {
+          "value": {
+            "paddingTop": "{dimension.6}",
+            "paddingRight": "{dimension.7}",
+            "paddingBottom": "{dimension.6}",
+            "paddingLeft": "{dimension.7}",
+            "borderWidth": "{borderWidth.xs}",
+            "borderRadius": "{borderRadius.circle}",
+            "itemSpacing": "{dimension.4}"
+          },
+          "type": "composition"
+        },
+        "xl": {
+          "value": {
+            "paddingTop": "{dimension.6}",
+            "paddingRight": "{dimension.7}",
+            "paddingBottom": "{dimension.6}",
+            "paddingLeft": "{dimension.7}",
+            "borderWidth": "{borderWidth.xs}",
+            "borderRadius": "{borderRadius.circle}",
+            "itemSpacing": "{dimension.4}"
+          },
+          "type": "composition"
+        }
+      }
     }
   },
   "theme/light": {
@@ -2035,24 +2099,28 @@
             "value": "{colors.neutral.600}",
             "type": "color"
           },
-          "buttonDisabled": {
-            "value": "{colors.neutral.200}",
-            "type": "color"
-          },
           "inputDisabled": {
             "value": "{colors.neutral.200}",
-            "type": "color"
-          },
-          "buttonSecondary": {
-            "value": "{colors.primary.400}",
             "type": "color"
           },
           "inputError": {
             "value": "{colors.red.600}",
             "type": "color"
+          },
+          "button": {
+            "value": "{colors.base.white}",
+            "type": "color"
+          },
+          "buttonDisabled": {
+            "value": "{colors.neutral.200}",
+            "type": "color"
           }
         },
         "background": {
+          "page": {
+            "value": "{colors.neutral.50}",
+            "type": "color"
+          },
           "avatarInitial": {
             "value": "{colors.neutral.100}",
             "type": "color"
@@ -2078,7 +2146,7 @@
             "type": "color"
           },
           "fallowHover": {
-            "value": "{colors.primary.300}",
+            "value": "{colors.primary.700}",
             "type": "color"
           },
           "addStory": {
@@ -2089,26 +2157,6 @@
             "value": "{colors.blue.300}",
             "type": "color"
           },
-          "page": {
-            "value": "{colors.neutral.50}",
-            "type": "color"
-          },
-          "button": {
-            "value": "{colors.primary.400}",
-            "type": "color"
-          },
-          "buttonHover": {
-            "value": "{colors.primary.500}",
-            "type": "color"
-          },
-          "buttonClick": {
-            "value": "{colors.primary.600}",
-            "type": "color"
-          },
-          "buttonDisabled": {
-            "value": "{colors.neutral.100}",
-            "type": "color"
-          },
           "input": {
             "value": "{colors.base.white}",
             "type": "color"
@@ -2117,8 +2165,20 @@
             "value": "{colors.neutral.100}",
             "type": "color"
           },
-          "buttonSecondaryHover": {
-            "value": "{colors.primary.50}",
+          "button": {
+            "value": "{colors.primary.400}",
+            "type": "color"
+          },
+          "buttonHover": {
+            "value": "{colors.primary.700}",
+            "type": "color"
+          },
+          "buttonClick": {
+            "value": "{colors.primary.800}",
+            "type": "color"
+          },
+          "buttonDisabled": {
+            "value": "{colors.neutral.100}",
             "type": "color"
           }
         },
@@ -2127,24 +2187,12 @@
             "value": "{colors.neutral.100}",
             "type": "color"
           },
-          "button": {
-            "value": "{colors.primary.400}",
-            "type": "color"
-          },
-          "buttonFocus": {
-            "value": "{colors.primary.100}",
-            "type": "color"
-          },
-          "buttonSecondyFocus": {
-            "value": "{colors.primary.400}",
+          "input": {
+            "value": "{colors.neutral.100}",
             "type": "color"
           },
           "inputHover": {
             "value": "{colors.neutral.200}",
-            "type": "color"
-          },
-          "input": {
-            "value": "{colors.neutral.100}",
             "type": "color"
           },
           "inputError": {
@@ -2161,6 +2209,27 @@
             "value": "{light.color.gradient.live}",
             "type": "color"
           }
+        },
+        "shadow": {
+          "buttonFocus": {
+            "value": "{colors.primary.100}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "shadow": {
+      "button": {
+        "active": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "4",
+            "color": "{light.color.shadow.buttonFocus}",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
         }
       }
     }
@@ -2193,16 +2262,8 @@
             "value": "{colors.neutral.600}",
             "type": "color"
           },
-          "buttonDisabled": {
-            "value": "{colors.neutral.600}",
-            "type": "color"
-          },
           "inputDisabled": {
             "value": "{colors.neutral.600}",
-            "type": "color"
-          },
-          "buttonSecondary": {
-            "value": "{colors.primary.400}",
             "type": "color"
           },
           "inputError": {
@@ -2211,6 +2272,10 @@
           }
         },
         "background": {
+          "page": {
+            "value": "{colors.neutral.900}",
+            "type": "color"
+          },
           "avatarInitial": {
             "value": "{colors.neutral.500}",
             "type": "color"
@@ -2236,7 +2301,7 @@
             "type": "color"
           },
           "fallowHover": {
-            "value": "{colors.primary.300}",
+            "value": "{colors.primary.700}",
             "type": "color"
           },
           "addStory": {
@@ -2247,35 +2312,7 @@
             "value": "{colors.blue.300}",
             "type": "color"
           },
-          "page": {
-            "value": "{colors.neutral.900}",
-            "type": "color"
-          },
-          "button": {
-            "value": "{colors.primary.400}",
-            "type": "color"
-          },
-          "buttonHover": {
-            "value": "{colors.primary.500}",
-            "type": "color"
-          },
-          "buttonClick": {
-            "value": "{colors.primary.600}",
-            "type": "color"
-          },
-          "buttonDisabled": {
-            "value": "{colors.neutral.800}",
-            "type": "color"
-          },
           "inputDisabled": {
-            "value": "{colors.neutral.800}",
-            "type": "color"
-          },
-          "input": {
-            "value": "{colors.base.black}",
-            "type": "color"
-          },
-          "buttonSecondaryHover": {
             "value": "{colors.neutral.800}",
             "type": "color"
           }
@@ -2283,18 +2320,6 @@
         "border": {
           "avatar": {
             "value": "{colors.neutral.500}",
-            "type": "color"
-          },
-          "button": {
-            "value": "{colors.primary.400}",
-            "type": "color"
-          },
-          "buttonFocus": {
-            "value": "{colors.primary.600}",
-            "type": "color"
-          },
-          "buttonSecondyFocus": {
-            "value": "{colors.primary.400}",
             "type": "color"
           },
           "input": {
