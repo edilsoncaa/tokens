@@ -2269,6 +2269,14 @@
           "inputError": {
             "value": "{colors.red.400}",
             "type": "color"
+          },
+          "button": {
+            "value": "{colors.base.white}",
+            "type": "color"
+          },
+          "buttonDisabled": {
+            "value": "{colors.neutral.500}",
+            "type": "color"
           }
         },
         "background": {
@@ -2315,6 +2323,22 @@
           "inputDisabled": {
             "value": "{colors.neutral.800}",
             "type": "color"
+          },
+          "button": {
+            "value": "{colors.primary.400}",
+            "type": "color"
+          },
+          "buttonHover": {
+            "value": "{colors.primary.700}",
+            "type": "color"
+          },
+          "buttonClick": {
+            "value": "{colors.primary.800}",
+            "type": "color"
+          },
+          "buttonDisabled": {
+            "value": "{colors.neutral.800}",
+            "type": "color"
           }
         },
         "border": {
@@ -2344,6 +2368,27 @@
             "value": "{light.color.gradient.live}",
             "type": "color"
           }
+        },
+        "shadow": {
+          "buttonFocus": {
+            "value": "{colors.primary.600}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "shadow": {
+      "button": {
+        "active": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "4",
+            "color": "{dark.color.shadow.buttonFocus}",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
         }
       }
     }
