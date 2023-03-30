@@ -1,0 +1,42 @@
+{
+  "light": {
+    "content": {
+      "primary": {
+        "value": "{colors.base.black}",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "{colors.neutral.600}",
+        "type": "color"
+      },
+      "tertiary": {
+        "value": "{colors.neutral.500}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{colors.neutral.400}",
+        "type": "color"
+      },
+      "inverse": {
+        "value": "{colors.base.white}",
+        "type": "color"
+      },
+      "information": {
+        "value": "{colors.blue.600}",
+        "type": "color"
+      },
+      "warning": {
+        "value": "{colors.yellow.600}",
+        "type": "color"
+      },
+      "error": {
+        "value": "{colors.red.600}",
+        "type": "color"
+      },
+      "success": {
+        "value": "{colors.green.600}",
+        "type": "color"
+      }
+    }
+  }
+}

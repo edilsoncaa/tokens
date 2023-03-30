@@ -1,0 +1,112 @@
+{
+  "dark": {
+    "content": {
+      "primary": {
+        "value": "{colors.base.white}",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "{colors.neutral.300}",
+        "type": "color"
+      },
+      "tertiary": {
+        "value": "{colors.neutral.400}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{colors.neutral.600}",
+        "type": "color"
+      },
+      "inverse": {
+        "value": "{colors.base.black}",
+        "type": "color"
+      },
+      "information": {
+        "value": "{colors.blue.600}",
+        "type": "color"
+      },
+      "warning": {
+        "value": "{colors.yellow.600}",
+        "type": "color"
+      },
+      "error": {
+        "value": "{colors.red.600}",
+        "type": "color"
+      },
+      "success": {
+        "value": "{colors.green.600}",
+        "type": "color"
+      }
+    },
+    "background": {
+      "information": {
+        "value": "{colors.blue.100}",
+        "type": "color"
+      },
+      "warning": {
+        "value": "{colors.yellow.200}",
+        "type": "color"
+      },
+      "error": {
+        "value": "{colors.red.100}",
+        "type": "color"
+      },
+      "busy": {
+        "value": "{colors.red.400}",
+        "type": "color"
+      },
+      "success": {
+        "value": "{colors.green.100}",
+        "type": "color"
+      },
+      "button": {
+        "value": "{colors.brand.300}",
+        "type": "color"
+      },
+      "online": {
+        "value": "{colors.green.400}",
+        "type": "color"
+      },
+      "messageSent": {
+        "value": "{colors.green.600}",
+        "type": "color"
+      },
+      "avatar": {
+        "value": "{colors.neutral.600}",
+        "type": "color"
+      },
+      "offline": {
+        "value": "{colors.neutral.600}",
+        "type": "color"
+      },
+      "selectedChip": {
+        "value": "{colors.neutral.800}",
+        "type": "color"
+      },
+      "propertyCard": {
+        "value": "{colors.neutral.800}",
+        "type": "color"
+      },
+      "transparentRegular": {
+        "value": "rgba(20,20,20,0.93)",
+        "type": "color"
+      },
+      "messageReceived": {
+        "value": "{colors.neutral.900}",
+        "type": "color"
+      },
+      "buttonDisabled": {
+        "value": "{colors.neutral.900}",
+        "type": "color"
+      },
+      "messageRequest": {
+        "value": "{colors.neutral.900}",
+        "type": "color"
+      },
+      "headerModal": {
+        "value": "{colors.neutral.900}",
+        "type": "color"
+      }
+    }
+  }
+}
