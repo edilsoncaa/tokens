@@ -1079,12 +1079,19 @@
     "composition": {
       "card": {
         "value": {
-          "fontFamilies": "{vault.font.family.title}",
-          "fontWeights": "{vault.font.weight.title}",
-          "fontSizes": "{vault.font.size.display1}",
-          "lineHeights": "{vault.font.line-height.title}",
-          "letterSpacing": "{vault.font.letter-spacing.title}",
-          "textCase": "{vault.font.case.title}"
+          "borderWidth": "{borderWidth.2}",
+          "borderColor": "{colors.brand.400}",
+          "borderRadius": "{borderRadius.3}",
+          "itemSpacing": "{dimension.2}",
+          "fill": "{colors.brand.100}"
+        },
+        "type": "composition"
+      },
+      "cardBody": {
+        "value": {
+          "paddingRight": "{dimension.4}",
+          "paddingLeft": "{dimension.4}",
+          "paddingBottom": "{dimension.4}"
         },
         "type": "composition"
       }
