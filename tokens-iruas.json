@@ -1079,18 +1079,12 @@
     "composition": {
       "card": {
         "value": {
-          "borderRadius": "{borderRadius.3}",
-          "borderWidth": "{borderWidth.1}",
-          "fill": "{colors.blue.400}"
-        },
-        "type": "composition"
-      },
-      "cardB0dy": {
-        "value": {
-          "paddingTop": "{dimension.3}",
-          "paddingRight": "{dimension.3}",
-          "paddingBottom": "{dimension.3}",
-          "paddingLeft": "{dimension.3}"
+          "fontFamilies": "{vault.font.family.title}",
+          "fontWeights": "{vault.font.weight.title}",
+          "fontSizes": "{vault.font.size.display1}",
+          "lineHeights": "{vault.font.line-height.title}",
+          "letterSpacing": "{vault.font.letter-spacing.title}",
+          "textCase": "{vault.font.case.title}"
         },
         "type": "composition"
       }
@@ -1137,102 +1131,72 @@
         }
       },
       "background": {
-        "information": {
+        "Information": {
           "value": "{colors.blue.100}",
           "type": "color"
         },
-        "warning": {
-          "value": "{colors.yellow.200}",
+        "Warning": {
+          "value": "{Global.Yellow.200}",
           "type": "color"
         },
-        "error": {
-          "value": "{colors.red.100}",
+        "Error": {
+          "value": "{Global.Red.100}",
           "type": "color"
         },
-        "busy": {
-          "value": "{colors.red.400}",
+        "Busy": {
+          "value": "{Global.Red.400}",
           "type": "color"
         },
-        "success": {
-          "value": "{colors.green.100}",
+        "Success": {
+          "value": "{Global.Green.100}",
           "type": "color"
         },
-        "button": {
-          "value": "{colors.brand.300}",
+        "Button": {
+          "value": "{Global.Brand.300}",
           "type": "color"
         },
-        "online": {
-          "value": "{colors.green.400}",
+        "Online": {
+          "value": "{Global.Green.400}",
           "type": "color"
         },
-        "messageSent": {
-          "value": "{colors.green.600}",
+        "Message sent": {
+          "value": "{Global.Green.600}",
           "type": "color"
         },
-        "avatar": {
-          "value": "{colors.neutral.600}",
+        "Avatar": {
+          "value": "{Global.Greyscale.600}",
           "type": "color"
         },
-        "offline": {
-          "value": "{colors.neutral.600}",
+        "Offline": {
+          "value": "{Global.Greyscale.600}",
           "type": "color"
         },
-        "selectedChip": {
-          "value": "{colors.neutral.800}",
+        "Selected chip": {
+          "value": "{Global.Greyscale.800}",
           "type": "color"
         },
-        "propertyCard": {
-          "value": "{colors.neutral.800}",
+        "Property card": {
+          "value": "{Global.Greyscale.800}",
           "type": "color"
         },
-        "transparentRegular": {
+        "Transparent regular": {
           "value": "rgba(20,20,20,0.93)",
           "type": "color"
         },
-        "messageReceived": {
-          "value": "{colors.neutral.900}",
+        "Message received": {
+          "value": "{Global.Greyscale.900}",
           "type": "color"
         },
-        "buttonDisabled": {
-          "value": "{colors.neutral.900}",
+        "Button disabled": {
+          "value": "{Global.Greyscale.900}",
           "type": "color"
         },
-        "messageRequest": {
-          "value": "{colors.neutral.900}",
+        "Message request": {
+          "value": "{Global.Greyscale.900}",
           "type": "color"
         },
-        "headerModal": {
-          "value": "{colors.neutral.900}",
-          "type": "color"
-        }
-      },
-      "border": {
-        "information": {
-          "value": "{colors.blue.300}",
-          "type": "color"
-        },
-        "warning": {
-          "value": "{colors.yellow.400}",
-          "type": "color"
-        },
-        "error": {
-          "value": "{colors.red.300}",
-          "type": "color"
-        },
-        "success": {
-          "value": "{colors.green.300}",
-          "type": "color"
-        },
-        "divisor": {
-          "value": "{colors.neutral.700}",
-          "type": "color"
-        },
-        "chip": {
-          "value": "{colors.neutral.700}",
-          "type": "color"
-        },
-        "list": {
-          "value": "{colors.neutral.900}",
+        "Header modal": {
+          "value": "{Global.Greyscale.900}",
           "type": "color"
         }
       }
@@ -1275,106 +1239,6 @@
         },
         "success": {
           "value": "{colors.green.600}",
-          "type": "color"
-        }
-      },
-      "background": {
-        "information": {
-          "value": "{colors.blue.100}",
-          "type": "color"
-        },
-        "warning": {
-          "value": "{colors.yellow.200}",
-          "type": "color"
-        },
-        "error": {
-          "value": "{colors.red.100}",
-          "type": "color"
-        },
-        "busy": {
-          "value": "{colors.red.400}",
-          "type": "color"
-        },
-        "success": {
-          "value": "{colors.green.100}",
-          "type": "color"
-        },
-        "button": {
-          "value": "{colors.base.black}",
-          "type": "color"
-        },
-        "online": {
-          "value": "{colors.green.400}",
-          "type": "color"
-        },
-        "messageSent": {
-          "value": "{colors.green.400}",
-          "type": "color"
-        },
-        "avatar": {
-          "value": "{colors.neutral.300}",
-          "type": "color"
-        },
-        "offline": {
-          "value": "{colors.neutral.600}",
-          "type": "color"
-        },
-        "selectedChip": {
-          "value": "{colors.neutral.800}",
-          "type": "color"
-        },
-        "propertyCard": {
-          "value": "{colors.base.white}",
-          "type": "color"
-        },
-        "transparentRegular": {
-          "value": "rgba(246,246,246,0.93)",
-          "type": "color"
-        },
-        "messageReceived": {
-          "value": "{colors.neutral.300}",
-          "type": "color"
-        },
-        "buttonDisabled": {
-          "value": "{colors.neutral.300}",
-          "type": "color"
-        },
-        "messageRequest": {
-          "value": "{colors.neutral.100}",
-          "type": "color"
-        },
-        "headerModal": {
-          "value": "{colors.neutral.100}",
-          "type": "color"
-        }
-      },
-      "border": {
-        "information": {
-          "value": "{colors.blue.300}",
-          "type": "color"
-        },
-        "warning": {
-          "value": "{colors.yellow.400}",
-          "type": "color"
-        },
-        "error": {
-          "value": "{colors.red.300}",
-          "type": "color"
-        },
-        "success": {
-          "value": "{colors.green.300}",
-          "type": "color"
-        },
-        "divisor": {
-          "value": "{colors.neutral.300}",
-          "type": "color"
-        },
-        "chip": {
-          "value": "{colors.neutral.400}",
-          "type": "color"
-        },
-        "list": {
-          "value": "{colors.neutral.100}",
           "type": "color"
         }
       }
