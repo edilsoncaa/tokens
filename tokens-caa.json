@@ -2114,6 +2114,10 @@
           "buttonDisabled": {
             "value": "{colors.neutral.200}",
             "type": "color"
+          },
+          "headerMenuActive": {
+            "value": "{colors.primary.400}",
+            "type": "color"
           }
         },
         "background": {
@@ -2180,6 +2184,14 @@
           "buttonDisabled": {
             "value": "{colors.neutral.100}",
             "type": "color"
+          },
+          "header": {
+            "value": "{colors.base.white}",
+            "type": "color"
+          },
+          "newNotification": {
+            "value": "{colors.orange.400}",
+            "type": "color"
           }
         },
         "border": {
@@ -2197,6 +2209,10 @@
           },
           "inputError": {
             "value": "{colors.red.600}",
+            "type": "color"
+          },
+          "header": {
+            "value": "{colors.neutral.100}",
             "type": "color"
           }
         },
@@ -2277,6 +2293,10 @@
           "buttonDisabled": {
             "value": "{colors.neutral.500}",
             "type": "color"
+          },
+          "headerMenuActive": {
+            "value": "{colors.primary.300}",
+            "type": "color"
           }
         },
         "background": {
@@ -2320,6 +2340,10 @@
             "value": "{colors.blue.300}",
             "type": "color"
           },
+          "input": {
+            "value": "{colors.base.black}",
+            "type": "color"
+          },
           "inputDisabled": {
             "value": "{colors.neutral.800}",
             "type": "color"
@@ -2339,6 +2363,14 @@
           "buttonDisabled": {
             "value": "{colors.neutral.800}",
             "type": "color"
+          },
+          "header": {
+            "value": "{colors.base.black}",
+            "type": "color"
+          },
+          "newNotification": {
+            "value": "{colors.orange.400}",
+            "type": "color"
           }
         },
         "border": {
@@ -2356,6 +2388,10 @@
           },
           "inputError": {
             "value": "{colors.red.400}",
+            "type": "color"
+          },
+          "header": {
+            "value": "{colors.neutral.700}",
             "type": "color"
           }
         },
