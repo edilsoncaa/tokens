@@ -2135,6 +2135,10 @@
         "buttonSecondary": {
           "value": "{light.content.brandPrimary}",
           "type": "color"
+        },
+        "tagLive": {
+          "value": "{light.content.inverse}",
+          "type": "color"
         }
       },
       "background": {
@@ -2178,6 +2182,12 @@
         },
         "buttonSecondaryFocus": {
           "value": "{colors.primary.100}",
+          "type": "color"
+        }
+      },
+      "gradient": {
+        "live": {
+          "value": "{colors.gradient.400}",
           "type": "color"
         }
       }
