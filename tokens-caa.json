@@ -2067,12 +2067,186 @@
             "itemSpacing": "{dimension.4}"
           },
           "type": "composition"
+        },
+        "regular": {
+          "value": {
+            "fontWeights": "{fontWeights.regular}"
+          },
+          "type": "composition"
+        },
+        "semiBold": {
+          "value": {
+            "fontWeights": "{fontWeights.semiBold}"
+          },
+          "type": "composition"
         }
       }
     }
   },
-  "theme/light": {},
-  "theme/dark": {},
+  "theme/light": {
+    "light": {
+      "content": {
+        "primary": {
+          "value": "{colors.neutral.900}",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "{colors.neutral.400}",
+          "type": "color"
+        },
+        "tertiary": {
+          "value": "{colors.neutral.200}",
+          "type": "color"
+        },
+        "inverse": {
+          "value": "{colors.base.white}",
+          "type": "color"
+        },
+        "brandPrimary": {
+          "value": "{colors.primary.400}",
+          "type": "color"
+        },
+        "button": {
+          "value": "{colors.base.white}",
+          "type": "color"
+        },
+        "buttonDisabled": {
+          "value": "{colors.neutral.200}",
+          "type": "color"
+        },
+        "buttonSecondary": {
+          "value": "{light.content.brandPrimary}",
+          "type": "color"
+        }
+      },
+      "background": {
+        "page": {
+          "value": "{colors.neutral.50}",
+          "type": "color"
+        },
+        "button": {
+          "value": "{light.content.brandPrimary}",
+          "type": "color"
+        },
+        "buttonHover": {
+          "value": "{colors.primary.500}",
+          "type": "color"
+        },
+        "buttonClick": {
+          "value": "{colors.primary.600}",
+          "type": "color"
+        },
+        "buttonDisabled": {
+          "value": "{colors.neutral.50}",
+          "type": "color"
+        },
+        "buttonHoverSecondary": {
+          "value": "{colors.primary.50}",
+          "type": "color"
+        },
+        "buttonClickSecondary": {
+          "value": "{colors.primary.100}",
+          "type": "color"
+        }
+      },
+      "border": {
+        "button": {
+          "value": "{light.background.button}",
+          "type": "color"
+        },
+        "buttonFocus": {
+          "value": "{colors.primary.200}",
+          "type": "color"
+        },
+        "buttonSecondaryFocus": {
+          "value": "{colors.primary.100}",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "theme/dark": {
+    "dark": {
+      "content": {
+        "primary": {
+          "value": "{colors.neutral.50}",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "{colors.neutral.200}",
+          "type": "color"
+        },
+        "tertiary": {
+          "value": "{colors.neutral.400}",
+          "type": "color"
+        },
+        "inverse": {
+          "value": "{colors.neutral.900}",
+          "type": "color"
+        },
+        "brandPrimary": {
+          "value": "{colors.primary.400}",
+          "type": "color"
+        },
+        "button": {
+          "value": "{colors.base.white}",
+          "type": "color"
+        },
+        "buttonDisabled": {
+          "value": "{colors.neutral.500}",
+          "type": "color"
+        },
+        "buttonSecondary": {
+          "value": "{dark.content.primary}",
+          "type": "color"
+        }
+      },
+      "background": {
+        "page": {
+          "value": "{colors.neutral.900}",
+          "type": "color"
+        },
+        "button": {
+          "value": "{dark.content.brandPrimary}",
+          "type": "color"
+        },
+        "buttonHover": {
+          "value": "{colors.primary.500}",
+          "type": "color"
+        },
+        "buttonClick": {
+          "value": "{colors.primary.600}",
+          "type": "color"
+        },
+        "buttonDisabled": {
+          "value": "{colors.neutral.800}",
+          "type": "color"
+        },
+        "buttonHoverSecondary": {
+          "value": "{colors.primary.800}",
+          "type": "color"
+        },
+        "buttonClickSecondary": {
+          "value": "{colors.primary.900}",
+          "type": "color"
+        }
+      },
+      "border": {
+        "button": {
+          "value": "{dark.background.button}",
+          "type": "color"
+        },
+        "buttonFocus": {
+          "value": "{colors.primary.200}",
+          "type": "color"
+        },
+        "buttonSecondaryFocus": {
+          "value": "{colors.primary.600}",
+          "type": "color"
+        }
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
