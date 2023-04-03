@@ -2169,6 +2169,30 @@
         "buttonClickSecondary": {
           "value": "{colors.primary.100}",
           "type": "color"
+        },
+        "avatar": {
+          "value": "{colors.neutral.100}",
+          "type": "color"
+        },
+        "buttonAddStory": {
+          "value": "{colors.blue.400}",
+          "type": "color"
+        },
+        "buttonAddStoryHover": {
+          "value": "{colors.blue.500}",
+          "type": "color"
+        },
+        "statusOffline": {
+          "value": "{colors.neutral.200}",
+          "type": "color"
+        },
+        "statusOnline": {
+          "value": "{colors.green.400}",
+          "type": "color"
+        },
+        "statusBusy": {
+          "value": "{colors.red.600}",
+          "type": "color"
         }
       },
       "border": {
@@ -2183,11 +2207,19 @@
         "buttonSecondaryFocus": {
           "value": "{colors.primary.100}",
           "type": "color"
+        },
+        "avatar": {
+          "value": "{light.background.avatar}",
+          "type": "color"
         }
       },
       "gradient": {
         "live": {
           "value": "{colors.gradient.400}",
+          "type": "color"
+        },
+        "story": {
+          "value": "{light.gradient.live}",
           "type": "color"
         }
       }
@@ -2227,6 +2259,10 @@
         "buttonSecondary": {
           "value": "{dark.content.primary}",
           "type": "color"
+        },
+        "tagLive": {
+          "value": "{dark.content.primary}",
+          "type": "color"
         }
       },
       "background": {
@@ -2257,6 +2293,30 @@
         "buttonClickSecondary": {
           "value": "{colors.primary.900}",
           "type": "color"
+        },
+        "avatar": {
+          "value": "{colors.neutral.500}",
+          "type": "color"
+        },
+        "buttonAddStory": {
+          "value": "{colors.blue.400}",
+          "type": "color"
+        },
+        "buttonAddStoryHover": {
+          "value": "{colors.blue.500}",
+          "type": "color"
+        },
+        "statusOffline": {
+          "value": "{colors.neutral.200}",
+          "type": "color"
+        },
+        "statusOnline": {
+          "value": "{colors.green.400}",
+          "type": "color"
+        },
+        "statusBusy": {
+          "value": "{colors.red.600}",
+          "type": "color"
         }
       },
       "border": {
@@ -2270,6 +2330,20 @@
         },
         "buttonSecondaryFocus": {
           "value": "{colors.primary.600}",
+          "type": "color"
+        },
+        "avatar": {
+          "value": "{dark.background.avatar}",
+          "type": "color"
+        }
+      },
+      "grandient": {
+        "live": {
+          "value": "{colors.gradient.400}",
+          "type": "color"
+        },
+        "story": {
+          "value": "{dark.grandient.live}",
           "type": "color"
         }
       }
