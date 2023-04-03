@@ -2233,6 +2233,14 @@
         "statusBusy": {
           "value": "{colors.red.600}",
           "type": "color"
+        },
+        "header": {
+          "value": "{colors.base.white}",
+          "type": "color"
+        },
+        "dropdownHover": {
+          "value": "{colors.neutral.50}",
+          "type": "color"
         }
       },
       "border": {
@@ -2253,7 +2261,11 @@
           "type": "color"
         },
         "activeMenu": {
-          "value": "{light.content.brandPrimary}",
+          "value": "{light.content.activeMenu}",
+          "type": "color"
+        },
+        "divisor": {
+          "value": "{colors.neutral.50}",
           "type": "color"
         }
       },
@@ -2361,6 +2373,10 @@
         "tagLive": {
           "value": "{dark.content.primary}",
           "type": "color"
+        },
+        "activeMenu": {
+          "value": "{colors.primary.400}",
+          "type": "color"
         }
       },
       "background": {
@@ -2415,6 +2431,14 @@
         "statusBusy": {
           "value": "{colors.red.600}",
           "type": "color"
+        },
+        "header": {
+          "value": "{colors.base.black}",
+          "type": "color"
+        },
+        "dropdownHover": {
+          "value": "{colors.neutral.800}",
+          "type": "color"
         }
       },
       "border": {
@@ -2432,6 +2456,14 @@
         },
         "avatar": {
           "value": "{dark.background.avatar}",
+          "type": "color"
+        },
+        "activeMenu": {
+          "value": "{dark.content.activeMenu}",
+          "type": "color"
+        },
+        "divisor": {
+          "value": "{colors.neutral.700}",
           "type": "color"
         }
       },
