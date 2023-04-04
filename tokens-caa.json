@@ -2172,6 +2172,10 @@
           "value": "{light.content.brandPrimary}",
           "type": "color"
         },
+        "buttonTertiary": {
+          "value": "{light.content.secondary}",
+          "type": "color"
+        },
         "tagLive": {
           "value": "{light.content.inverse}",
           "type": "color"
@@ -2206,8 +2210,16 @@
           "value": "{colors.primary.50}",
           "type": "color"
         },
+        "buttonHoverTertiary": {
+          "value": "{colors.neutral.50}",
+          "type": "color"
+        },
         "buttonClickSecondary": {
           "value": "{colors.primary.100}",
+          "type": "color"
+        },
+        "buttonClickTertiary": {
+          "value": "{light.content.tertiary}",
           "type": "color"
         },
         "avatar": {
@@ -2238,8 +2250,16 @@
           "value": "{colors.base.white}",
           "type": "color"
         },
+        "dropdown": {
+          "value": "{colors.base.white}",
+          "type": "color"
+        },
         "dropdownHover": {
           "value": "{colors.neutral.50}",
+          "type": "color"
+        },
+        "notification": {
+          "value": "{colors.orange.400}",
           "type": "color"
         }
       },
@@ -2253,7 +2273,11 @@
           "type": "color"
         },
         "buttonSecondaryFocus": {
-          "value": "{colors.primary.100}",
+          "value": "{colors.primary.200}",
+          "type": "color"
+        },
+        "buttonTertiaryFocus": {
+          "value": "{colors.neutral.200}",
           "type": "color"
         },
         "avatar": {
@@ -2264,7 +2288,7 @@
           "value": "{light.content.activeMenu}",
           "type": "color"
         },
-        "divisor": {
+        "divider": {
           "value": "{colors.neutral.50}",
           "type": "color"
         }
@@ -2370,6 +2394,10 @@
           "value": "{dark.content.primary}",
           "type": "color"
         },
+        "buttonTertiary": {
+          "value": "{dark.content.secondary}",
+          "type": "color"
+        },
         "tagLive": {
           "value": "{dark.content.primary}",
           "type": "color"
@@ -2404,8 +2432,16 @@
           "value": "{colors.primary.800}",
           "type": "color"
         },
+        "buttonHoverTertiary": {
+          "value": "{colors.neutral.800}",
+          "type": "color"
+        },
         "buttonClickSecondary": {
           "value": "{colors.primary.900}",
+          "type": "color"
+        },
+        "buttonClickTertiary": {
+          "value": "{colors.base.black}",
           "type": "color"
         },
         "avatar": {
@@ -2436,8 +2472,16 @@
           "value": "{colors.base.black}",
           "type": "color"
         },
+        "dropdown": {
+          "value": "{colors.base.black}",
+          "type": "color"
+        },
         "dropdownHover": {
           "value": "{colors.neutral.800}",
+          "type": "color"
+        },
+        "notification": {
+          "value": "{colors.orange.400}",
           "type": "color"
         }
       },
@@ -2448,6 +2492,10 @@
         },
         "buttonFocus": {
           "value": "{colors.primary.200}",
+          "type": "color"
+        },
+        "buttonTertiaryFocus": {
+          "value": "{colors.neutral.600}",
           "type": "color"
         },
         "buttonSecondaryFocus": {
@@ -2462,7 +2510,7 @@
           "value": "{dark.content.activeMenu}",
           "type": "color"
         },
-        "divisor": {
+        "divider": {
           "value": "{colors.neutral.700}",
           "type": "color"
         }
