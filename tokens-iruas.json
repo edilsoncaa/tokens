@@ -1129,6 +1129,10 @@
         "button": {
           "value": "{light.background.button}",
           "type": "color"
+        },
+        "fieldset": {
+          "value": "{colors.neutral.300}",
+          "type": "color"
         }
       }
     }
@@ -1181,11 +1185,19 @@
         "buttonDisabled": {
           "value": "{colors.neutral.900}",
           "type": "color"
+        },
+        "buttonSocial": {
+          "value": "{dark.background.buttonDisabled}",
+          "type": "color"
         }
       },
       "border": {
         "button": {
           "value": "{dark.background.button}",
+          "type": "color"
+        },
+        "buttonSocial": {
+          "value": "{colors.neutral.700}",
           "type": "color"
         }
       }
