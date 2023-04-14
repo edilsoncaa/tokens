@@ -1164,6 +1164,10 @@
           "value": "{colors.neutral.400}",
           "type": "color"
         },
+        "disabled": {
+          "value": "{colors.neutral.600}",
+          "type": "color"
+        },
         "brandPrimary": {
           "value": "{colors.brand.300}",
           "type": "color"
@@ -1199,7 +1203,11 @@
           "type": "color"
         },
         "buttonSocial": {
-          "value": "{dark.background.buttonDisabled}",
+          "value": "{colors.base.black}",
+          "type": "color"
+        },
+        "modalAlert": {
+          "value": "{colors.neutral.800}",
           "type": "color"
         }
       },
@@ -1209,15 +1217,23 @@
           "type": "color"
         },
         "buttonSocial": {
-          "value": "{colors.neutral.700}",
+          "value": "{colors.neutral.800}",
           "type": "color"
         },
         "fieldset": {
-          "value": "{colors.neutral.700}",
+          "value": "{colors.neutral.600}",
           "type": "color"
         },
         "fieldsetFocus": {
           "value": "{colors.base.white}",
+          "type": "color"
+        },
+        "fieldsetDisabled": {
+          "value": "{colors.neutral.800}",
+          "type": "color"
+        },
+        "division": {
+          "value": "{colors.neutral.700}",
           "type": "color"
         }
       }
