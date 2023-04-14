@@ -1090,6 +1090,10 @@
           "value": "{colors.neutral.500}",
           "type": "color"
         },
+        "disabled": {
+          "value": "{colors.neutral.300}",
+          "type": "color"
+        },
         "brandPrimary": {
           "value": "{colors.brand.300}",
           "type": "color"
@@ -1132,6 +1136,14 @@
         },
         "fieldset": {
           "value": "{colors.neutral.300}",
+          "type": "color"
+        },
+        "fieldsetFocus": {
+          "value": "{colors.base.black}",
+          "type": "color"
+        },
+        "fieldsetDisabled": {
+          "value": "{colors.neutral.200}",
           "type": "color"
         }
       }
@@ -1198,6 +1210,14 @@
         },
         "buttonSocial": {
           "value": "{colors.neutral.700}",
+          "type": "color"
+        },
+        "fieldset": {
+          "value": "{colors.neutral.700}",
+          "type": "color"
+        },
+        "fieldsetFocus": {
+          "value": "{colors.base.white}",
           "type": "color"
         }
       }
