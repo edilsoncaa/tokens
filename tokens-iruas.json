@@ -222,6 +222,12 @@
           "value": "#618F02",
           "type": "color"
         }
+      },
+      "gradient": {
+        "100": {
+          "value": "linear-gradient(225deg, #E0EE3B 14.64%, #FDBE60 42.22%, #CAFD60 79.47%);",
+          "type": "color"
+        }
       }
     },
     "fontfamily": {
@@ -1113,6 +1119,14 @@
         "buttonDisabled": {
           "value": "{colors.neutral.400}",
           "type": "color"
+        },
+        "error": {
+          "value": "{colors.red.300}",
+          "type": "color"
+        },
+        "tagLive": {
+          "value": "{colors.base.black}",
+          "type": "color"
         }
       },
       "background": {
@@ -1128,14 +1142,46 @@
           "value": "{colors.neutral.300}",
           "type": "color"
         },
+        "buttonSocial": {
+          "value": "{colors.neutral.100}",
+          "type": "color"
+        },
         "overlay": {
           "value": "rgba({colors.base.black}, {opacity.40})",
+          "type": "color"
+        },
+        "modalAlert": {
+          "value": "{colors.base.white}",
+          "type": "color"
+        },
+        "statusBusy": {
+          "value": "{colors.red.400}",
+          "type": "color"
+        },
+        "statusOnline": {
+          "value": "{colors.green.300}",
+          "type": "color"
+        },
+        "statusOffline": {
+          "value": "{colors.neutral.400}",
+          "type": "color"
+        },
+        "avatar": {
+          "value": "{colors.neutral.200}",
+          "type": "color"
+        },
+        "live": {
+          "value": "{colors.gradient.100}",
           "type": "color"
         }
       },
       "border": {
         "button": {
           "value": "{light.background.button}",
+          "type": "color"
+        },
+        "buttonSocial": {
+          "value": "{colors.neutral.300}",
           "type": "color"
         },
         "fieldset": {
@@ -1148,6 +1194,26 @@
         },
         "fieldsetDisabled": {
           "value": "{colors.neutral.200}",
+          "type": "color"
+        },
+        "division": {
+          "value": "{colors.neutral.300}",
+          "type": "color"
+        },
+        "error": {
+          "value": "{light.content.error}",
+          "type": "color"
+        },
+        "avatar": {
+          "value": "{light.background.avatar}",
+          "type": "color"
+        },
+        "live": {
+          "value": "{light.background.live}",
+          "type": "color"
+        },
+        "newStory": {
+          "value": "{light.background.live}",
           "type": "color"
         }
       }
@@ -1195,6 +1261,10 @@
         "error": {
           "value": "{colors.red.300}",
           "type": "color"
+        },
+        "tagLive": {
+          "value": "{colors.base.black}",
+          "type": "color"
         }
       },
       "background": {
@@ -1220,6 +1290,26 @@
         },
         "overlay": {
           "value": "rgba({colors.base.black}, {opacity.60})",
+          "type": "color"
+        },
+        "statusBusy": {
+          "value": "{colors.red.400}",
+          "type": "color"
+        },
+        "statusOnline": {
+          "value": "{colors.green.300}",
+          "type": "color"
+        },
+        "statusOffline": {
+          "value": "{colors.neutral.400}",
+          "type": "color"
+        },
+        "avatar": {
+          "value": "{colors.neutral.600}",
+          "type": "color"
+        },
+        "live": {
+          "value": "{colors.gradient.100}",
           "type": "color"
         }
       },
@@ -1250,6 +1340,18 @@
         },
         "error": {
           "value": "{dark.content.error}",
+          "type": "color"
+        },
+        "avatar": {
+          "value": "{dark.background.avatar}",
+          "type": "color"
+        },
+        "live": {
+          "value": "{dark.background.live}",
+          "type": "color"
+        },
+        "newStory": {
+          "value": "{light.background.live}",
           "type": "color"
         }
       }
