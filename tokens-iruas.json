@@ -1311,6 +1311,10 @@
         "live": {
           "value": "{colors.gradient.100}",
           "type": "color"
+        },
+        "propertyCard": {
+          "value": "{colors.neutral.800}",
+          "type": "color"
         }
       },
       "border": {
