@@ -1131,6 +1131,10 @@
         "tagLive": {
           "value": "{light.content.tag}",
           "type": "color"
+        },
+        "carouselNavigation": {
+          "value": "{colors.neutral.400}",
+          "type": "color"
         }
       },
       "background": {
@@ -1181,6 +1185,14 @@
         "tag": {
           "value": "{colors.neutral.50}",
           "type": "color"
+        },
+        "carouselNavigation": {
+          "value": "{colors.base.white}",
+          "type": "color"
+        },
+        "propertyCard": {
+          "value": "{colors.neutral.100}",
+          "type": "color"
         }
       },
       "border": {
@@ -1222,6 +1234,10 @@
         },
         "newStory": {
           "value": "{light.background.live}",
+          "type": "color"
+        },
+        "carouselNavigation": {
+          "value": "{light.content.carouselNavigation}",
           "type": "color"
         }
       }
@@ -1277,6 +1293,10 @@
         "tagLive": {
           "value": "{colors.base.black}",
           "type": "color"
+        },
+        "carouselNavigation": {
+          "value": "{colors.neutral.500}",
+          "type": "color"
         }
       },
       "background": {
@@ -1331,6 +1351,10 @@
         "tag": {
           "value": "{colors.neutral.800}",
           "type": "color"
+        },
+        "carouselNavigation": {
+          "value": "{colors.base.white}",
+          "type": "color"
         }
       },
       "border": {
@@ -1372,6 +1396,10 @@
         },
         "newStory": {
           "value": "{light.background.live}",
+          "type": "color"
+        },
+        "carouselNavigation": {
+          "value": "{dark.content.carouselNavigation}",
           "type": "color"
         }
       }
