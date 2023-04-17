@@ -1,0 +1,150 @@
+{
+  "dark": {
+    "content": {
+      "primary": {
+        "value": "{colors.base.white}",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "{colors.neutral.300}",
+        "type": "color"
+      },
+      "tertiary": {
+        "value": "{colors.neutral.400}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{colors.neutral.600}",
+        "type": "color"
+      },
+      "brandPrimary": {
+        "value": "{colors.brand.300}",
+        "type": "color"
+      },
+      "brandSecondary": {
+        "value": "{colors.base.black}",
+        "type": "color"
+      },
+      "button": {
+        "value": "{colors.base.black}",
+        "type": "color"
+      },
+      "buttonSecondary": {
+        "value": "{colors.brand.300}",
+        "type": "color"
+      },
+      "buttonDisabled": {
+        "value": "{colors.neutral.600}",
+        "type": "color"
+      },
+      "error": {
+        "value": "{colors.red.300}",
+        "type": "color"
+      },
+      "tag": {
+        "value": "{colors.neutral.200}",
+        "type": "color"
+      },
+      "tagLive": {
+        "value": "{colors.base.black}",
+        "type": "color"
+      }
+    },
+    "background": {
+      "page": {
+        "value": "{colors.base.black}",
+        "type": "color"
+      },
+      "button": {
+        "value": "{dark.content.brandPrimary}",
+        "type": "color"
+      },
+      "buttonDisabled": {
+        "value": "{colors.neutral.900}",
+        "type": "color"
+      },
+      "buttonSocial": {
+        "value": "{colors.base.black}",
+        "type": "color"
+      },
+      "modalAlert": {
+        "value": "{colors.neutral.800}",
+        "type": "color"
+      },
+      "overlay": {
+        "value": "rgba({colors.base.black}, {opacity.60})",
+        "type": "color"
+      },
+      "statusBusy": {
+        "value": "{colors.red.400}",
+        "type": "color"
+      },
+      "statusOnline": {
+        "value": "{colors.green.300}",
+        "type": "color"
+      },
+      "statusOffline": {
+        "value": "{colors.neutral.400}",
+        "type": "color"
+      },
+      "avatar": {
+        "value": "{colors.neutral.600}",
+        "type": "color"
+      },
+      "live": {
+        "value": "{colors.gradient.100}",
+        "type": "color"
+      },
+      "propertyCard": {
+        "value": "{colors.neutral.800}",
+        "type": "color"
+      },
+      "tag": {
+        "value": "{colors.neutral.800}",
+        "type": "color"
+      }
+    },
+    "border": {
+      "button": {
+        "value": "{dark.background.button}",
+        "type": "color"
+      },
+      "buttonSocial": {
+        "value": "{colors.neutral.800}",
+        "type": "color"
+      },
+      "fieldset": {
+        "value": "{colors.neutral.600}",
+        "type": "color"
+      },
+      "fieldsetFocus": {
+        "value": "{colors.base.white}",
+        "type": "color"
+      },
+      "fieldsetDisabled": {
+        "value": "{colors.neutral.800}",
+        "type": "color"
+      },
+      "division": {
+        "value": "{colors.neutral.700}",
+        "type": "color"
+      },
+      "error": {
+        "value": "{dark.content.error}",
+        "type": "color"
+      },
+      "avatar": {
+        "value": "{dark.background.avatar}",
+        "type": "color"
+      },
+      "live": {
+        "value": "{dark.background.live}",
+        "type": "color"
+      },
+      "newStory": {
+        "value": "{light.background.live}",
+        "type": "color"
+      }
+    }
+  }
+}
