@@ -1124,8 +1124,12 @@
           "value": "{colors.red.300}",
           "type": "color"
         },
-        "tagLive": {
+        "tag": {
           "value": "{colors.base.black}",
+          "type": "color"
+        },
+        "tagLive": {
+          "value": "{light.content.tag}",
           "type": "color"
         }
       },
@@ -1172,6 +1176,10 @@
         },
         "live": {
           "value": "{colors.gradient.100}",
+          "type": "color"
+        },
+        "tag": {
+          "value": "{colors.neutral.50}",
           "type": "color"
         }
       },
@@ -1262,6 +1270,10 @@
           "value": "{colors.red.300}",
           "type": "color"
         },
+        "tag": {
+          "value": "{colors.neutral.200}",
+          "type": "color"
+        },
         "tagLive": {
           "value": "{colors.base.black}",
           "type": "color"
@@ -1313,6 +1325,10 @@
           "type": "color"
         },
         "propertyCard": {
+          "value": "{colors.neutral.800}",
+          "type": "color"
+        },
+        "tag": {
           "value": "{colors.neutral.800}",
           "type": "color"
         }
