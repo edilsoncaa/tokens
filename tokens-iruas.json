@@ -1139,6 +1139,14 @@
         "matchLove": {
           "value": "{colors.green.600}",
           "type": "color"
+        },
+        "matchLike": {
+          "value": "{colors.base.white}",
+          "type": "color"
+        },
+        "matchDislike": {
+          "value": "{light.content.matchLike}",
+          "type": "color"
         }
       },
       "background": {
@@ -1205,6 +1213,14 @@
         "matchLove": {
           "value": "rgba({colors.brand.300}, {opacity.90})",
           "type": "color"
+        },
+        "matchLike": {
+          "value": "rgba({colors.green.400}, {opacity.90})",
+          "type": "color"
+        },
+        "matchDislike": {
+          "value": "rgba({colors.red.500}, {opacity.90})",
+          "type": "color"
         }
       },
       "border": {
@@ -1254,6 +1270,14 @@
         },
         "matchLove": {
           "value": "{light.content.matchLove}",
+          "type": "color"
+        },
+        "matchLike": {
+          "value": "{light.content.matchLike}",
+          "type": "color"
+        },
+        "matchDislike": {
+          "value": "{light.content.matchDislike}",
           "type": "color"
         }
       }
@@ -1316,6 +1340,14 @@
         },
         "matchLove": {
           "value": "{colors.green.600}",
+          "type": "color"
+        },
+        "matchLike": {
+          "value": "{colors.base.white}",
+          "type": "color"
+        },
+        "matchDislike": {
+          "value": "{dark.content.matchLike}",
           "type": "color"
         }
       },
@@ -1385,7 +1417,11 @@
           "type": "color"
         },
         "matchLike": {
-          "value": "rgba({colors.green.300}, {opacity.90})",
+          "value": "rgba({colors.green.400}, {opacity.90})",
+          "type": "color"
+        },
+        "matchDislike": {
+          "value": "rgba({colors.red.500}, {opacity.90})",
           "type": "color"
         }
       },
@@ -1436,6 +1472,14 @@
         },
         "matchLove": {
           "value": "{dark.content.matchLove}",
+          "type": "color"
+        },
+        "matchLike": {
+          "value": "{dark.content.matchLike}",
+          "type": "color"
+        },
+        "matchDislike": {
+          "value": "{dark.content.matchDislike}",
           "type": "color"
         }
       }
