@@ -1221,6 +1221,10 @@
         "matchDislike": {
           "value": "rgba({colors.red.500}, {opacity.90})",
           "type": "color"
+        },
+        "cardAdvertiser": {
+          "value": "{light.background.propertyCard}",
+          "type": "color"
         }
       },
       "border": {
@@ -1278,6 +1282,18 @@
         },
         "matchDislike": {
           "value": "{light.content.matchDislike}",
+          "type": "color"
+        },
+        "tabActive": {
+          "value": "{light.content.primary}",
+          "type": "color"
+        },
+        "tabEnabled": {
+          "value": "{light.content.tertiary}",
+          "type": "color"
+        },
+        "tabDisabled": {
+          "value": "{light.content.disabled}",
           "type": "color"
         }
       }
@@ -1423,6 +1439,10 @@
         "matchDislike": {
           "value": "rgba({colors.red.500}, {opacity.90})",
           "type": "color"
+        },
+        "cardAdvertiser": {
+          "value": "{dark.background.propertyCard}",
+          "type": "color"
         }
       },
       "border": {
@@ -1480,6 +1500,18 @@
         },
         "matchDislike": {
           "value": "{dark.content.matchDislike}",
+          "type": "color"
+        },
+        "tabActive": {
+          "value": "{dark.content.primary}",
+          "type": "color"
+        },
+        "tabEnabled": {
+          "value": "{dark.content.tertiary}",
+          "type": "color"
+        },
+        "tabDisabled": {
+          "value": "{dark.content.disabled}",
           "type": "color"
         }
       }
