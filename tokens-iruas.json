@@ -1225,6 +1225,10 @@
         "cardAdvertiser": {
           "value": "{light.background.propertyCard}",
           "type": "color"
+        },
+        "headerModal": {
+          "value": "{light.background.propertyCard}",
+          "type": "color"
         }
       },
       "border": {
@@ -1441,6 +1445,10 @@
           "type": "color"
         },
         "cardAdvertiser": {
+          "value": "{dark.background.propertyCard}",
+          "type": "color"
+        },
+        "headerModal": {
           "value": "{dark.background.propertyCard}",
           "type": "color"
         }
