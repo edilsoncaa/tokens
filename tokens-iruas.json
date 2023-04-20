@@ -1229,6 +1229,10 @@
         "headerModal": {
           "value": "{light.background.propertyCard}",
           "type": "color"
+        },
+        "chips": {
+          "value": "{light.background.propertyCard}",
+          "type": "color"
         }
       },
       "border": {
@@ -1298,6 +1302,10 @@
         },
         "tabDisabled": {
           "value": "{light.content.disabled}",
+          "type": "color"
+        },
+        "chips": {
+          "value": "{light.border.fieldset}",
           "type": "color"
         }
       }
@@ -1451,6 +1459,18 @@
         "headerModal": {
           "value": "{dark.background.propertyCard}",
           "type": "color"
+        },
+        "chips": {
+          "value": "{dark.background.propertyCard}",
+          "type": "color"
+        },
+        "graphic": {
+          "value": "{dark.background.avatar}",
+          "type": "color"
+        },
+        "graphicSelected": {
+          "value": "{dark.background.button}",
+          "type": "color"
         }
       },
       "border": {
@@ -1520,6 +1540,14 @@
         },
         "tabDisabled": {
           "value": "{dark.content.disabled}",
+          "type": "color"
+        },
+        "chips": {
+          "value": "{dark.border.fieldset}",
+          "type": "color"
+        },
+        "graphic": {
+          "value": "{dark.background.avatar}",
           "type": "color"
         }
       }
