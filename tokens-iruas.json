@@ -1305,7 +1305,7 @@
           "type": "color"
         },
         "chips": {
-          "value": "{light.border.fieldset}",
+          "value": "{colors.neutral.200}",
           "type": "color"
         }
       }
