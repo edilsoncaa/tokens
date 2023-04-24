@@ -1543,7 +1543,7 @@
           "type": "color"
         },
         "chips": {
-          "value": "{dark.border.fieldset}",
+          "value": "{colors.neutral.700}",
           "type": "color"
         },
         "graphic": {
