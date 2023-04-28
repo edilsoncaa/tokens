@@ -635,6 +635,10 @@
             "value": "{colors.neutral.400}",
             "type": "color"
           },
+          "disabled": {
+            "value": "{colors.neutral.600}",
+            "type": "color"
+          },
           "error": {
             "value": "{colors.red.300}",
             "type": "color"
@@ -710,6 +714,48 @@
           "background": {
             "background": {
               "value": "rgba({colors.neutral.900}, {opacity.80})",
+              "type": "color"
+            }
+          }
+        },
+        "input": {
+          "text": {
+            "label": {
+              "value": "{dark.color.text.tertiary}",
+              "type": "color"
+            },
+            "inputText": {
+              "value": "{dark.color.text.primary}",
+              "type": "color"
+            },
+            "support": {
+              "value": "{dark.color.text.tertiary}",
+              "type": "color"
+            },
+            "error": {
+              "value": "{dark.color.text.error}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{dark.color.text.disabled}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "default": {
+              "value": "{colors.neutral.600}",
+              "type": "color"
+            },
+            "highlight": {
+              "value": "{dark.color.text.primary}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{dark.color.text.disabled}",
+              "type": "color"
+            },
+            "error": {
+              "value": "{dark.color.text.error}",
               "type": "color"
             }
           }
@@ -829,6 +875,14 @@
             "support": {
               "value": "{light.color.text.tertiary}",
               "type": "color"
+            },
+            "error": {
+              "value": "{light.color.text.error}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{light.color.text.disabled}",
+              "type": "color"
             }
           },
           "border": {
@@ -842,6 +896,10 @@
             },
             "disabled": {
               "value": "{colors.neutral.200}",
+              "type": "color"
+            },
+            "error": {
+              "value": "{light.color.text.error}",
               "type": "color"
             }
           }
