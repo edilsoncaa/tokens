@@ -983,133 +983,49 @@
     "composition": {
       "avatar": {
         "circle": {
-          "xl": {
-            "container": {
-              "value": {
-                "sizing": "{dimension.15}"
-              },
-              "type": "composition"
+          "border": {
+            "value": {
+              "borderWidth": "{borderWidth.2}",
+              "borderRadius": "{borderRadius.circle}"
             },
-            "border": {
-              "value": {
-                "borderWidth": "{borderWidth.2}",
-                "borderRadius": "{borderRadius.circle}"
-              },
-              "type": "composition"
-            },
-            "user": {
-              "value": {
-                "borderRadius": "{borderRadius.circle}"
-              },
-              "type": "composition"
-            },
-            "status": {
-              "value": {
-                "sizing": "{dimension.6}",
-                "borderRadius": "{borderRadius.circle}"
-              },
-              "type": "composition"
-            },
-            "button": {
-              "value": {
-                "sizing": "{dimension.6}+{dimension.1}",
-                "borderRadius": "{borderRadius.circle}"
-              },
-              "type": "composition"
-            },
-            "tag": {
-              "value": {
-                "verticalPadding": "{spacing.1}",
-                "horizontalPadding": "{spacing.3}",
-                "borderRadius": "{borderRadius.2}"
-              },
-              "type": "composition"
-            }
+            "type": "composition"
           },
-          "lg": {
-            "container": {
-              "value": {
-                "sizing": "{dimension.12}"
-              },
-              "type": "composition"
+          "style": {
+            "value": {
+              "borderRadius": "{borderRadius.circle}"
             },
-            "border": {
-              "value": {
-                "borderWidth": "{borderWidth.2}",
-                "borderRadius": "{borderRadius.circle}"
-              },
-              "type": "composition"
-            },
-            "user": {
-              "value": {
-                "borderRadius": "{borderRadius.circle}"
-              },
-              "type": "composition"
-            },
-            "status": {
-              "value": {
-                "sizing": "{dimension.5}+{dimension.2}",
-                "borderRadius": "{borderRadius.circle}"
-              },
-              "type": "composition"
-            },
-            "button": {
-              "value": {
-                "sizing": "{dimension.5}+{dimension.2}+{dimension.1}",
-                "borderRadius": "{borderRadius.circle}"
-              },
-              "type": "composition"
-            },
-            "tag": {
-              "value": {
-                "verticalPadding": "{spacing.0}",
-                "horizontalPadding": "{spacing.2}",
-                "borderRadius": "{borderRadius.2}"
-              },
-              "type": "composition"
-            }
+            "type": "composition"
           },
-          "md": {
-            "container": {
-              "value": {
-                "sizing": "{dimension.10}+{dimension.1}"
+          "size": {
+            "xl": {
+              "container": {
+                "value": {
+                  "sizing": "{dimension.15}"
+                },
+                "type": "composition"
               },
-              "type": "composition"
-            },
-            "border": {
-              "value": {
-                "borderWidth": "{borderWidth.2}",
-                "borderRadius": "{borderRadius.circle}"
+              "status": {
+                "value": {
+                  "sizing": "{dimension.6}",
+                  "borderRadius": "{borderRadius.circle}"
+                },
+                "type": "composition"
               },
-              "type": "composition"
-            },
-            "user": {
-              "value": {
-                "borderRadius": "{borderRadius.circle}"
+              "button": {
+                "value": {
+                  "sizing": "{dimension.6}+{dimension.1}",
+                  "borderRadius": "{borderRadius.circle}"
+                },
+                "type": "composition"
               },
-              "type": "composition"
-            },
-            "status": {
-              "value": {
-                "sizing": "{dimension.5}",
-                "borderRadius": "{borderRadius.circle}"
-              },
-              "type": "composition"
-            },
-            "button": {
-              "value": {
-                "sizing": "{dimension.5}+{dimension.1}",
-                "borderRadius": "{borderRadius.circle}"
-              },
-              "type": "composition"
-            },
-            "tag": {
-              "value": {
-                "verticalPadding": "{spacing.0}",
-                "horizontalPadding": "{spacing.2}",
-                "borderRadius": "{borderRadius.2}"
-              },
-              "type": "composition"
+              "tag": {
+                "value": {
+                  "verticalPadding": "{spacing.1}",
+                  "horizontalPadding": "{spacing.3}",
+                  "borderRadius": "{borderRadius.2}"
+                },
+                "type": "composition"
+              }
             }
           }
         }
