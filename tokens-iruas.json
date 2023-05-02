@@ -953,6 +953,20 @@
             "value": "{colors.brand.primary.300}",
             "type": "color"
           }
+        },
+        "list": {
+          "text": {
+            "default": {
+              "value": "{dark.color.text.tertiary}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "division": {
+              "value": "{colors.neutral.700}",
+              "type": "color"
+            }
+          }
         }
       }
     }
@@ -2130,6 +2144,25 @@
       }
     }
   },
+  "components/list": {
+    "list": {
+      "container": {
+        "value": {
+          "itemSpacing": "{spacing.0}"
+        },
+        "type": "composition"
+      },
+      "item": {
+        "value": {
+          "verticalPadding": "{spacing.4}",
+          "horizontalPadding": "{spacing.0}",
+          "itemSpacing": "{spacing.3}",
+          "borderWidthBottom": "{borderWidth.1}"
+        },
+        "type": "composition"
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
@@ -2143,7 +2176,8 @@
       "components/navigation",
       "components/radioButton",
       "components/tab",
-      "components/typography"
+      "components/typography",
+      "components/list"
     ]
   }
 }
