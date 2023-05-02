@@ -913,6 +913,36 @@
               "type": "color"
             }
           }
+        },
+        "tab": {
+          "text": {
+            "default": {
+              "value": "{dark.color.text.tertiary}",
+              "type": "color"
+            },
+            "selected": {
+              "value": "{dark.color.text.primary}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{dark.color.text.disabled}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "default": {
+              "value": "{dark.color.tab.text.default}",
+              "type": "color"
+            },
+            "selected": {
+              "value": "{dark.color.tab.text.selected}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{dark.color.tab.text.disabled}",
+              "type": "color"
+            }
+          }
         }
       }
     }
@@ -1204,6 +1234,36 @@
             },
             "selected": {
               "value": "{light.color.checkbox.background.selected}",
+              "type": "color"
+            }
+          }
+        },
+        "tab": {
+          "text": {
+            "default": {
+              "value": "{light.color.text.tertiary}",
+              "type": "color"
+            },
+            "selected": {
+              "value": "{light.color.text.primary}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{light.color.text.disabled}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "default": {
+              "value": "{light.color.tab.text.default}",
+              "type": "color"
+            },
+            "selected": {
+              "value": "{light.color.tab.text.selected}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{light.color.tab.text.disabled}",
               "type": "color"
             }
           }
@@ -1555,6 +1615,28 @@
           "borderRadius": "{borderRadius.circle}",
           "height": "{dimension.5}+{dimension.2}",
           "width": "{dimension.5}+{dimension.2}"
+        },
+        "type": "composition"
+      }
+    }
+  },
+  "components/tab": {
+    "tab": {
+      "default": {
+        "value": {
+          "verticalPadding": "{spacing.4}",
+          "horizontalPadding": "{spacing.5}",
+          "itemSpacing": "{spacing.3}",
+          "borderWidthBottom": "{borderWidth.1}"
+        },
+        "type": "composition"
+      },
+      "selected": {
+        "value": {
+          "verticalPadding": "{spacing.4}",
+          "horizontalPadding": "{spacing.5}",
+          "itemSpacing": "{spacing.3}",
+          "borderWidthBottom": "{borderWidth.2}"
         },
         "type": "composition"
       }
@@ -2040,6 +2122,7 @@
       "components/input",
       "components/navigation",
       "components/radioButton",
+      "components/tab",
       "components/typography"
     ]
   }
