@@ -492,7 +492,7 @@
         "type": "borderWidth"
       },
       "1": {
-        "value": "1",
+        "value": "1px",
         "type": "borderWidth"
       },
       "2": {
@@ -1031,6 +1031,38 @@
               "type": "color"
             }
           }
+        },
+        "checkbox": {
+          "text": {
+            "default": {
+              "value": "{light.color.text.primary}",
+              "type": "color"
+            },
+            "selected": {
+              "value": "{colors.base.white}",
+              "type": "color"
+            }
+          },
+          "background": {
+            "default": {
+              "value": "rgba({colors.base.black}, {opacity.0})",
+              "type": "color"
+            },
+            "selected": {
+              "value": "{colors.base.black}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "default": {
+              "value": "{light.color.input.border.default}",
+              "type": "color"
+            },
+            "selected": {
+              "value": "{light.color.checkbox.background.selected}",
+              "type": "color"
+            }
+          }
         }
       }
     }
@@ -1449,6 +1481,27 @@
             "value": "{dimension.6}-{dimension.1}",
             "type": "sizing"
           }
+        }
+      }
+    }
+  },
+  "components/checkbox": {
+    "composition": {
+      "checkbox": {
+        "container": {
+          "value": {
+            "itemSpacing": "{spacing.3}"
+          },
+          "type": "composition"
+        },
+        "fielset": {
+          "value": {
+            "borderWidth": "{borderWidth.1}",
+            "borderRadius": "{borderRadius.1}",
+            "height": "{dimension.5}+{dimension.2}",
+            "width": "{dimension.5}+{dimension.2}"
+          },
+          "type": "composition"
         }
       }
     }
@@ -1992,6 +2045,7 @@
       "theme/light",
       "components/avatar",
       "components/button",
+      "components/checkbox",
       "components/input",
       "components/navigation",
       "components/typography"
