@@ -1535,7 +1535,7 @@
         },
         "type": "composition"
       },
-      "fielset": {
+      "fieldset": {
         "value": {
           "borderWidth": "{borderWidth.1}",
           "borderRadius": "{borderRadius.1}",
@@ -1609,7 +1609,7 @@
         },
         "type": "composition"
       },
-      "fielset": {
+      "fieldset": {
         "value": {
           "borderWidth": "{borderWidth.1}",
           "borderRadius": "{borderRadius.circle}",
