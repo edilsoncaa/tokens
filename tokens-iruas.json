@@ -853,10 +853,6 @@
             "selected": {
               "value": "{colors.base.white}",
               "type": "color"
-            },
-            "selectedDisabled": {
-              "value": "{dark.color.checkbox.background.disabled}",
-              "type": "color"
             }
           },
           "border": {
@@ -871,9 +867,49 @@
             "selected": {
               "value": "{dark.color.checkbox.background.selected}",
               "type": "color"
+            }
+          }
+        },
+        "radioButton": {
+          "text": {
+            "default": {
+              "value": "{dark.color.text.primary}",
+              "type": "color"
             },
-            "selectedDisabled": {
+            "selected": {
+              "value": "{colors.base.black}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{dark.color.text.disabled}",
+              "type": "color"
+            }
+          },
+          "background": {
+            "default": {
+              "value": "rgba({colors.base.black}, {opacity.0})",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{dark.color.button.background.disabled}",
+              "type": "color"
+            },
+            "selected": {
+              "value": "{colors.base.white}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "default": {
+              "value": "{dark.color.input.border.default}",
+              "type": "color"
+            },
+            "disabled": {
               "value": "{dark.color.checkbox.background.disabled}",
+              "type": "color"
+            },
+            "selected": {
+              "value": "{dark.color.checkbox.background.selected}",
               "type": "color"
             }
           }
@@ -1111,10 +1147,6 @@
             "selected": {
               "value": "{colors.base.black}",
               "type": "color"
-            },
-            "selectedDisabled": {
-              "value": "{light.color.checkbox.background.disabled}",
-              "type": "color"
             }
           },
           "border": {
@@ -1129,9 +1161,49 @@
             "selected": {
               "value": "{light.color.checkbox.background.selected}",
               "type": "color"
+            }
+          }
+        },
+        "radioButton": {
+          "text": {
+            "default": {
+              "value": "{light.color.checkbox.text.default}",
+              "type": "color"
             },
-            "selectedDisabled": {
+            "selected": {
+              "value": "{light.color.checkbox.text.selected}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{light.color.checkbox.text.disabled}",
+              "type": "color"
+            }
+          },
+          "background": {
+            "default": {
+              "value": "{light.color.checkbox.background.default}",
+              "type": "color"
+            },
+            "disabled": {
               "value": "{light.color.checkbox.background.disabled}",
+              "type": "color"
+            },
+            "selected": {
+              "value": "{light.color.checkbox.background.selected}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "default": {
+              "value": "{light.color.input.border.default}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{light.color.checkbox.background.disabled}",
+              "type": "color"
+            },
+            "selected": {
+              "value": "{light.color.checkbox.background.selected}",
               "type": "color"
             }
           }
@@ -1466,6 +1538,25 @@
       "icon": {
         "value": "{dimension.6}+{dimension.2}",
         "type": "sizing"
+      }
+    }
+  },
+  "components/radioButton": {
+    "radioButton": {
+      "container": {
+        "value": {
+          "itemSpacing": "{spacing.3}"
+        },
+        "type": "composition"
+      },
+      "fielset": {
+        "value": {
+          "borderWidth": "{borderWidth.1}",
+          "borderRadius": "{borderRadius.circle}",
+          "height": "{dimension.5}+{dimension.2}",
+          "width": "{dimension.5}+{dimension.2}"
+        },
+        "type": "composition"
       }
     }
   },
@@ -1948,6 +2039,7 @@
       "components/checkbox",
       "components/input",
       "components/navigation",
+      "components/radioButton",
       "components/typography"
     ]
   }
