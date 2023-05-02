@@ -1301,6 +1301,20 @@
             "value": "{colors.base.black}",
             "type": "color"
           }
+        },
+        "list": {
+          "text": {
+            "default": {
+              "value": "{light.color.text.tertiary}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "division": {
+              "value": "{colors.neutral.300}",
+              "type": "color"
+            }
+          }
         }
       }
     }
@@ -2160,6 +2174,14 @@
           "borderWidthBottom": "{borderWidth.1}"
         },
         "type": "composition"
+      }
+    },
+    "listSizingg": {
+      "icon": {
+        "sm": {
+          "value": "{dimension.5}",
+          "type": "sizing"
+        }
       }
     }
   },
