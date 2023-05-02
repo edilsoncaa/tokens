@@ -825,6 +825,58 @@
               "type": "color"
             }
           }
+        },
+        "checkbox": {
+          "text": {
+            "default": {
+              "value": "{dark.color.text.primary}",
+              "type": "color"
+            },
+            "selected": {
+              "value": "{colors.base.black}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{dark.color.text.disabled}",
+              "type": "color"
+            }
+          },
+          "background": {
+            "default": {
+              "value": "rgba({colors.base.black}, {opacity.0})",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{dark.color.button.background.disabled}",
+              "type": "color"
+            },
+            "selected": {
+              "value": "{colors.base.white}",
+              "type": "color"
+            },
+            "selectedDisabled": {
+              "value": "{dark.color.checkbox.background.disabled}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "default": {
+              "value": "{dark.color.input.border.default}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{dark.color.checkbox.background.disabled}",
+              "type": "color"
+            },
+            "selected": {
+              "value": "{dark.color.checkbox.background.selected}",
+              "type": "color"
+            },
+            "selectedDisabled": {
+              "value": "{dark.color.checkbox.background.disabled}",
+              "type": "color"
+            }
+          }
         }
       }
     }
@@ -1041,6 +1093,10 @@
             "selected": {
               "value": "{colors.base.white}",
               "type": "color"
+            },
+            "disabled": {
+              "value": "{light.color.text.disabled}",
+              "type": "color"
             }
           },
           "background": {
@@ -1048,8 +1104,16 @@
               "value": "rgba({colors.base.black}, {opacity.0})",
               "type": "color"
             },
+            "disabled": {
+              "value": "{light.color.button.background.disabled}",
+              "type": "color"
+            },
             "selected": {
               "value": "{colors.base.black}",
+              "type": "color"
+            },
+            "selectedDisabled": {
+              "value": "{light.color.checkbox.background.disabled}",
               "type": "color"
             }
           },
@@ -1058,8 +1122,16 @@
               "value": "{light.color.input.border.default}",
               "type": "color"
             },
+            "disabled": {
+              "value": "{light.color.checkbox.background.disabled}",
+              "type": "color"
+            },
             "selected": {
               "value": "{light.color.checkbox.background.selected}",
+              "type": "color"
+            },
+            "selectedDisabled": {
+              "value": "{light.color.checkbox.background.disabled}",
               "type": "color"
             }
           }
@@ -1068,504 +1140,332 @@
     }
   },
   "components/avatar": {
-    "composition": {
-      "avatar": {
-        "circle": {
-          "border": {
+    "avatar": {
+      "borderCircle": {
+        "value": {
+          "borderWidth": "{borderWidth.2}",
+          "borderRadius": "{borderRadius.circle}"
+        },
+        "type": "composition"
+      },
+      "borderSquare": {
+        "value": {
+          "borderWidth": "{borderWidth.2}",
+          "borderRadius": "{borderRadius.1}"
+        },
+        "type": "composition"
+      },
+      "circle": {
+        "value": {
+          "borderRadius": "{borderRadius.circle}"
+        },
+        "type": "composition"
+      },
+      "square": {
+        "value": {
+          "borderRadius": "{borderRadius.1}"
+        },
+        "type": "composition"
+      },
+      "size": {
+        "xl": {
+          "container": {
             "value": {
-              "borderWidth": "{borderWidth.2}",
+              "sizing": "{dimension.15}"
+            },
+            "type": "composition"
+          },
+          "status": {
+            "value": {
+              "sizing": "{dimension.5}+{dimension.2}+{dimension.1}",
               "borderRadius": "{borderRadius.circle}"
             },
             "type": "composition"
           },
-          "style": {
+          "button": {
             "value": {
+              "sizing": "{dimension.6}+{dimension.1}",
               "borderRadius": "{borderRadius.circle}"
             },
             "type": "composition"
           },
-          "size": {
-            "xl": {
-              "container": {
-                "value": {
-                  "sizing": "{dimension.15}"
-                },
-                "type": "composition"
-              },
-              "status": {
-                "value": {
-                  "sizing": "{dimension.5}+{dimension.2}+{dimension.1}",
-                  "borderRadius": "{borderRadius.circle}"
-                },
-                "type": "composition"
-              },
-              "button": {
-                "value": {
-                  "sizing": "{dimension.6}+{dimension.1}",
-                  "borderRadius": "{borderRadius.circle}"
-                },
-                "type": "composition"
-              },
-              "tag": {
-                "value": {
-                  "verticalPadding": "{spacing.2}",
-                  "horizontalPadding": "{spacing.3}",
-                  "borderRadius": "{borderRadius.2}"
-                },
-                "type": "composition"
-              }
+          "tag": {
+            "value": {
+              "verticalPadding": "{spacing.2}",
+              "horizontalPadding": "{spacing.3}",
+              "borderRadius": "{borderRadius.2}"
             },
-            "lg": {
-              "container": {
-                "value": {
-                  "sizing": "{dimension.12}"
-                },
-                "type": "composition"
-              },
-              "status": {
-                "value": {
-                  "sizing": "{dimension.5}+{dimension.1}",
-                  "borderRadius": "{borderRadius.circle}"
-                },
-                "type": "composition"
-              },
-              "button": {
-                "value": {
-                  "sizing": "{dimension.5}+{dimension.2}+{dimension.1}",
-                  "borderRadius": "{borderRadius.circle}"
-                },
-                "type": "composition"
-              },
-              "tag": {
-                "value": {
-                  "verticalPadding": "{spacing.1}",
-                  "horizontalPadding": "{spacing.2}",
-                  "borderRadius": "{borderRadius.2}"
-                },
-                "type": "composition"
-              }
-            },
-            "md": {
-              "container": {
-                "value": {
-                  "sizing": "{dimension.10}"
-                },
-                "type": "composition"
-              },
-              "status": {
-                "value": {
-                  "sizing": "{dimension.4}+{dimension.1}",
-                  "borderRadius": "{borderRadius.circle}"
-                },
-                "type": "composition"
-              },
-              "button": {
-                "value": {
-                  "sizing": "{dimension.5}+{dimension.1}",
-                  "borderRadius": "{borderRadius.circle}"
-                },
-                "type": "composition"
-              },
-              "tag": {
-                "value": {
-                  "verticalPadding": "{spacing.1}",
-                  "horizontalPadding": "{spacing.2}",
-                  "borderRadius": "{borderRadius.2}"
-                },
-                "type": "composition"
-              }
-            },
-            "sm": {
-              "container": {
-                "value": {
-                  "sizing": "{dimension.9}"
-                },
-                "type": "composition"
-              },
-              "status": {
-                "value": {
-                  "sizing": "{dimension.4}",
-                  "borderRadius": "{borderRadius.circle}"
-                },
-                "type": "composition"
-              },
-              "button": {
-                "value": {
-                  "sizing": "{dimension.5}",
-                  "borderRadius": "{borderRadius.circle}"
-                },
-                "type": "composition"
-              },
-              "tag": {
-                "value": {
-                  "verticalPadding": "{spacing.1}",
-                  "horizontalPadding": "{spacing.2}",
-                  "borderRadius": "{borderRadius.1}"
-                },
-                "type": "composition"
-              }
-            },
-            "xs": {
-              "container": {
-                "value": {
-                  "sizing": "{dimension.7}"
-                },
-                "type": "composition"
-              },
-              "status": {
-                "value": {
-                  "sizing": "{dimension.3}+{dimension.1}",
-                  "borderRadius": "{borderRadius.circle}"
-                },
-                "type": "composition"
-              },
-              "button": {
-                "value": {
-                  "sizing": "{dimension.4}",
-                  "borderRadius": "{borderRadius.circle}"
-                },
-                "type": "composition"
-              },
-              "tag": {
-                "value": {
-                  "verticalPadding": "{spacing.1}",
-                  "horizontalPadding": "{spacing.2}",
-                  "borderRadius": "{borderRadius.1}"
-                },
-                "type": "composition"
-              }
-            }
+            "type": "composition"
           }
         },
-        "square": {
-          "border": {
+        "lg": {
+          "container": {
             "value": {
-              "borderWidth": "{borderWidth.2}",
+              "sizing": "{dimension.12}"
+            },
+            "type": "composition"
+          },
+          "status": {
+            "value": {
+              "sizing": "{dimension.5}+{dimension.1}",
+              "borderRadius": "{borderRadius.circle}"
+            },
+            "type": "composition"
+          },
+          "button": {
+            "value": {
+              "sizing": "{dimension.5}+{dimension.2}+{dimension.1}",
+              "borderRadius": "{borderRadius.circle}"
+            },
+            "type": "composition"
+          },
+          "tag": {
+            "value": {
+              "verticalPadding": "{spacing.1}",
+              "horizontalPadding": "{spacing.2}",
+              "borderRadius": "{borderRadius.2}"
+            },
+            "type": "composition"
+          }
+        },
+        "md": {
+          "container": {
+            "value": {
+              "sizing": "{dimension.10}"
+            },
+            "type": "composition"
+          },
+          "status": {
+            "value": {
+              "sizing": "{dimension.4}+{dimension.1}",
+              "borderRadius": "{borderRadius.circle}"
+            },
+            "type": "composition"
+          },
+          "button": {
+            "value": {
+              "sizing": "{dimension.5}+{dimension.1}",
+              "borderRadius": "{borderRadius.circle}"
+            },
+            "type": "composition"
+          },
+          "tag": {
+            "value": {
+              "verticalPadding": "{spacing.1}",
+              "horizontalPadding": "{spacing.2}",
+              "borderRadius": "{borderRadius.2}"
+            },
+            "type": "composition"
+          }
+        },
+        "sm": {
+          "container": {
+            "value": {
+              "sizing": "{dimension.9}"
+            },
+            "type": "composition"
+          },
+          "status": {
+            "value": {
+              "sizing": "{dimension.4}",
+              "borderRadius": "{borderRadius.circle}"
+            },
+            "type": "composition"
+          },
+          "button": {
+            "value": {
+              "sizing": "{dimension.5}",
+              "borderRadius": "{borderRadius.circle}"
+            },
+            "type": "composition"
+          },
+          "tag": {
+            "value": {
+              "verticalPadding": "{spacing.1}",
+              "horizontalPadding": "{spacing.2}",
               "borderRadius": "{borderRadius.1}"
             },
             "type": "composition"
-          },
-          "style": {
+          }
+        },
+        "xs": {
+          "container": {
             "value": {
-              "borderRadius": "{borderRadius.0}"
+              "sizing": "{dimension.7}"
             },
             "type": "composition"
           },
-          "size": {
-            "xl": {
-              "container": {
-                "value": {
-                  "sizing": "{dimension.15}"
-                },
-                "type": "composition"
-              },
-              "status": {
-                "value": {
-                  "sizing": "{dimension.5}+{dimension.2}+{dimension.1}",
-                  "borderRadius": "{borderRadius.circle}"
-                },
-                "type": "composition"
-              },
-              "button": {
-                "value": {
-                  "sizing": "{dimension.6}+{dimension.1}",
-                  "borderRadius": "{borderRadius.circle}"
-                },
-                "type": "composition"
-              },
-              "tag": {
-                "value": {
-                  "verticalPadding": "{spacing.2}",
-                  "horizontalPadding": "{spacing.3}",
-                  "borderRadius": "{borderRadius.2}"
-                },
-                "type": "composition"
-              }
+          "status": {
+            "value": {
+              "sizing": "{dimension.3}+{dimension.1}",
+              "borderRadius": "{borderRadius.circle}"
             },
-            "lg": {
-              "container": {
-                "value": {
-                  "sizing": "{dimension.12}"
-                },
-                "type": "composition"
-              },
-              "status": {
-                "value": {
-                  "sizing": "{dimension.5}+{dimension.1}",
-                  "borderRadius": "{borderRadius.circle}"
-                },
-                "type": "composition"
-              },
-              "button": {
-                "value": {
-                  "sizing": "{dimension.5}+{dimension.2}+{dimension.1}",
-                  "borderRadius": "{borderRadius.circle}"
-                },
-                "type": "composition"
-              },
-              "tag": {
-                "value": {
-                  "verticalPadding": "{spacing.1}",
-                  "horizontalPadding": "{spacing.2}",
-                  "borderRadius": "{borderRadius.2}"
-                },
-                "type": "composition"
-              }
+            "type": "composition"
+          },
+          "button": {
+            "value": {
+              "sizing": "{dimension.4}",
+              "borderRadius": "{borderRadius.circle}"
             },
-            "md": {
-              "container": {
-                "value": {
-                  "sizing": "{dimension.10}"
-                },
-                "type": "composition"
-              },
-              "status": {
-                "value": {
-                  "sizing": "{dimension.4}+{dimension.1}",
-                  "borderRadius": "{borderRadius.circle}"
-                },
-                "type": "composition"
-              },
-              "button": {
-                "value": {
-                  "sizing": "{dimension.5}+{dimension.1}",
-                  "borderRadius": "{borderRadius.circle}"
-                },
-                "type": "composition"
-              },
-              "tag": {
-                "value": {
-                  "verticalPadding": "{spacing.1}",
-                  "horizontalPadding": "{spacing.2}",
-                  "borderRadius": "{borderRadius.2}"
-                },
-                "type": "composition"
-              }
+            "type": "composition"
+          },
+          "tag": {
+            "value": {
+              "verticalPadding": "{spacing.1}",
+              "horizontalPadding": "{spacing.2}",
+              "borderRadius": "{borderRadius.1}"
             },
-            "sm": {
-              "container": {
-                "value": {
-                  "sizing": "{dimension.9}"
-                },
-                "type": "composition"
-              },
-              "status": {
-                "value": {
-                  "sizing": "{dimension.4}",
-                  "borderRadius": "{borderRadius.circle}"
-                },
-                "type": "composition"
-              },
-              "button": {
-                "value": {
-                  "sizing": "{dimension.5}",
-                  "borderRadius": "{borderRadius.circle}"
-                },
-                "type": "composition"
-              },
-              "tag": {
-                "value": {
-                  "verticalPadding": "{spacing.1}",
-                  "horizontalPadding": "{spacing.2}",
-                  "borderRadius": "{borderRadius.1}"
-                },
-                "type": "composition"
-              }
-            },
-            "xs": {
-              "container": {
-                "value": {
-                  "sizing": "{dimension.7}"
-                },
-                "type": "composition"
-              },
-              "status": {
-                "value": {
-                  "sizing": "{dimension.3}+{dimension.1}",
-                  "borderRadius": "{borderRadius.circle}"
-                },
-                "type": "composition"
-              },
-              "button": {
-                "value": {
-                  "sizing": "{dimension.4}",
-                  "borderRadius": "{borderRadius.circle}"
-                },
-                "type": "composition"
-              },
-              "tag": {
-                "value": {
-                  "verticalPadding": "{spacing.1}",
-                  "horizontalPadding": "{spacing.2}",
-                  "borderRadius": "{borderRadius.1}"
-                },
-                "type": "composition"
-              }
-            }
+            "type": "composition"
           }
         }
       }
     }
   },
   "components/button": {
-    "composition": {
-      "button": {
-        "sm": {
-          "value": {
-            "verticalPadding": "{spacing.2}",
-            "horizontalPadding": "{spacing.3}",
-            "borderRadius": "{borderRadius.2}",
-            "borderWidth": "{borderWidth.1}",
-            "itemSpacing": "{dimension.2}"
-          },
-          "type": "composition"
+    "button": {
+      "sm": {
+        "value": {
+          "verticalPadding": "{spacing.2}",
+          "horizontalPadding": "{spacing.3}",
+          "borderRadius": "{borderRadius.2}",
+          "borderWidth": "{borderWidth.1}",
+          "itemSpacing": "{dimension.2}"
         },
-        "md": {
-          "value": {
-            "verticalPadding": "{spacing.3}",
-            "horizontalPadding": "{spacing.5}",
-            "borderRadius": "{borderRadius.2}",
-            "borderWidth": "{borderWidth.1}",
-            "itemSpacing": "{dimension.3}"
-          },
-          "type": "composition"
+        "type": "composition"
+      },
+      "md": {
+        "value": {
+          "verticalPadding": "{spacing.3}",
+          "horizontalPadding": "{spacing.5}",
+          "borderRadius": "{borderRadius.2}",
+          "borderWidth": "{borderWidth.1}",
+          "itemSpacing": "{dimension.3}"
         },
-        "lg": {
-          "value": {
-            "verticalPadding": "{spacing.4}",
-            "horizontalPadding": "{spacing.6}",
-            "borderRadius": "{borderRadius.2}",
-            "borderWidth": "{borderWidth.1}",
-            "itemSpacing": "{dimension.3}"
-          },
-          "type": "composition"
+        "type": "composition"
+      },
+      "lg": {
+        "value": {
+          "verticalPadding": "{spacing.4}",
+          "horizontalPadding": "{spacing.6}",
+          "borderRadius": "{borderRadius.2}",
+          "borderWidth": "{borderWidth.1}",
+          "itemSpacing": "{dimension.3}"
         },
-        "xl": {
-          "value": {
-            "verticalPadding": "{spacing.5}",
-            "horizontalPadding": "{spacing.7}",
-            "borderRadius": "{borderRadius.2}",
-            "borderWidth": "{borderWidth.1}",
-            "itemSpacing": "{dimension.4}"
-          },
-          "type": "composition"
+        "type": "composition"
+      },
+      "xl": {
+        "value": {
+          "verticalPadding": "{spacing.5}",
+          "horizontalPadding": "{spacing.7}",
+          "borderRadius": "{borderRadius.2}",
+          "borderWidth": "{borderWidth.1}",
+          "itemSpacing": "{dimension.4}"
         },
-        "social": {
-          "value": {
-            "verticalPadding": "{spacing.4}",
-            "horizontalPadding": "{spacing.4}",
-            "borderRadius": "{borderRadius.3}",
-            "borderWidth": "{borderWidth.1}",
-            "itemSpacing": "{spacing.3}"
-          },
-          "type": "composition"
-        }
+        "type": "composition"
+      },
+      "social": {
+        "value": {
+          "verticalPadding": "{spacing.4}",
+          "horizontalPadding": "{spacing.4}",
+          "borderRadius": "{borderRadius.3}",
+          "borderWidth": "{borderWidth.1}",
+          "itemSpacing": "{spacing.3}"
+        },
+        "type": "composition"
       }
     },
-    "sizing": {
-      "button": {
-        "icon": {
-          "sm": {
-            "value": "{dimension.4}+{dimension.1}",
-            "type": "sizing"
-          },
-          "md": {
-            "value": "{dimension.5}",
-            "type": "sizing"
-          },
-          "lg": {
-            "value": "{dimension.5}+{dimension.2}",
-            "type": "sizing"
-          },
-          "xl": {
-            "value": "{dimension.6}-{dimension.1}",
-            "type": "sizing"
-          }
+    "buttonSizing": {
+      "icon": {
+        "sm": {
+          "value": "{dimension.4}+{dimension.1}",
+          "type": "sizing"
+        },
+        "md": {
+          "value": "{dimension.5}",
+          "type": "sizing"
+        },
+        "lg": {
+          "value": "{dimension.5}+{dimension.2}",
+          "type": "sizing"
+        },
+        "xl": {
+          "value": "{dimension.6}-{dimension.1}",
+          "type": "sizing"
         }
       }
     }
   },
   "components/checkbox": {
-    "composition": {
-      "checkbox": {
-        "container": {
-          "value": {
-            "itemSpacing": "{spacing.3}"
-          },
-          "type": "composition"
+    "checkbox": {
+      "container": {
+        "value": {
+          "itemSpacing": "{spacing.3}"
         },
-        "fielset": {
-          "value": {
-            "borderWidth": "{borderWidth.1}",
-            "borderRadius": "{borderRadius.1}",
-            "height": "{dimension.5}+{dimension.2}",
-            "width": "{dimension.5}+{dimension.2}"
-          },
-          "type": "composition"
-        }
+        "type": "composition"
+      },
+      "fielset": {
+        "value": {
+          "borderWidth": "{borderWidth.1}",
+          "borderRadius": "{borderRadius.1}",
+          "height": "{dimension.5}+{dimension.2}",
+          "width": "{dimension.5}+{dimension.2}"
+        },
+        "type": "composition"
       }
     }
   },
   "components/input": {
-    "composition": {
-      "input": {
-        "container": {
-          "value": {
-            "itemSpacing": "{spacing.2}"
-          },
-          "type": "composition"
+    "input": {
+      "container": {
+        "value": {
+          "itemSpacing": "{spacing.2}"
         },
-        "base": {
-          "value": {
-            "itemSpacing": "{spacing.3}",
-            "verticalPadding": "{spacing.3}",
-            "horizontalPadding": "{spacing.3}",
-            "borderWidthBottom": "{borderWidth.1}"
-          },
-          "type": "composition"
+        "type": "composition"
+      },
+      "base": {
+        "value": {
+          "itemSpacing": "{spacing.3}",
+          "verticalPadding": "{spacing.3}",
+          "horizontalPadding": "{spacing.3}",
+          "borderWidthBottom": "{borderWidth.1}"
         },
-        "content": {
-          "value": {
-            "itemSpacing": "{spacing.0}"
-          },
-          "type": "composition"
-        }
+        "type": "composition"
+      },
+      "content": {
+        "value": {
+          "itemSpacing": "{spacing.0}"
+        },
+        "type": "composition"
       }
     },
-    "sizing": {
-      "input": {
-        "icon": {
-          "sm": {
-            "value": "{dimension.4}+{dimension.1}",
-            "type": "sizing"
-          },
-          "md": {
-            "value": "{dimension.6}",
-            "type": "sizing"
-          }
+    "inputSizing": {
+      "icon": {
+        "sm": {
+          "value": "{dimension.4}+{dimension.1}",
+          "type": "sizing"
+        },
+        "md": {
+          "value": "{dimension.6}",
+          "type": "sizing"
         }
       }
     }
   },
   "components/navigation": {
-    "composition": {
-      "navigation": {
-        "value": {
-          "horizontalPadding": "{dimension.5}",
-          "paddingTop": "{spacing.3}",
-          "paddingBottom": "{spacing.6}",
-          "borderRadiusTopLeft": "{borderRadius.5}",
-          "borderRadiusTopRight": "{borderRadius.5}"
-        },
-        "type": "composition"
-      }
+    "navigation": {
+      "value": {
+        "horizontalPadding": "{dimension.5}",
+        "paddingTop": "{spacing.3}",
+        "paddingBottom": "{spacing.6}",
+        "borderRadiusTopLeft": "{borderRadius.5}",
+        "borderRadiusTopRight": "{borderRadius.5}"
+      },
+      "type": "composition"
     },
-    "sizing": {
-      "navigation": {
-        "icon": {
-          "value": "{dimension.6}+{dimension.2}",
-          "type": "sizing"
-        }
+    "navigationsizing": {
+      "icon": {
+        "value": "{dimension.6}+{dimension.2}",
+        "type": "sizing"
       }
     }
   },
