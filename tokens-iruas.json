@@ -1006,7 +1006,7 @@
               },
               "status": {
                 "value": {
-                  "sizing": "{dimension.6}",
+                  "sizing": "{dimension.5}+{dimension.2}+{dimension.1}",
                   "borderRadius": "{borderRadius.circle}"
                 },
                 "type": "composition"
@@ -1020,8 +1020,98 @@
               },
               "tag": {
                 "value": {
-                  "verticalPadding": "{spacing.1}",
+                  "verticalPadding": "{spacing.2}",
                   "horizontalPadding": "{spacing.3}",
+                  "borderRadius": "{borderRadius.2}"
+                },
+                "type": "composition"
+              }
+            },
+            "lg": {
+              "container": {
+                "value": {
+                  "sizing": "{dimension.12}"
+                },
+                "type": "composition"
+              },
+              "status": {
+                "value": {
+                  "sizing": "{dimension.5}+{dimension.1}",
+                  "borderRadius": "{borderRadius.circle}"
+                },
+                "type": "composition"
+              },
+              "button": {
+                "value": {
+                  "sizing": "{dimension.5}+{dimension.2}+{dimension.1}",
+                  "borderRadius": "{borderRadius.circle}"
+                },
+                "type": "composition"
+              },
+              "tag": {
+                "value": {
+                  "verticalPadding": "{spacing.1}",
+                  "horizontalPadding": "{spacing.2}",
+                  "borderRadius": "{borderRadius.2}"
+                },
+                "type": "composition"
+              }
+            },
+            "md": {
+              "container": {
+                "value": {
+                  "sizing": "{dimension.10}"
+                },
+                "type": "composition"
+              },
+              "status": {
+                "value": {
+                  "sizing": "{dimension.4}+{dimension.1}",
+                  "borderRadius": "{borderRadius.circle}"
+                },
+                "type": "composition"
+              },
+              "button": {
+                "value": {
+                  "sizing": "{dimension.5}+{dimension.1}",
+                  "borderRadius": "{borderRadius.circle}"
+                },
+                "type": "composition"
+              },
+              "tag": {
+                "value": {
+                  "verticalPadding": "{spacing.1}",
+                  "horizontalPadding": "{spacing.2}",
+                  "borderRadius": "{borderRadius.2}"
+                },
+                "type": "composition"
+              }
+            },
+            "sm": {
+              "container": {
+                "value": {
+                  "sizing": "{dimension.9}"
+                },
+                "type": "composition"
+              },
+              "status": {
+                "value": {
+                  "sizing": "{dimension.4}+{dimension.1}",
+                  "borderRadius": "{borderRadius.circle}"
+                },
+                "type": "composition"
+              },
+              "button": {
+                "value": {
+                  "sizing": "{dimension.5}",
+                  "borderRadius": "{borderRadius.circle}"
+                },
+                "type": "composition"
+              },
+              "tag": {
+                "value": {
+                  "verticalPadding": "{spacing.1}",
+                  "horizontalPadding": "{spacing.2}",
                   "borderRadius": "{borderRadius.2}"
                 },
                 "type": "composition"
