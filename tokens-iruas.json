@@ -652,6 +652,10 @@
           "page": {
             "value": "{colors.base.black}",
             "type": "color"
+          },
+          "overlay": {
+            "value": "rgba({colors.base.black}, {opacity.60})",
+            "type": "color"
           }
         },
         "button": {
@@ -981,6 +985,10 @@
         "background": {
           "page": {
             "value": "{colors.base.white}",
+            "type": "color"
+          },
+          "overlay": {
+            "value": "rgba({colors.base.black}, {opacity.40})",
             "type": "color"
           }
         },
