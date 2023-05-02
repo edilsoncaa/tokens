@@ -943,6 +943,12 @@
               "type": "color"
             }
           }
+        },
+        "logo": {
+          "default": {
+            "value": "{colors.brand.primary.300}",
+            "type": "color"
+          }
         }
       }
     }
@@ -1266,6 +1272,12 @@
               "value": "{light.color.tab.text.disabled}",
               "type": "color"
             }
+          }
+        },
+        "logo": {
+          "default": {
+            "value": "{colors.base.black}",
+            "type": "color"
           }
         }
       }
