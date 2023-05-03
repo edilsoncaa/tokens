@@ -666,6 +666,10 @@
           "division": {
             "value": "{colors.neutral.700}",
             "type": "color"
+          },
+          "primary": {
+            "value": "{dark.color.text.primary}",
+            "type": "color"
           }
         },
         "button": {
@@ -997,6 +1001,14 @@
               "type": "color"
             }
           }
+        },
+        "modal": {
+          "bottom": {
+            "background": {
+              "value": "{colors.neutral.900}",
+              "type": "color"
+            }
+          }
         }
       }
     }
@@ -1037,6 +1049,16 @@
           },
           "actions": {
             "value": "{light.color.navigation.background.background}",
+            "type": "color"
+          }
+        },
+        "border": {
+          "division": {
+            "value": "{colors.neutral.300}",
+            "type": "color"
+          },
+          "primary": {
+            "value": "{light.color.text.primary}",
             "type": "color"
           }
         },
@@ -1366,6 +1388,14 @@
           "border": {
             "default": {
               "value": "{light.color.input.border.default}",
+              "type": "color"
+            }
+          }
+        },
+        "modal": {
+          "bottom": {
+            "background": {
+              "value": "{colors.base.white}",
               "type": "color"
             }
           }
@@ -1742,6 +1772,20 @@
           "value": "{dimension.5}",
           "type": "sizing"
         }
+      }
+    }
+  },
+  "components/modal": {
+    "modal": {
+      "bottom": {
+        "value": {
+          "itemSpacing": "{spacing.6}",
+          "verticalPadding": "{spacing.7}",
+          "horizontalPadding": "{spacing.5}",
+          "borderRadiusTopLeft": "{borderRadius.4}",
+          "borderRadiusTopRight": "{borderRadius.4}"
+        },
+        "type": "composition"
       }
     }
   },
@@ -2284,6 +2328,7 @@
       "components/chips",
       "components/input",
       "components/list",
+      "components/modal",
       "components/navigation",
       "components/radioButton",
       "components/tab",
