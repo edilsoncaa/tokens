@@ -1631,6 +1631,33 @@
       }
     }
   },
+  "components/list": {
+    "list": {
+      "container": {
+        "value": {
+          "itemSpacing": "{spacing.0}"
+        },
+        "type": "composition"
+      },
+      "item": {
+        "value": {
+          "verticalPadding": "{spacing.4}",
+          "horizontalPadding": "{spacing.0}",
+          "itemSpacing": "{spacing.3}",
+          "borderWidthBottom": "{borderWidth.1}"
+        },
+        "type": "composition"
+      }
+    },
+    "listSizingg": {
+      "icon": {
+        "sm": {
+          "value": "{dimension.5}",
+          "type": "sizing"
+        }
+      }
+    }
+  },
   "components/navigation": {
     "navigation": {
       "value": {
@@ -2158,33 +2185,6 @@
       }
     }
   },
-  "components/list": {
-    "list": {
-      "container": {
-        "value": {
-          "itemSpacing": "{spacing.0}"
-        },
-        "type": "composition"
-      },
-      "item": {
-        "value": {
-          "verticalPadding": "{spacing.4}",
-          "horizontalPadding": "{spacing.0}",
-          "itemSpacing": "{spacing.3}",
-          "borderWidthBottom": "{borderWidth.1}"
-        },
-        "type": "composition"
-      }
-    },
-    "listSizingg": {
-      "icon": {
-        "sm": {
-          "value": "{dimension.5}",
-          "type": "sizing"
-        }
-      }
-    }
-  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
@@ -2195,11 +2195,11 @@
       "components/button",
       "components/checkbox",
       "components/input",
+      "components/list",
       "components/navigation",
       "components/radioButton",
       "components/tab",
-      "components/typography",
-      "components/list"
+      "components/typography"
     ]
   }
 }
