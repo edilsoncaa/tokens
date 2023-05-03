@@ -967,6 +967,26 @@
               "type": "color"
             }
           }
+        },
+        "chips": {
+          "text": {
+            "default": {
+              "value": "{dark.color.text.secondary}",
+              "type": "color"
+            }
+          },
+          "background": {
+            "selected": {
+              "value": "{colors.neutral.700}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "default": {
+              "value": "{dark.color.input.border.default}",
+              "type": "color"
+            }
+          }
         }
       }
     }
@@ -1325,7 +1345,7 @@
           },
           "background": {
             "selected": {
-              "value": "{colors.neutral.100}",
+              "value": "{colors.neutral.200}",
               "type": "color"
             }
           },
@@ -1626,11 +1646,22 @@
         },
         "type": "composition"
       },
-      "circle": {
+      "default": {
         "value": {
           "itemSpacing": "{spacing.3}",
+          "verticalPadding": "{spacing.3}",
+          "horizontalPadding": "{spacing.4}",
           "borderWidth": "{borderWidth.2}",
           "borderRadius": "{borderRadius.circle}"
+        },
+        "type": "composition"
+      },
+      "number": {
+        "value": {
+          "borderWidth": "{borderWidth.2}",
+          "borderRadius": "{borderRadius.circle}",
+          "width": "{dimension.7}+{dimension.1}",
+          "height": "{dimension.7}+{dimension.1}"
         },
         "type": "composition"
       }
