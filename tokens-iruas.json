@@ -1315,6 +1315,26 @@
               "type": "color"
             }
           }
+        },
+        "chips": {
+          "text": {
+            "default": {
+              "value": "{light.color.text.secondary}",
+              "type": "color"
+            }
+          },
+          "background": {
+            "selected": {
+              "value": "{colors.neutral.100}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "default": {
+              "value": "{light.color.input.border.default}",
+              "type": "color"
+            }
+          }
         }
       }
     }
@@ -1589,6 +1609,28 @@
           "borderRadius": "{borderRadius.1}",
           "height": "{dimension.5}+{dimension.2}",
           "width": "{dimension.5}+{dimension.2}"
+        },
+        "type": "composition"
+      }
+    }
+  },
+  "components/chips": {
+    "chips": {
+      "square": {
+        "value": {
+          "itemSpacing": "{spacing.3}",
+          "verticalPadding": "{spacing.4}+{spacing.2}",
+          "horizontalPadding": "{spacing.4}",
+          "borderWidth": "{borderWidth.2}",
+          "borderRadius": "{borderRadius.3}"
+        },
+        "type": "composition"
+      },
+      "circle": {
+        "value": {
+          "itemSpacing": "{spacing.3}",
+          "borderWidth": "{borderWidth.2}",
+          "borderRadius": "{borderRadius.circle}"
         },
         "type": "composition"
       }
@@ -2194,6 +2236,7 @@
       "components/avatar",
       "components/button",
       "components/checkbox",
+      "components/chips",
       "components/input",
       "components/list",
       "components/navigation",
