@@ -658,7 +658,7 @@
             "type": "color"
           },
           "actions": {
-            "value": "{dark.color.navigation.background.background}",
+            "value": "rgba({colors.base.black}, {opacity.80})",
             "type": "color"
           }
         },
@@ -1048,7 +1048,7 @@
             "type": "color"
           },
           "actions": {
-            "value": "{light.color.navigation.background.background}",
+            "value": "rgba({colors.base.white}, {opacity.80})",
             "type": "color"
           }
         },
