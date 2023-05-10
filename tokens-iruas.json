@@ -1047,11 +1047,19 @@
             "default": {
               "value": "{dark.color.text.tertiary}",
               "type": "color"
+            },
+            "live": {
+              "value": "{colors.base.black}",
+              "type": "color"
             }
           },
           "background": {
             "default": {
               "value": "{colors.neutral.800}",
+              "type": "color"
+            },
+            "live": {
+              "value": "{colors.brand.gradient.100}",
               "type": "color"
             }
           }
@@ -1414,6 +1422,38 @@
             }
           }
         },
+        "propertyCard": {
+          "text": {
+            "default": {
+              "value": "{light.color.text.tertiary}",
+              "type": "color"
+            },
+            "highlight": {
+              "value": "{light.color.text.primary}",
+              "type": "color"
+            },
+            "arrow": {
+              "value": "{colors.neutral.500}",
+              "type": "color"
+            }
+          },
+          "background": {
+            "card": {
+              "value": "{colors.neutral.100}",
+              "type": "color"
+            },
+            "arrow": {
+              "value": "{colors.base.white}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "arrow": {
+              "value": "{colors.neutral.400}",
+              "type": "color"
+            }
+          }
+        },
         "radioButton": {
           "text": {
             "default": {
@@ -1493,11 +1533,19 @@
             "default": {
               "value": "{light.color.text.tertiary}",
               "type": "color"
+            },
+            "": {
+              "value": "{colors.base.black}",
+              "type": "color"
             }
           },
           "background": {
             "default": {
               "value": "{colors.neutral.50}",
+              "type": "color"
+            },
+            "live": {
+              "value": "{colors.brand.gradient.100}",
               "type": "color"
             }
           }
@@ -1973,6 +2021,30 @@
           "width": "{dimension.7}",
           "borderRadius": "{borderRadius.circle}",
           "borderWidth": "{borderWidth.1}"
+        },
+        "type": "composition"
+      },
+      "tags": {
+        "value": {
+          "horizontalPadding": "{spacing.3}",
+          "verticalPadding": "{spacing.3}",
+          "itemSpacing": "{spacing.3}"
+        },
+        "type": "composition"
+      },
+      "basicInfo": {
+        "value": {
+          "horizontalPadding": "{spacing.0}",
+          "verticalPadding": "{spacing.3}",
+          "itemSpacing": "{spacing.3}"
+        },
+        "type": "composition"
+      },
+      " advertiser": {
+        "value": {
+          "horizontalPadding": "{spacing.3}",
+          "verticalPadding": "{spacing.3}",
+          "itemSpacing": "{spacing.4}"
         },
         "type": "composition"
       }
