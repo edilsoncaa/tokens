@@ -2015,6 +2015,14 @@
         },
         "type": "composition"
       },
+      "description-small": {
+        "value": {
+          "verticalPadding": "{spacing.2}",
+          "horizontalPadding": "{spacing.2}",
+          "itemSpacing": "{spacing.1}"
+        },
+        "type": "composition"
+      },
       "arrow": {
         "value": {
           "height": "{dimension.7}",
