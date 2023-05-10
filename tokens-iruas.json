@@ -949,6 +949,18 @@
             "arrow": {
               "value": "{colors.neutral.500}",
               "type": "color"
+            },
+            "tagLove": {
+              "value": "{colors.green.600}",
+              "type": "color"
+            },
+            "tagLike": {
+              "value": "{colors.base.white}",
+              "type": "color"
+            },
+            "tagDislike": {
+              "value": "{colors.base.white}",
+              "type": "color"
             }
           },
           "background": {
@@ -959,11 +971,35 @@
             "arrow": {
               "value": "{colors.base.white}",
               "type": "color"
+            },
+            "love": {
+              "value": "rgb({colors.brand.primary.300}, {opacity.90})",
+              "type": "color"
+            },
+            "like": {
+              "value": "rgb({colors.green.400}, {opacity.90})",
+              "type": "color"
+            },
+            "dislike": {
+              "value": "rgb({colors.red.500}, {opacity.90})",
+              "type": "color"
             }
           },
           "border": {
             "arrow": {
               "value": "{colors.neutral.400}",
+              "type": "color"
+            },
+            "tagLove": {
+              "value": "{dark.color.propertyCard.text.tagLove}",
+              "type": "color"
+            },
+            "tagLike": {
+              "value": "{dark.color.propertyCard.text.tagLike}",
+              "type": "color"
+            },
+            "tagDislike": {
+              "value": "{dark.color.propertyCard.text.tagDislike}",
               "type": "color"
             }
           }
@@ -2040,6 +2076,16 @@
         },
         "type": "composition"
       },
+      "interaction": {
+        "value": {
+          "horizontalPadding": "{spacing.5}",
+          "verticalPadding": "{spacing.3}",
+          "itemSpacing": "{spacing.3}",
+          "borderRadius": "{borderRadius.3}",
+          "borderWidth": "{borderWidth.1}"
+        },
+        "type": "composition"
+      },
       "basicInfo": {
         "value": {
           "horizontalPadding": "{spacing.0}",
@@ -2072,6 +2118,24 @@
           "borderRadius": "{borderRadius.circle}",
           "height": "{dimension.5}+{dimension.2}",
           "width": "{dimension.5}+{dimension.2}"
+        },
+        "type": "composition"
+      }
+    }
+  },
+  "components/stories": {
+    "stories": {
+      "container": {
+        "value": {
+          "verticalPadding": "{spacing.2}",
+          "horizontalPadding": "{spacing.5}",
+          "itemSpacing": "{spacing.3}"
+        },
+        "type": "composition"
+      },
+      "story": {
+        "value": {
+          "itemSpacing": "{spacing.2}"
         },
         "type": "composition"
       }
@@ -2644,6 +2708,7 @@
       "components/navigation",
       "components/propertyCard",
       "components/radioButton",
+      "components/stories",
       "components/tab",
       "components/tag",
       "components/textarea",
