@@ -936,6 +936,38 @@
             }
           }
         },
+        "propertyCard": {
+          "text": {
+            "default": {
+              "value": "{dark.color.text.tertiary}",
+              "type": "color"
+            },
+            "highlight": {
+              "value": "{dark.color.text.primary}",
+              "type": "color"
+            },
+            "arrow": {
+              "value": "{colors.neutral.500}",
+              "type": "color"
+            }
+          },
+          "background": {
+            "card": {
+              "value": "{colors.neutral.800}",
+              "type": "color"
+            },
+            "arrow": {
+              "value": "{colors.base.white}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "arrow": {
+              "value": "{colors.neutral.400}",
+              "type": "color"
+            }
+          }
+        },
         "radioButton": {
           "text": {
             "default": {
@@ -1006,6 +1038,20 @@
             },
             "disabled": {
               "value": "{dark.color.tab.text.disabled}",
+              "type": "color"
+            }
+          }
+        },
+        "tag": {
+          "text": {
+            "default": {
+              "value": "{dark.color.text.tertiary}",
+              "type": "color"
+            }
+          },
+          "background": {
+            "default": {
+              "value": "{colors.neutral.800}",
               "type": "color"
             }
           }
@@ -1438,6 +1484,20 @@
             },
             "disabled": {
               "value": "{light.color.tab.text.disabled}",
+              "type": "color"
+            }
+          }
+        },
+        "tag": {
+          "text": {
+            "default": {
+              "value": "{light.color.text.tertiary}",
+              "type": "color"
+            }
+          },
+          "background": {
+            "default": {
+              "value": "{colors.neutral.50}",
               "type": "color"
             }
           }
@@ -1891,6 +1951,33 @@
       }
     }
   },
+  "components/propertyCard": {
+    "propertyCard": {
+      "container": {
+        "value": {
+          "borderRadius": "{borderRadius.3}"
+        },
+        "type": "composition"
+      },
+      "description": {
+        "value": {
+          "verticalPadding": "{spacing.3}",
+          "horizontalPadding": "{spacing.3}",
+          "itemSpacing": "{spacing.2}"
+        },
+        "type": "composition"
+      },
+      "arrow": {
+        "value": {
+          "height": "{dimension.7}",
+          "width": "{dimension.7}",
+          "borderRadius": "{borderRadius.circle}",
+          "borderWidth": "{borderWidth.1}"
+        },
+        "type": "composition"
+      }
+    }
+  },
   "components/radioButton": {
     "radioButton": {
       "container": {
@@ -1927,6 +2014,28 @@
           "horizontalPadding": "{spacing.5}",
           "itemSpacing": "{spacing.3}",
           "borderWidthBottom": "{borderWidth.2}"
+        },
+        "type": "composition"
+      }
+    }
+  },
+  "components/tag": {
+    "tag": {
+      "sm": {
+        "value": {
+          "verticalPadding": "{spacing.2}",
+          "horizontalPadding": "{spacing.3}",
+          "itemSpacing": "{spacing.2}",
+          "borderRadius": "{borderRadius.2}"
+        },
+        "type": "composition"
+      },
+      "md": {
+        "value": {
+          "verticalPadding": "{spacing.3}",
+          "horizontalPadding": "{spacing.4}",
+          "itemSpacing": "{spacing.3}",
+          "borderRadius": "{borderRadius.2}"
         },
         "type": "composition"
       }
@@ -2453,8 +2562,10 @@
       "components/list",
       "components/modal",
       "components/navigation",
+      "components/propertyCard",
       "components/radioButton",
       "components/tab",
+      "components/tag",
       "components/textarea",
       "components/typography"
     ]
