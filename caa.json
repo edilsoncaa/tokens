@@ -65,7 +65,7 @@
           "type": "color"
         }
       },
-      "red": {
+      "error": {
         "25": {
           "value": "#FEF2F2",
           "type": "color"
@@ -111,7 +111,7 @@
           "type": "color"
         }
       },
-      "yellow": {
+      "warning": {
         "25": {
           "value": "#FFFBEB",
           "type": "color"
@@ -157,7 +157,7 @@
           "type": "color"
         }
       },
-      "green": {
+      "success": {
         "25": {
           "value": "#EEFBF4",
           "type": "color"
@@ -203,7 +203,7 @@
           "type": "color"
         }
       },
-      "blue": {
+      "information": {
         "25": {
           "value": "#EEF8FF",
           "type": "color"
@@ -251,36 +251,48 @@
       },
       "brand": {
         "primary": {
+          "25": {
+            "value": "#FDF3F3",
+            "type": "color"
+          },
           "50": {
-            "value": "#ECFEC5",
+            "value": "#FBE6E5",
             "type": "color"
           },
           "100": {
-            "value": "#E0FEA3",
+            "value": "#F8D1D0",
             "type": "color"
           },
           "200": {
-            "value": "#D5FD82",
+            "value": "#F1B2B0",
             "type": "color"
           },
           "300": {
-            "value": "#CAFD60",
+            "value": "#E78582",
             "type": "color"
           },
           "400": {
-            "value": "#B4FC1D",
+            "value": "#DA5D59",
             "type": "color"
           },
           "500": {
-            "value": "#8FD203",
+            "value": "#C84945",
             "type": "color"
           },
           "600": {
-            "value": "#78B102",
+            "value": "#A6332F",
             "type": "color"
           },
           "700": {
-            "value": "#618F02",
+            "value": "#892E2B",
+            "type": "color"
+          },
+          "800": {
+            "value": "#732B29",
+            "type": "color"
+          },
+          "900": {
+            "value": "#3E1211",
             "type": "color"
           }
         },
@@ -683,10 +695,31 @@
       }
     }
   },
+  "theme/dark": {},
+  "theme/light": {},
+  "component/header": {
+    "header": {
+      "container": {
+        "value": {
+          "borderWidthBottom": "{borderWidth.1}"
+        },
+        "type": "composition"
+      },
+      " navigation": {
+        "value": {
+          "itemSpacing": "{dimension.4}"
+        },
+        "type": "composition"
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "core"
+      "core",
+      "theme/dark",
+      "theme/light",
+      "component/header"
     ]
   }
 }
