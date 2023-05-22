@@ -1272,9 +1272,19 @@
     },
     "light": {
       "header": {
+        "text": {
+          "default": {
+            "value": "{light.global.text.tertiary}",
+            "type": "color"
+          }
+        },
         "background": {
           "container": {
             "value": "{light.global.background.primary}",
+            "type": "color"
+          },
+          "unread": {
+            "value": "{color.warning.400}",
             "type": "color"
           }
         },
@@ -1287,7 +1297,7 @@
         "navigation": {
           "text": {
             "default": {
-              "value": "{color.neutral.400}",
+              "value": "{light.global.text.tertiary}",
               "type": "color"
             },
             "hover": {
@@ -1311,6 +1321,74 @@
             "active": {
               "value": "{light.header.navigation.text.active}",
               "type": "color"
+            }
+          }
+        }
+      }
+    }
+  },
+  "component/sideBar": {
+    "sideBar": {
+      "container": {
+        "value": {
+          "borderWidthRight": "{borderWidth.1}",
+          "verticalPadding": "{spacing.3}",
+          "horizontalPadding": "{spacing.3}"
+        },
+        "type": "composition"
+      },
+      "navigation": {
+        "value": {
+          "itemSpacing": "{spacing.5}"
+        },
+        "type": "composition"
+      },
+      "navigationItem": {
+        "value": {
+          "height": "{dimension.7}+{dimension.1}",
+          "width": "{dimension.7}+{dimension.1}"
+        },
+        "type": "composition"
+      },
+      "navigationIcon": {
+        "value": {
+          "height": "{dimension.6}+{dimension.1}",
+          "width": "{dimension.6}+{dimension.1}"
+        },
+        "type": "composition"
+      }
+    },
+    "light": {
+      "sideBar": {
+        "background": {
+          "container": {
+            "value": "{light.global.background.primary}",
+            "type": "color"
+          }
+        },
+        "border": {
+          "container": {
+            "value": "{color.neutral.50}",
+            "type": "color"
+          }
+        },
+        "navigation": {
+          "item": {
+            "text": {
+              "default": {
+                "value": "{color.neutral.300}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{light.global.text.secondary}",
+                "type": "color"
+              }
+            },
+            "background": {
+              "default": {
+                "value": "{light.global.background.primary}",
+                "type": "color"
+              }
             }
           }
         }
@@ -1789,6 +1867,7 @@
       "theme/light",
       "component/button",
       "component/header",
+      "component/sideBar",
       "component/typography"
     ]
   }
