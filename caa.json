@@ -1567,19 +1567,19 @@
         "outlined": {
           "text": {
             "default": {
-              "value": "{color.brand.primary.300}",
+              "value": "{color.brand.primary.500}",
               "type": "color"
             },
             "hover": {
-              "value": "{color.brand.primary.200}",
+              "value": "{light.button.outlined.text.default}",
               "type": "color"
             },
             "pressed": {
-              "value": "{color.brand.primary.600}",
+              "value": "{color.brand.primary.300}",
               "type": "color"
             },
             "disabled": {
-              "value": "{color.neutral.600}",
+              "value": "{color.neutral.200}",
               "type": "color"
             }
           },
@@ -1597,7 +1597,7 @@
               "type": "color"
             },
             "disabled": {
-              "value": "{color.neutral.900}",
+              "value": "{color.neutral.100}",
               "type": "color"
             }
           },
@@ -1887,7 +1887,7 @@
           },
           "border": {
             "default": {
-              "value": "{color.brand.primary.300}",
+              "value": "rgba({color.brand.primary.400}, {opacity.0})",
               "type": "color"
             },
             "hover": {
