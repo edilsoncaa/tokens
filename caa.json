@@ -763,6 +763,32 @@
           "type": "paragraphSpacing"
         }
       }
+    },
+    "lightShadow": {
+      "xs": {
+        "value": {
+          "x": "0",
+          "y": "6",
+          "blur": "6",
+          "spread": "0",
+          "color": "rgba({color.neutral.200}, {opacity.20})",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      }
+    },
+    "darkShadow": {
+      "xs": {
+        "value": {
+          "x": "0",
+          "y": "6",
+          "blur": "6",
+          "spread": "0",
+          "color": "rgba({color.neutral.800}, {opacity.20})",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      }
     }
   },
   "theme/dark": {
@@ -2089,32 +2115,6 @@
             }
           }
         }
-      }
-    },
-    "lightBoxShadow": {
-      "dropdown": {
-        "value": {
-          "x": "0",
-          "y": "6",
-          "blur": "6",
-          "spread": "0",
-          "color": "rgba({color.neutral.200}, {opacity.20})",
-          "type": "dropShadow"
-        },
-        "type": "boxShadow"
-      }
-    },
-    "darkBoxShadow": {
-      "dropdown": {
-        "value": {
-          "x": "0",
-          "y": "6",
-          "blur": "6",
-          "spread": "0",
-          "color": "rgba({color.neutral.800}, {opacity.20})",
-          "type": "dropShadow"
-        },
-        "type": "boxShadow"
       }
     }
   },
