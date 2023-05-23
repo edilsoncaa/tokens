@@ -1739,7 +1739,7 @@
         "tonal": {
           "text": {
             "default": {
-              "value": "{color.brand.primary.500}",
+              "value": "{color.brand.primary.300}",
               "type": "color"
             },
             "hover": {
@@ -1747,29 +1747,29 @@
               "type": "color"
             },
             "pressed": {
-              "value": "{color.brand.primary.300}",
+              "value": "{color.brand.primary.600}",
               "type": "color"
             },
             "disabled": {
-              "value": "{color.neutral.200}",
+              "value": "{color.neutral.600}",
               "type": "color"
             }
           },
           "background": {
             "default": {
-              "value": "{color.brand.primary.50}",
+              "value": "{color.brand.primary.700}",
               "type": "color"
             },
             "hover": {
-              "value": "{color.brand.primary.100}",
+              "value": "{color.brand.primary.800}",
               "type": "color"
             },
             "pressed": {
-              "value": "{color.brand.primary.200}",
+              "value": "{color.brand.primary.900}",
               "type": "color"
             },
             "disabled": {
-              "value": "{color.neutral.100}",
+              "value": "{color.neutral.900}",
               "type": "color"
             }
           },
