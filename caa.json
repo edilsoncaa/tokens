@@ -2195,7 +2195,7 @@
         },
         "border": {
           "container": {
-            "value": "{color.neutral.50}",
+            "value": "{color.neutral.800}",
             "type": "color"
           }
         },
