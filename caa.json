@@ -2068,43 +2068,58 @@
         "menuDropdown": {
           "text": {
             "default": {
-              "value": "{light.global.text.primary}",
+              "value": "{dark.global.text.primary}",
               "type": "color"
             },
             "secondary": {
-              "value": "{light.global.text.tertiary}",
+              "value": "{dark.global.text.secondary}",
               "type": "color"
             }
           },
           "border": {
             "division": {
-              "value": "{color.neutral.50}",
+              "value": "{color.neutral.900}",
               "type": "color"
             }
           },
           "background": {
             "default": {
-              "value": "{color.base.white}",
+              "value": "{color.base.black}",
               "type": "color"
             }
           }
         }
       }
     },
-    "dropdown": {
-      "value": {
-        "x": "0",
-        "y": "6",
-        "blur": "6",
-        "spread": "0",
-        "color": "rgba({color.neutral.200}, {opacity.20})",
-        "type": "dropShadow"
-      },
-      "type": "boxShadow"
+    "lightBoxShadow": {
+      "dropdown": {
+        "value": {
+          "x": "0",
+          "y": "6",
+          "blur": "6",
+          "spread": "0",
+          "color": "rgba({color.neutral.200}, {opacity.20})",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      }
+    },
+    "darkBoxShadow": {
+      "dropdown": {
+        "value": {
+          "x": "0",
+          "y": "6",
+          "blur": "6",
+          "spread": "0",
+          "color": "rgba({color.neutral.800}, {opacity.20})",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      }
     }
   },
-  "component/sideBar": {
-    "sideBar": {
+  "component/sidebar": {
+    "sidebar": {
       "container": {
         "value": {
           "borderWidthRight": "{borderWidth.1}",
@@ -2135,7 +2150,7 @@
       }
     },
     "light": {
-      "sideBar": {
+      "sidebar": {
         "background": {
           "container": {
             "value": "{light.global.background.primary}",
@@ -2163,6 +2178,42 @@
             "background": {
               "default": {
                 "value": "{light.global.background.primary}",
+                "type": "color"
+              }
+            }
+          }
+        }
+      }
+    },
+    "dark": {
+      "sidebar": {
+        "background": {
+          "container": {
+            "value": "{dark.global.background.primary}",
+            "type": "color"
+          }
+        },
+        "border": {
+          "container": {
+            "value": "{color.neutral.50}",
+            "type": "color"
+          }
+        },
+        "navigation": {
+          "item": {
+            "text": {
+              "default": {
+                "value": "{color.neutral.300}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{dark.global.text.secondary}",
+                "type": "color"
+              }
+            },
+            "background": {
+              "default": {
+                "value": "{dark.global.background.primary}",
                 "type": "color"
               }
             }
@@ -2644,7 +2695,7 @@
       "component/avatar",
       "component/button",
       "component/header",
-      "component/sideBar",
+      "component/sidebar",
       "component/typography"
     ]
   }
