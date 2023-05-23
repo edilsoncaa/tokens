@@ -1162,7 +1162,7 @@
       "avatar": {
         "text": {
           "user": {
-            "value": "{color.neutral.500}",
+            "value": "{color.neutral.400}",
             "type": "color"
           },
           "button": {
@@ -1176,7 +1176,7 @@
         },
         "background": {
           "user": {
-            "value": "{color.neutral.200}",
+            "value": "{color.neutral.100}",
             "type": "color"
           },
           "statusOnline": {
@@ -1220,11 +1220,11 @@
       "avatar": {
         "text": {
           "user": {
-            "value": "{color.gray.300}",
+            "value": "{color.neutral.100}",
             "type": "color"
           },
           "button": {
-            "value": "{dark.button.filled.text.default}",
+            "value": "{dark.button.primary.text.default}",
             "type": "color"
           },
           "tag": {
@@ -1234,19 +1234,19 @@
         },
         "background": {
           "user": {
-            "value": "{color.gray.600}",
+            "value": "{color.neutral.500}",
             "type": "color"
           },
           "statusOnline": {
-            "value": "{color.green.500}",
+            "value": "{color.success.300}",
             "type": "color"
           },
           "statusOffline": {
-            "value": "{color.gray.400}",
+            "value": "{color.neutral.300}",
             "type": "color"
           },
           "statusBusy": {
-            "value": "{color.red.500}",
+            "value": "{color.error.400}",
             "type": "color"
           },
           "live": {
@@ -1254,7 +1254,7 @@
             "type": "color"
           },
           "button": {
-            "value": "{dark.button.filled.background.default}",
+            "value": "{dark.button.primary.background.default}",
             "type": "color"
           }
         },
