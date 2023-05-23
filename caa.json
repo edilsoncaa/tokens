@@ -777,7 +777,7 @@
             "value": "{color.neutral.200}",
             "type": "color"
           },
-          " tertiary": {
+          "tertiary": {
             "value": "{color.neutral.400}",
             "type": "color"
           }
@@ -1981,6 +1981,86 @@
             },
             "active": {
               "value": "{light.header.navigation.text.active}",
+              "type": "color"
+            }
+          }
+        },
+        "menuDropdown": {
+          "text": {
+            "default": {
+              "value": "{light.global.text.primary}",
+              "type": "color"
+            },
+            "secondary": {
+              "value": "{light.global.text.tertiary}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "division": {
+              "value": "{color.neutral.50}",
+              "type": "color"
+            }
+          },
+          "background": {
+            "default": {
+              "value": "{color.base.white}",
+              "type": "color"
+            }
+          }
+        }
+      }
+    },
+    "dark": {
+      "header": {
+        "text": {
+          "default": {
+            "value": "{dark.global.text.secondary}",
+            "type": "color"
+          }
+        },
+        "background": {
+          "container": {
+            "value": "{dark.global.background.primary}",
+            "type": "color"
+          },
+          "unread": {
+            "value": "{color.warning.400}",
+            "type": "color"
+          }
+        },
+        "border": {
+          "container": {
+            "value": "{color.neutral.800}",
+            "type": "color"
+          }
+        },
+        "navigation": {
+          "text": {
+            "default": {
+              "value": "{dark.global.text.secondary}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{color.brand.primary.300}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{color.brand.primary.300}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "default": {
+              "value": "rgba({light.header.navigation.text.default}, {opacity.0})",
+              "type": "color"
+            },
+            "hover": {
+              "value": "rgba({light.header.navigation.text.default}, {opacity.0})",
+              "type": "color"
+            },
+            "active": {
+              "value": "{dark.header.navigation.text.active}",
               "type": "color"
             }
           }
