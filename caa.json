@@ -2171,12 +2171,6 @@
           },
           "type": "composition"
         },
-        "navigation": {
-          "value": {
-            "itemSpacing": "{spacing.3}"
-          },
-          "type": "composition"
-        },
         "menuDropdown": {
           "value": {
             "borderRadius": "{borderRadius.3}",
@@ -2199,12 +2193,6 @@
           "value": {
             "width": "136px",
             "height": "14px"
-          },
-          "type": "composition"
-        },
-        "navigation": {
-          "value": {
-            "itemSpacing": "{spacing.3}"
           },
           "type": "composition"
         },
@@ -2239,36 +2227,6 @@
           "container": {
             "value": "{color.neutral.50}",
             "type": "color"
-          }
-        },
-        "navigation": {
-          "text": {
-            "default": {
-              "value": "{light.global.text.tertiary}",
-              "type": "color"
-            },
-            "hover": {
-              "value": "{color.brand.primary.500}",
-              "type": "color"
-            },
-            "active": {
-              "value": "{color.brand.primary.500}",
-              "type": "color"
-            }
-          },
-          "border": {
-            "default": {
-              "value": "rgba({light.header.navigation.text.default}, {opacity.0})",
-              "type": "color"
-            },
-            "hover": {
-              "value": "rgba({light.header.navigation.text.default}, {opacity.0})",
-              "type": "color"
-            },
-            "active": {
-              "value": "{light.header.navigation.text.active}",
-              "type": "color"
-            }
           }
         },
         "menuDropdown": {
@@ -2319,36 +2277,6 @@
           "container": {
             "value": "{color.neutral.800}",
             "type": "color"
-          }
-        },
-        "navigation": {
-          "text": {
-            "default": {
-              "value": "{dark.global.text.secondary}",
-              "type": "color"
-            },
-            "hover": {
-              "value": "{color.brand.primary.300}",
-              "type": "color"
-            },
-            "active": {
-              "value": "{color.brand.primary.300}",
-              "type": "color"
-            }
-          },
-          "border": {
-            "default": {
-              "value": "rgba({light.header.navigation.text.default}, {opacity.0})",
-              "type": "color"
-            },
-            "hover": {
-              "value": "rgba({light.header.navigation.text.default}, {opacity.0})",
-              "type": "color"
-            },
-            "active": {
-              "value": "{dark.header.navigation.text.active}",
-              "type": "color"
-            }
           }
         },
         "menuDropdown": {
@@ -2946,6 +2874,134 @@
       }
     }
   },
+  "component/navigation": {
+    "navigation": {
+      "desktop": {
+        "container": {
+          "value": {
+            "itemSpacing": "{spacing.3}"
+          },
+          "type": "composition"
+        },
+        "item": {
+          "value": {
+            "itemSpacing": "{spacing.4}",
+            "borderWidthBottom": "{borderWidth.2}",
+            "paddingTop": "{spacing.0}",
+            "paddingBottom": "{spacing.4}"
+          },
+          "type": "composition"
+        },
+        "itemLabel": {
+          "value": {
+            "itemSpacing": "{spacing.1}"
+          },
+          "type": "composition"
+        },
+        "itemIcon": {
+          "value": {
+            "height": "{dimension.5}+{dimension.2}",
+            "width": "{dimension.5}+{dimension.2}"
+          },
+          "type": "composition"
+        }
+      },
+      "mobile": {
+        "container": {
+          "value": {
+            "itemSpacing": "{spacing.3}"
+          },
+          "type": "composition"
+        },
+        "item": {
+          "value": {
+            "itemSpacing": "{spacing.4}",
+            "borderWidthBottom": "{borderWidth.2}",
+            "paddingTop": "{spacing.0}",
+            "paddingBottom": "{spacing.4}"
+          },
+          "type": "composition"
+        },
+        "itemLabel": {
+          "value": {
+            "itemSpacing": "{spacing.1}"
+          },
+          "type": "composition"
+        },
+        "itemIcon": {
+          "value": {
+            "height": "{dimension.5}+{dimension.2}",
+            "width": "{dimension.5}+{dimension.2}"
+          },
+          "type": "composition"
+        }
+      }
+    },
+    "light": {
+      "navigation": {
+        "text": {
+          "default": {
+            "value": "{light.global.text.tertiary}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{color.brand.primary.500}",
+            "type": "color"
+          },
+          "active": {
+            "value": "{light.navigation.text.hover}",
+            "type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "rgba({light.navigation.text.default}, {opacity.0})",
+            "type": "color"
+          },
+          "hover": {
+            "value": "rgba({light.navigation.text.hover}, {opacity.0})",
+            "type": "color"
+          },
+          "hover-copy": {
+            "value": "{light.navigation.text.active}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "dark": {
+      "navigation": {
+        "text": {
+          "default": {
+            "value": "{dark.global.text.secondary}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{color.brand.primary.300}",
+            "type": "color"
+          },
+          "active": {
+            "value": "{dark.navigation.text.hover}",
+            "type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "rgba({dark.navigation.text.default}, {opacity.0})",
+            "type": "color"
+          },
+          "hover": {
+            "value": "rgba({dark.navigation.text.hover}, {opacity.0})",
+            "type": "color"
+          },
+          "hover-copy": {
+            "value": "{dark.navigation.text.active}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
@@ -2956,7 +3012,8 @@
       "component/button",
       "component/header",
       "component/sidebar",
-      "component/typography"
+      "component/typography",
+      "component/navigation"
     ]
   }
 }
