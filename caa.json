@@ -2177,6 +2177,13 @@
             "itemSpacing": "{spacing.0}"
           },
           "type": "composition"
+        },
+        "icon": {
+          "value": {
+            "height": "{dimension.6}",
+            "width": "{dimension.6}"
+          },
+          "type": "composition"
         }
       },
       "mobile": {
@@ -2191,8 +2198,8 @@
         },
         "logo": {
           "value": {
-            "width": "136px",
-            "height": "14px"
+            "width": "171px",
+            "height": "18px"
           },
           "type": "composition"
         },
@@ -2200,6 +2207,13 @@
           "value": {
             "borderRadius": "{borderRadius.3}",
             "itemSpacing": "{spacing.0}"
+          },
+          "type": "composition"
+        },
+        "icon": {
+          "value": {
+            "height": "{dimension.6}",
+            "width": "{dimension.6}"
           },
           "type": "composition"
         }
