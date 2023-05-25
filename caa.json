@@ -2228,30 +2228,6 @@
             "value": "{color.neutral.50}",
             "type": "color"
           }
-        },
-        "menuDropdown": {
-          "text": {
-            "default": {
-              "value": "{light.global.text.primary}",
-              "type": "color"
-            },
-            "secondary": {
-              "value": "{light.global.text.tertiary}",
-              "type": "color"
-            }
-          },
-          "border": {
-            "division": {
-              "value": "{color.neutral.50}",
-              "type": "color"
-            }
-          },
-          "background": {
-            "default": {
-              "value": "{color.base.white}",
-              "type": "color"
-            }
-          }
         }
       }
     },
@@ -2277,30 +2253,6 @@
           "container": {
             "value": "{color.neutral.800}",
             "type": "color"
-          }
-        },
-        "menuDropdown": {
-          "text": {
-            "default": {
-              "value": "{dark.global.text.primary}",
-              "type": "color"
-            },
-            "secondary": {
-              "value": "{dark.global.text.secondary}",
-              "type": "color"
-            }
-          },
-          "border": {
-            "division": {
-              "value": "{color.neutral.900}",
-              "type": "color"
-            }
-          },
-          "background": {
-            "default": {
-              "value": "{color.base.black}",
-              "type": "color"
-            }
           }
         }
       }
@@ -2879,7 +2831,8 @@
       "desktop": {
         "container": {
           "value": {
-            "itemSpacing": "{spacing.3}"
+            "itemSpacing": "{spacing.3}",
+            "paddingTop": "{spacing.4}"
           },
           "type": "composition"
         },
@@ -2894,7 +2847,9 @@
         },
         "itemLabel": {
           "value": {
-            "itemSpacing": "{spacing.1}"
+            "itemSpacing": "{spacing.1}",
+            "verticalPadding": "{spacing.0}",
+            "horizontalPadding": "{spacing.3}"
           },
           "type": "composition"
         },
@@ -2909,7 +2864,7 @@
       "mobile": {
         "container": {
           "value": {
-            "itemSpacing": "{spacing.3}"
+            "itemSpacing": "{spacing.2}"
           },
           "type": "composition"
         },
@@ -2924,7 +2879,9 @@
         },
         "itemLabel": {
           "value": {
-            "itemSpacing": "{spacing.1}"
+            "itemSpacing": "{spacing.3}",
+            "verticalPadding": "{spacing.0}",
+            "horizontalPadding": "{spacing.0}"
           },
           "type": "composition"
         },
