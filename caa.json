@@ -2272,6 +2272,15 @@
       }
     }
   },
+  "component/link": {
+    "link": {
+      "value": {
+        "itemSpacing": "{spacing.1}",
+        "borderWidthBottom": "{borderWidth.1}"
+      },
+      "type": "composition"
+    }
+  },
   "component/sidebar": {
     "sidebar": {
       "container": {
@@ -2845,8 +2854,7 @@
       "desktop": {
         "container": {
           "value": {
-            "itemSpacing": "{spacing.3}",
-            "paddingTop": "{spacing.4}"
+            "itemSpacing": "{spacing.3}"
           },
           "type": "composition"
         },
@@ -2855,7 +2863,7 @@
             "itemSpacing": "{spacing.4}",
             "borderWidthBottom": "{borderWidth.2}",
             "paddingTop": "{spacing.0}",
-            "paddingBottom": "{spacing.4}"
+            "paddingBottom": "{spacing.5}"
           },
           "type": "composition"
         },
@@ -2878,7 +2886,9 @@
       "mobile": {
         "container": {
           "value": {
-            "itemSpacing": "{spacing.2}"
+            "itemSpacing": "{spacing.3}",
+            "horizontalPadding": "{spacing.4}",
+            "verticalPadding": "{spacing.0}"
           },
           "type": "composition"
         },
@@ -2982,6 +2992,7 @@
       "component/avatar",
       "component/button",
       "component/header",
+      "component/link",
       "component/sidebar",
       "component/typography",
       "component/navigation"
