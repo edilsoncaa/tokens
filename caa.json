@@ -2190,9 +2190,8 @@
         "container": {
           "value": {
             "borderWidthBottom": "{borderWidth.1}",
-            "verticalPadding": "{spacing.0}",
-            "horizontalPadding": "{spacing.5}",
-            "height": "{dimension.8}"
+            "verticalPadding": "{spacing.3}",
+            "horizontalPadding": "{spacing.5}"
           },
           "type": "composition"
         },
@@ -2286,7 +2285,7 @@
       "container": {
         "value": {
           "borderWidthRight": "{borderWidth.1}",
-          "verticalPadding": "{spacing.3}",
+          "verticalPadding": "{spacing.4}",
           "horizontalPadding": "{spacing.3}"
         },
         "type": "composition"
@@ -2863,7 +2862,8 @@
             "itemSpacing": "{spacing.4}",
             "borderWidthBottom": "{borderWidth.2}",
             "paddingTop": "{spacing.0}",
-            "paddingBottom": "{spacing.5}"
+            "paddingBottom": "{spacing.5}",
+            "horizontalPadding": "{spacing.0}"
           },
           "type": "composition"
         },
@@ -2887,7 +2887,7 @@
         "container": {
           "value": {
             "itemSpacing": "{spacing.3}",
-            "horizontalPadding": "{spacing.4}",
+            "horizontalPadding": "{spacing.5}",
             "verticalPadding": "{spacing.0}"
           },
           "type": "composition"
@@ -2896,14 +2896,15 @@
           "value": {
             "itemSpacing": "{spacing.4}",
             "borderWidthBottom": "{borderWidth.2}",
-            "paddingTop": "{spacing.0}",
-            "paddingBottom": "{spacing.4}"
+            "paddingTop": "{spacing.4}",
+            "paddingBottom": "{spacing.6}",
+            "horizontalPadding": "{spacing.0}"
           },
           "type": "composition"
         },
         "itemLabel": {
           "value": {
-            "itemSpacing": "{spacing.3}",
+            "itemSpacing": "{spacing.0}",
             "verticalPadding": "{spacing.0}",
             "horizontalPadding": "{spacing.0}"
           },
@@ -2947,6 +2948,12 @@
             "value": "{light.navigation.text.active}",
             "type": "color"
           }
+        },
+        "background": {
+          "container": {
+            "value": "{light.header.background.container}",
+            "type": "color"
+          }
         }
       }
     },
@@ -2977,6 +2984,12 @@
           },
           "hover-copy": {
             "value": "{dark.navigation.text.active}",
+            "type": "color"
+          }
+        },
+        "background": {
+          "container": {
+            "value": "{dark.header.background.container}",
             "type": "color"
           }
         }
