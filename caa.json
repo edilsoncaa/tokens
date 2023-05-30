@@ -2292,7 +2292,9 @@
       },
       "features": {
         "value": {
-          "itemSpacing": "{spacing.5}"
+          "itemSpacing": "{spacing.5}",
+          "verticalPadding": "{spacing.5}",
+          "horizontalPadding": "{spacing.2}"
         },
         "type": "composition"
       },
@@ -2409,6 +2411,12 @@
                 "type": "color"
               }
             }
+          }
+        },
+        "background": {
+          "container": {
+            "value": "{light.global.background.primary}",
+            "type": "color"
           }
         }
       }
