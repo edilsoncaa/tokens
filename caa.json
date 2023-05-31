@@ -2300,7 +2300,7 @@
           },
           "type": "composition"
         },
-        "containerItems": {
+        "items": {
           "value": {
             "itemSpacing": "{spacing.5}"
           },
