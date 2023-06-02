@@ -2306,6 +2306,13 @@
           },
           "type": "composition"
         },
+        "avatar": {
+          "value": {
+            "horizontalPadding": "{spacing.0}",
+            "verticalPadding": "{spacing.4}"
+          },
+          "type": "composition"
+        },
         "item": {
           "value": {
             "itemSpacing": "{spacing.0}",
@@ -2314,10 +2321,17 @@
           },
           "type": "composition"
         },
+        "containerIcon": {
+          "value": {
+            "width": "{dimension.7} + {dimension.1}",
+            "height": "{dimension.7} + {dimension.1}"
+          },
+          "type": "composition"
+        },
         "icon": {
           "value": {
-            "height": "34px",
-            "width": "34px"
+            "height": "{dimension.6}",
+            "width": "{dimension.6}"
           },
           "type": "composition"
         },
@@ -2360,7 +2374,7 @@
       "mobile": {
         "container": {
           "value": {
-            "itemSpacing": "{spacing.0}"
+            "itemSpacing": "{spacing.5}"
           },
           "type": "composition"
         },
@@ -2377,10 +2391,17 @@
           },
           "type": "composition"
         },
+        "containerIcon": {
+          "value": {
+            "width": "{dimension.7} + {dimension.1}",
+            "height": "{dimension.7} + {dimension.1}"
+          },
+          "type": "composition"
+        },
         "icon": {
           "value": {
-            "height": "34px",
-            "width": "34px"
+            "height": "{dimension.6}",
+            "width": "{dimension.6}"
           },
           "type": "composition"
         },
@@ -2414,6 +2435,27 @@
             "itemSpacing": "{spacing.3}"
           },
           "type": "composition"
+        },
+        "cover": {
+          "background": {
+            "value": {
+              "height": "160px",
+              "width": "290px"
+            },
+            "type": "composition"
+          },
+          "content": {
+            "value": {
+              "itemSpacing": "{spacing.5}"
+            },
+            "type": "composition"
+          },
+          "description": {
+            "value": {
+              "itemSpacing": "{spacing.3}"
+            },
+            "type": "composition"
+          }
         }
       }
     },
@@ -2427,6 +2469,14 @@
           "boxItem": {
             "value": "{light.global.background.primary}",
             "type": "color"
+          },
+          "cover": {
+            "value": "{color.brand.gradient.100}",
+            "type": "color"
+          },
+          "mobile": {
+            "value": "{color.base.white}",
+            "type": "color"
           }
         },
         "text": {
@@ -2436,6 +2486,10 @@
           },
           "subItems": {
             "value": "{light.global.text.tertiary}",
+            "type": "color"
+          },
+          "user": {
+            "value": "{color.base.white}",
             "type": "color"
           }
         }
