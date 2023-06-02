@@ -7,7 +7,7 @@
           "type": "color"
         },
         "light": {
-          "value": "#F4F6F7",
+          "value": "#F9FAFC",
           "type": "color"
         },
         "black": {
@@ -2335,7 +2335,8 @@
         },
         "label": {
           "value": {
-            "height": "34px"
+            "height": "34px",
+            "itemSpacing": "{spacing.3}"
           },
           "type": "composition"
         },
@@ -2348,7 +2349,10 @@
         },
         "subItems": {
           "value": {
-            "itemSpacing": "{spacing.3}"
+            "itemSpacing": "{spacing.3}",
+            "horizontalPadding": "{spacing.0}",
+            "paddingTop": "{spacing.0}",
+            "paddingBottom": "{spacing.3}"
           },
           "type": "composition"
         }
@@ -2411,28 +2415,28 @@
           },
           "type": "composition"
         }
-      },
-      "light": {
-        "sidebar": {
-          "background": {
-            "items": {
-              "value": "{light.global.background.primary}",
-              "type": "color"
-            },
-            "boxItem": {
-              "value": "{light.global.background.primary}",
-              "type": "color"
-            }
+      }
+    },
+    "light": {
+      "sidebar": {
+        "background": {
+          "items": {
+            "value": "{light.global.background.primary}",
+            "type": "color"
           },
-          "text": {
-            "default": {
-              "value": "{light.global.text.tertiary}",
-              "type": "color"
-            },
-            "subItems": {
-              "value": "{light.global.text.tertiary}",
-              "type": "color"
-            }
+          "boxItem": {
+            "value": "{light.global.background.primary}",
+            "type": "color"
+          }
+        },
+        "text": {
+          "default": {
+            "value": "{light.global.text.secondary}",
+            "type": "color"
+          },
+          "subItems": {
+            "value": "{light.global.text.tertiary}",
+            "type": "color"
           }
         }
       }
