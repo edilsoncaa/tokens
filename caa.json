@@ -2353,6 +2353,36 @@
             "value": "{color.neutral.800}",
             "type": "color"
           }
+        },
+        "dropdown": {
+          "text": {
+            "default": {
+              "value": "{dark.global.text.primary}",
+              "type": "color"
+            },
+            "link": {
+              "default": {
+                "value": "{dark.global.text.secondary}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{dark.global.text.primary}",
+                "type": "color"
+              }
+            }
+          },
+          "background": {
+            "container": {
+              "value": "{dark.global.background.primary}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "head": {
+              "value": "{dark.global.border.primary}",
+              "type": "color"
+            }
+          }
         }
       }
     }
