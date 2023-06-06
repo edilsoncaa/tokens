@@ -2164,6 +2164,29 @@
       }
     }
   },
+  "component/footer": {
+    "footer": {
+      "close": {
+        "container": {
+          "value": {
+            "verticalPadding": "{spacing.4}",
+            "horizontalPadding": "{spacing.5}",
+            "borderRadiusTopLeft": "{borderRadius.4}",
+            "borderRadiusTopRight": "{borderRadius.4}",
+            "borderRadiusBottomRight": "{borderRadius.0}",
+            "borderRadiusBottomLeft": "{borderRadius.0}"
+          },
+          "type": "composition"
+        },
+        "left": {
+          "value": {
+            "itemSpacing": "{spacing.8}"
+          },
+          "type": "composition"
+        }
+      }
+    }
+  },
   "component/header": {
     "header": {
       "desktop": {
@@ -3213,6 +3236,7 @@
       "theme/light",
       "component/avatar",
       "component/button",
+      "component/footer",
       "component/header",
       "component/link",
       "component/navigation",
