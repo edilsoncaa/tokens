@@ -2260,13 +2260,6 @@
             "width": "{dimension.6}"
           },
           "type": "composition"
-        },
-        "menuDropdown": {
-          "value": {
-            "borderRadius": "{borderRadius.3}",
-            "itemSpacing": "{spacing.0}"
-          },
-          "type": "composition"
         }
       }
     },
@@ -2390,10 +2383,7 @@
   "component/link": {
     "link": {
       "value": {
-        "borderWidthBottom": "{borderWidth.1}",
-        "paddingTop": "{spacing.0}",
-        "paddingBottom": "{spacing.2}",
-        "horizontalPadding": "{spacing.0}"
+        "itemSpacing": "{spacing.2}"
       },
       "type": "composition"
     }
