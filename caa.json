@@ -334,7 +334,7 @@
             "type": "color"
           },
           "800": {
-            "value": "#4A4068",
+            "value": "#413660",
             "type": "color"
           },
           "900": {
@@ -2182,19 +2182,60 @@
           },
           "type": "composition"
         },
-        "menuDropdown": {
-          "value": {
-            "borderRadius": "{borderRadius.3}",
-            "itemSpacing": "{spacing.0}"
-          },
-          "type": "composition"
-        },
         "icon": {
           "value": {
             "height": "{dimension.6}",
             "width": "{dimension.6}"
           },
           "type": "composition"
+        },
+        "dropdown": {
+          "container": {
+            "value": {
+              "itemSpacing": "{spacing.0}",
+              "borderRadius": "{borderRadius.3}"
+            },
+            "type": "composition"
+          },
+          "head": {
+            "value": {
+              "itemSpacing": "{spacing.3}",
+              "verticalPadding": "{spacing.5}",
+              "horizontalPadding": "{spacing.5}",
+              "borderWidthBottom": "{borderWidth.1}"
+            },
+            "type": "composition"
+          },
+          "button": {
+            "value": {
+              "verticalPadding": "{spacing.4}",
+              "horizontalPadding": "{spacing.0}"
+            },
+            "type": "composition"
+          },
+          "divider": {
+            "value": {
+              "verticalPadding": "{spacing.5}",
+              "horizontalPadding": "{spacing.0}"
+            },
+            "type": "composition"
+          },
+          "links": {
+            "container": {
+              "value": {
+                "verticalPadding": "{spacing.5}",
+                "horizontalPadding": "{spacing.5}",
+                "itemSpacing": "{spacing.5}"
+              },
+              "type": "composition"
+            },
+            "column": {
+              "value": {
+                "itemSpacing": "{spacing.4}"
+              },
+              "type": "composition"
+            }
+          }
         }
       },
       "mobile": {
@@ -2213,17 +2254,17 @@
           },
           "type": "composition"
         },
-        "menuDropdown": {
-          "value": {
-            "borderRadius": "{borderRadius.3}",
-            "itemSpacing": "{spacing.0}"
-          },
-          "type": "composition"
-        },
         "icon": {
           "value": {
             "height": "{dimension.6}",
             "width": "{dimension.6}"
+          },
+          "type": "composition"
+        },
+        "menuDropdown": {
+          "value": {
+            "borderRadius": "{borderRadius.3}",
+            "itemSpacing": "{spacing.0}"
           },
           "type": "composition"
         }
@@ -2242,6 +2283,10 @@
             "value": "{light.global.background.primary}",
             "type": "color"
           },
+          "dropdown": {
+            "value": "{light.global.background.primary}",
+            "type": "color"
+          },
           "unread": {
             "value": "{color.warning.400}",
             "type": "color"
@@ -2251,6 +2296,36 @@
           "container": {
             "value": "{color.neutral.50}",
             "type": "color"
+          }
+        },
+        "dropdown": {
+          "text": {
+            "default": {
+              "value": "{light.global.text.primary}",
+              "type": "color"
+            },
+            "link": {
+              "default": {
+                "value": "{light.global.text.secondary}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{light.global.text.primary}",
+                "type": "color"
+              }
+            }
+          },
+          "background": {
+            "container": {
+              "value": "{light.global.background.primary}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "head": {
+              "value": "{light.global.border.primary}",
+              "type": "color"
+            }
           }
         }
       }
@@ -2285,10 +2360,160 @@
   "component/link": {
     "link": {
       "value": {
-        "itemSpacing": "{spacing.1}",
-        "borderWidthBottom": "{borderWidth.1}"
+        "borderWidthBottom": "{borderWidth.1}",
+        "paddingTop": "{spacing.0}",
+        "paddingBottom": "{spacing.2}",
+        "horizontalPadding": "{spacing.0}"
       },
       "type": "composition"
+    }
+  },
+  "component/navigation": {
+    "navigation": {
+      "desktop": {
+        "container": {
+          "value": {
+            "itemSpacing": "{spacing.3}"
+          },
+          "type": "composition"
+        },
+        "item": {
+          "value": {
+            "itemSpacing": "{spacing.4}",
+            "borderWidthBottom": "{borderWidth.2}",
+            "paddingTop": "{spacing.0}",
+            "paddingBottom": "{spacing.5}",
+            "horizontalPadding": "{spacing.0}"
+          },
+          "type": "composition"
+        },
+        "itemLabel": {
+          "value": {
+            "itemSpacing": "{spacing.1}",
+            "verticalPadding": "{spacing.0}",
+            "horizontalPadding": "{spacing.3}"
+          },
+          "type": "composition"
+        },
+        "itemIcon": {
+          "value": {
+            "height": "{dimension.5}+{dimension.2}",
+            "width": "{dimension.5}+{dimension.2}"
+          },
+          "type": "composition"
+        }
+      },
+      "mobile": {
+        "container": {
+          "value": {
+            "itemSpacing": "{spacing.3}",
+            "horizontalPadding": "{spacing.5}",
+            "verticalPadding": "{spacing.0}"
+          },
+          "type": "composition"
+        },
+        "item": {
+          "value": {
+            "itemSpacing": "{spacing.4}",
+            "borderWidthBottom": "{borderWidth.2}",
+            "paddingTop": "{spacing.4}",
+            "paddingBottom": "{spacing.6}",
+            "horizontalPadding": "{spacing.0}"
+          },
+          "type": "composition"
+        },
+        "itemLabel": {
+          "value": {
+            "itemSpacing": "{spacing.0}",
+            "verticalPadding": "{spacing.0}",
+            "horizontalPadding": "{spacing.0}"
+          },
+          "type": "composition"
+        },
+        "itemIcon": {
+          "value": {
+            "height": "{dimension.5}+{dimension.2}",
+            "width": "{dimension.5}+{dimension.2}"
+          },
+          "type": "composition"
+        }
+      }
+    },
+    "light": {
+      "navigation": {
+        "text": {
+          "default": {
+            "value": "{light.global.text.tertiary}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{color.brand.primary.500}",
+            "type": "color"
+          },
+          "active": {
+            "value": "{light.navigation.text.hover}",
+            "type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "rgba({light.navigation.text.default}, {opacity.0})",
+            "type": "color"
+          },
+          "hover": {
+            "value": "rgba({light.navigation.text.hover}, {opacity.0})",
+            "type": "color"
+          },
+          "hover-copy": {
+            "value": "{light.navigation.text.active}",
+            "type": "color"
+          }
+        },
+        "background": {
+          "container": {
+            "value": "{light.header.background.container}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "dark": {
+      "navigation": {
+        "text": {
+          "default": {
+            "value": "{dark.global.text.secondary}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{color.brand.primary.300}",
+            "type": "color"
+          },
+          "active": {
+            "value": "{dark.navigation.text.hover}",
+            "type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "rgba({dark.navigation.text.default}, {opacity.0})",
+            "type": "color"
+          },
+          "hover": {
+            "value": "rgba({dark.navigation.text.hover}, {opacity.0})",
+            "type": "color"
+          },
+          "hover-copy": {
+            "value": "{dark.navigation.text.active}",
+            "type": "color"
+          }
+        },
+        "background": {
+          "container": {
+            "value": "{dark.header.background.container}",
+            "type": "color"
+          }
+        }
+      }
     }
   },
   "component/sidebar": {
@@ -2960,154 +3185,6 @@
       }
     }
   },
-  "component/navigation": {
-    "navigation": {
-      "desktop": {
-        "container": {
-          "value": {
-            "itemSpacing": "{spacing.3}"
-          },
-          "type": "composition"
-        },
-        "item": {
-          "value": {
-            "itemSpacing": "{spacing.4}",
-            "borderWidthBottom": "{borderWidth.2}",
-            "paddingTop": "{spacing.0}",
-            "paddingBottom": "{spacing.5}",
-            "horizontalPadding": "{spacing.0}"
-          },
-          "type": "composition"
-        },
-        "itemLabel": {
-          "value": {
-            "itemSpacing": "{spacing.1}",
-            "verticalPadding": "{spacing.0}",
-            "horizontalPadding": "{spacing.3}"
-          },
-          "type": "composition"
-        },
-        "itemIcon": {
-          "value": {
-            "height": "{dimension.5}+{dimension.2}",
-            "width": "{dimension.5}+{dimension.2}"
-          },
-          "type": "composition"
-        }
-      },
-      "mobile": {
-        "container": {
-          "value": {
-            "itemSpacing": "{spacing.3}",
-            "horizontalPadding": "{spacing.5}",
-            "verticalPadding": "{spacing.0}"
-          },
-          "type": "composition"
-        },
-        "item": {
-          "value": {
-            "itemSpacing": "{spacing.4}",
-            "borderWidthBottom": "{borderWidth.2}",
-            "paddingTop": "{spacing.4}",
-            "paddingBottom": "{spacing.6}",
-            "horizontalPadding": "{spacing.0}"
-          },
-          "type": "composition"
-        },
-        "itemLabel": {
-          "value": {
-            "itemSpacing": "{spacing.0}",
-            "verticalPadding": "{spacing.0}",
-            "horizontalPadding": "{spacing.0}"
-          },
-          "type": "composition"
-        },
-        "itemIcon": {
-          "value": {
-            "height": "{dimension.5}+{dimension.2}",
-            "width": "{dimension.5}+{dimension.2}"
-          },
-          "type": "composition"
-        }
-      }
-    },
-    "light": {
-      "navigation": {
-        "text": {
-          "default": {
-            "value": "{light.global.text.tertiary}",
-            "type": "color"
-          },
-          "hover": {
-            "value": "{color.brand.primary.500}",
-            "type": "color"
-          },
-          "active": {
-            "value": "{light.navigation.text.hover}",
-            "type": "color"
-          }
-        },
-        "border": {
-          "default": {
-            "value": "rgba({light.navigation.text.default}, {opacity.0})",
-            "type": "color"
-          },
-          "hover": {
-            "value": "rgba({light.navigation.text.hover}, {opacity.0})",
-            "type": "color"
-          },
-          "hover-copy": {
-            "value": "{light.navigation.text.active}",
-            "type": "color"
-          }
-        },
-        "background": {
-          "container": {
-            "value": "{light.header.background.container}",
-            "type": "color"
-          }
-        }
-      }
-    },
-    "dark": {
-      "navigation": {
-        "text": {
-          "default": {
-            "value": "{dark.global.text.secondary}",
-            "type": "color"
-          },
-          "hover": {
-            "value": "{color.brand.primary.300}",
-            "type": "color"
-          },
-          "active": {
-            "value": "{dark.navigation.text.hover}",
-            "type": "color"
-          }
-        },
-        "border": {
-          "default": {
-            "value": "rgba({dark.navigation.text.default}, {opacity.0})",
-            "type": "color"
-          },
-          "hover": {
-            "value": "rgba({dark.navigation.text.hover}, {opacity.0})",
-            "type": "color"
-          },
-          "hover-copy": {
-            "value": "{dark.navigation.text.active}",
-            "type": "color"
-          }
-        },
-        "background": {
-          "container": {
-            "value": "{dark.header.background.container}",
-            "type": "color"
-          }
-        }
-      }
-    }
-  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
@@ -3118,9 +3195,9 @@
       "component/button",
       "component/header",
       "component/link",
+      "component/navigation",
       "component/sidebar",
-      "component/typography",
-      "component/navigation"
+      "component/typography"
     ]
   }
 }
