@@ -3228,6 +3228,84 @@
       }
     }
   },
+  "component/toast": {
+    "toast": {
+      "container": {
+        "value": {
+          "itemSpacing": "{spacing.0}"
+        },
+        "type": "composition"
+      },
+      "content": {
+        "value": {
+          "itemSpacing": "{spacing.2}",
+          "verticalPadding": "{spacing.4}",
+          "horizontalPadding": "{spacing.4}"
+        },
+        "type": "composition"
+      },
+      "bar": {
+        "value": {
+          "height": "{dimension.2}"
+        },
+        "type": "composition"
+      },
+      "description": {
+        "value": {
+          "itemSpacing": "{spacing.2}"
+        },
+        "type": "composition"
+      },
+      "icon": {
+        "value": {
+          "height": "{dimension.6}",
+          "width": "{dimension.6}"
+        },
+        "type": "composition"
+      },
+      "iconClose": {
+        "value": {
+          "height": "{dimension.4}",
+          "width": "{dimension.4}"
+        },
+        "type": "composition"
+      }
+    },
+    "light": {
+      "toast": {
+        "text": {
+          "title": {
+            "value": "{light.global.text.primary}",
+            "type": "color"
+          },
+          "description": {
+            "value": "{light.global.text.tertiary}",
+            "type": "color"
+          }
+        },
+        "background": {
+          "default": {
+            "value": "{light.global.background.primary}",
+            "type": "color"
+          }
+        },
+        "status": {
+          "success": {
+            "value": "{color.success.400}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{color.error.400}",
+            "type": "color"
+          },
+          "warning": {
+            "value": "{color.warning.400}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
@@ -3241,7 +3319,8 @@
       "component/link",
       "component/navigation",
       "component/sidebar",
-      "component/typography"
+      "component/typography",
+      "component/toast"
     ]
   }
 }
