@@ -1873,7 +1873,7 @@
               "type": "color"
             },
             "focus": {
-              "value": "{color.brand.primary.200}",
+              "value": "{light.button.outlined.background.hover}",
               "type": "color"
             },
             "disabled": {
@@ -1911,7 +1911,7 @@
               "type": "color"
             },
             "focus": {
-              "value": "{color.brand.primary.300}",
+              "value": "{light.button.outlined.text.hover}",
               "type": "color"
             },
             "disabled": {
@@ -2607,8 +2607,7 @@
         "item": {
           "value": {
             "itemSpacing": "{spacing.0}",
-            "height": "34px",
-            "boxShadow": "{lightShadow.300}"
+            "height": "34px"
           },
           "type": "composition"
         },
@@ -3427,6 +3426,16 @@
       }
     }
   },
+  "component/test": {
+    "test": {
+      "value": {
+        "itemSpacing": "{spacing.2}",
+        "horizontalPadding": "{dimension.4}",
+        "verticalPadding": "{dimension.2}"
+      },
+      "type": "composition"
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
@@ -3441,7 +3450,8 @@
       "component/navigation",
       "component/sidebar",
       "component/toast",
-      "component/typography"
+      "component/typography",
+      "component/test"
     ]
   }
 }
