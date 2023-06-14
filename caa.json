@@ -1813,6 +1813,48 @@
               },
               "type": "composition"
             }
+          },
+          "notifications": {
+            "empty": {
+              "value": {
+                "verticalPadding": "{spacing.5}",
+                "horizontalPadding": "{spacing.5}",
+                "itemSpacing": "{spacing.4}"
+              },
+              "type": "composition"
+            },
+            "notification": {
+              "value": {
+                "itemSpacing": "{spacing.3}",
+                "verticalPadding": "{spacing.5}",
+                "horizontalPadding": "{spacing.5}",
+                "borderWidthBottom": "{borderWidth.1}"
+              },
+              "type": "composition"
+            },
+            "content": {
+              "value": {
+                "itemSpacing": "{spacing.1}"
+              },
+              "type": "composition"
+            },
+            "actions": {
+              "value": {
+                "itemSpacing": "{spacing.5}",
+                "paddingTop": "{spacing.3}",
+                "paddingBottom": "{spacing.0}",
+                "horizontalPadding": "{spacing.0}"
+              },
+              "type": "composition"
+            },
+            "icon": {
+              "value": {
+                "height": "{spacing.15}",
+                "horizontalPadding": "{spacing.15}",
+                "borderRadius": "{borderRadius.circle}"
+              },
+              "type": "composition"
+            }
           }
         }
       },
@@ -1875,6 +1917,14 @@
               "value": "{light.global.text.primary}",
               "type": "color"
             },
+            "icon": {
+              "value": "{light.global.text.tertiary}",
+              "type": "color"
+            },
+            "description": {
+              "value": "{light.global.text.secondary}",
+              "type": "color"
+            },
             "link": {
               "default": {
                 "value": "{light.global.text.secondary}",
@@ -1889,6 +1939,10 @@
           "background": {
             "container": {
               "value": "{light.global.background.primary}",
+              "type": "color"
+            },
+            "icon": {
+              "value": "{light.global.background.secondary}",
               "type": "color"
             }
           },
