@@ -3426,16 +3426,6 @@
       }
     }
   },
-  "component/test": {
-    "test": {
-      "value": {
-        "itemSpacing": "{spacing.2}",
-        "horizontalPadding": "{dimension.4}",
-        "verticalPadding": "{dimension.2}"
-      },
-      "type": "composition"
-    }
-  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
@@ -3450,8 +3440,7 @@
       "component/navigation",
       "component/sidebar",
       "component/toast",
-      "component/typography",
-      "component/test"
+      "component/typography"
     ]
   }
 }
