@@ -1749,7 +1749,14 @@
           "value": {
             "borderWidthBottom": "{borderWidth.1}",
             "verticalPadding": "{spacing.0}",
-            "horizontalPadding": "{spacing.5}"
+            "paddingLeft": "{spacing.0}",
+            "paddingRight": "{spacing.5}"
+          },
+          "type": "composition"
+        },
+        "iconSidebar": {
+          "value": {
+            "width": "{sizing.8} + {sizing.1}"
           },
           "type": "composition"
         },
@@ -1786,8 +1793,9 @@
           },
           "button": {
             "value": {
-              "verticalPadding": "{spacing.4}",
-              "horizontalPadding": "{spacing.0}"
+              "horizontalPadding": "{spacing.0}",
+              "paddingTop": "{spacing.2}",
+              "paddingBottom": "{spacing.4}"
             },
             "type": "composition"
           },
@@ -1985,7 +1993,7 @@
         },
         "itemLabel": {
           "value": {
-            "itemSpacing": "{spacing.1}",
+            "itemSpacing": "{spacing.0}",
             "verticalPadding": "{spacing.0}",
             "horizontalPadding": "{spacing.3}"
           },
