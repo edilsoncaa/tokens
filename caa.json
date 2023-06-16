@@ -1871,7 +1871,8 @@
           "value": {
             "borderWidthBottom": "{borderWidth.1}",
             "verticalPadding": "{spacing.3}",
-            "horizontalPadding": "{spacing.5}"
+            "paddingLeft": "{spacing.0}",
+            "paddingRight": "{spacing.4}"
           },
           "type": "composition"
         },
