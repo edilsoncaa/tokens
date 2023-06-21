@@ -1871,22 +1871,28 @@
           "value": {
             "borderWidthBottom": "{borderWidth.1}",
             "verticalPadding": "{spacing.3}",
-            "paddingLeft": "{spacing.0}",
-            "paddingRight": "{spacing.4}"
+            "horizontalPadding": "{spacing.4}",
+            "itemSpacing": "{spacing.0}"
+          },
+          "type": "composition"
+        },
+        "iconSidebar": {
+          "value": {
+            "width": "{sizing.6}"
           },
           "type": "composition"
         },
         "logo": {
           "value": {
-            "width": "171px",
-            "height": "18px"
+            "width": "153",
+            "height": "{sizing.5}"
           },
           "type": "composition"
         },
         "icon": {
           "value": {
-            "height": "{dimension.6}",
-            "width": "{dimension.6}"
+            "height": "{sizing.5}",
+            "width": "{sizing.5}"
           },
           "type": "composition"
         }
