@@ -672,6 +672,24 @@
             "type": "color"
           }
         },
+        "advertiser": {
+          "text": {
+            "user": {
+              "value": "{dark.color.text.primary}",
+              "type": "color"
+            },
+            "informations": {
+              "value": "{colors.neutral.400}",
+              "type": "color"
+            }
+          },
+          "background": {
+            "default": {
+              "value": "{colors.neutral.800}",
+              "type": "color"
+            }
+          }
+        },
         "avatar": {
           "text": {
             "default": {
@@ -1194,6 +1212,24 @@
             "type": "color"
           }
         },
+        "advertiser": {
+          "text": {
+            "user": {
+              "value": "{light.color.text.primary}",
+              "type": "color"
+            },
+            "informations": {
+              "value": "{colors.neutral.500}",
+              "type": "color"
+            }
+          },
+          "background": {
+            "default": {
+              "value": "{colors.neutral.100}",
+              "type": "color"
+            }
+          }
+        },
         "avatar": {
           "text": {
             "default": {
@@ -1628,6 +1664,30 @@
             }
           }
         }
+      }
+    }
+  },
+  "components/advertiser": {
+    "advertiser": {
+      "container": {
+        "value": {
+          "horizontalPadding": "{spacing.3}",
+          "verticalPadding": "{spacing.3}",
+          "itemSpacing": "{spacing.5}"
+        },
+        "type": "composition"
+      },
+      "user": {
+        "value": {
+          "itemSpacing": "{spacing.2}"
+        },
+        "type": "composition"
+      },
+      "informations": {
+        "value": {
+          "itemSpacing": "{spacing.0}"
+        },
+        "type": "composition"
       }
     }
   },
@@ -2698,6 +2758,7 @@
       "core",
       "theme/dark",
       "theme/light",
+      "components/advertiser",
       "components/avatar",
       "components/button",
       "components/checkbox",
