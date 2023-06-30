@@ -802,6 +802,34 @@
             }
           }
         },
+        "cameraMode": {
+          "text": {
+            "primary": {
+              "value": "{dark.color.text.primary}",
+              "type": "color"
+            },
+            "secondary": {
+              "value": "{colors.neutral.300}",
+              "type": "color"
+            }
+          },
+          "background": {
+            "default": {
+              "value": "{dark.color.background.overlay}",
+              "type": "color"
+            },
+            "scroll": {
+              "value": "{colors.brand.primary.100}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "list": {
+              "value": "{colors.neutral.700}",
+              "type": "color"
+            }
+          }
+        },
         "checkbox": {
           "text": {
             "default": {
@@ -1947,6 +1975,57 @@
       }
     }
   },
+  "components/cameraMode": {
+    "cameraMode": {
+      "modal": {
+        "container": {
+          "value": {
+            "itemSpacing": "{spacing.6}",
+            "verticalPadding": "{spacing.6}",
+            "horizontalPadding": "{spacing.6}",
+            "borderRadius": "{borderRadius.3}"
+          },
+          "type": "composition"
+        },
+        "header": {
+          "value": {
+            "itemSpacing": "{spacing.2}"
+          },
+          "type": "composition"
+        },
+        "actions": {
+          "value": {
+            "itemSpacing": "{spacing.3}"
+          },
+          "type": "composition"
+        },
+        "list": {
+          "container": {
+            "value": {
+              "itemSpacing": "{spacing.0}"
+            },
+            "type": "composition"
+          },
+          "item": {
+            "value": {
+              "verticalPadding": "{spacing.5}",
+              "horizontalPadding": "{spacing.0}",
+              "borderWidthBottom": "{borderWidth.1}"
+            },
+            "type": "composition"
+          },
+          "scroll": {
+            "value": {
+              "height": "{dimension.9}",
+              "width": "{dimension.2}",
+              "borderRadius": "{borderRadius.5}"
+            },
+            "type": "composition"
+          }
+        }
+      }
+    }
+  },
   "components/checkbox": {
     "checkbox": {
       "container": {
@@ -2761,6 +2840,7 @@
       "components/advertiser",
       "components/avatar",
       "components/button",
+      "components/cameraMode",
       "components/checkbox",
       "components/chips",
       "components/input",
