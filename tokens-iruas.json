@@ -1901,6 +1901,76 @@
       }
     }
   },
+  "components/bottomSheet": {
+    "modal": {
+      "bottom": {
+        "value": {
+          "itemSpacing": "{spacing.6}",
+          "verticalPadding": "{spacing.7}",
+          "horizontalPadding": "{spacing.5}",
+          "borderRadiusTopLeft": "{borderRadius.4}",
+          "borderRadiusTopRight": "{borderRadius.4}"
+        },
+        "type": "composition"
+      },
+      "filter": {
+        "header": {
+          "container": {
+            "value": {
+              "itemSpacing": "{spacing.3}",
+              "verticalPadding": "{spacing.5}",
+              "horizontalPadding": "{spacing.5}"
+            },
+            "type": "composition"
+          },
+          "icon": {
+            "value": {
+              "height": "{dimension.5}",
+              "width": "{dimension.5}"
+            },
+            "type": "composition"
+          }
+        },
+        "content": {
+          "filters": {
+            "value": {
+              "itemSpacing": "{spacing.7}"
+            },
+            "type": "composition"
+          },
+          "tabs": {
+            "value": {
+              "itemSpacing": "{spacing.0}"
+            },
+            "type": "composition"
+          },
+          "filter": {
+            "container": {
+              "value": {
+                "verticalPadding": "{spacing.4}",
+                "horizontalPadding": "{spacing.5}",
+                "itemSpacing": "{spacing.5}"
+              },
+              "type": "composition"
+            },
+            "summary": {
+              "value": {
+                "itemSpacing": "{spacing.1}"
+              },
+              "type": "composition"
+            },
+            "icon": {
+              "value": {
+                "height": "{dimension.5}",
+                "width": "{dimension.5}"
+              },
+              "type": "composition"
+            }
+          }
+        }
+      }
+    }
+  },
   "components/button": {
     "button": {
       "sm": {
@@ -2139,20 +2209,6 @@
           "value": "{dimension.5}",
           "type": "sizing"
         }
-      }
-    }
-  },
-  "components/modal": {
-    "modal": {
-      "bottom": {
-        "value": {
-          "itemSpacing": "{spacing.6}",
-          "verticalPadding": "{spacing.7}",
-          "horizontalPadding": "{spacing.5}",
-          "borderRadiusTopLeft": "{borderRadius.4}",
-          "borderRadiusTopRight": "{borderRadius.4}"
-        },
-        "type": "composition"
       }
     }
   },
@@ -2839,13 +2895,13 @@
       "theme/light",
       "components/advertiser",
       "components/avatar",
+      "components/bottomSheet",
       "components/button",
       "components/cameraMode",
       "components/checkbox",
       "components/chips",
       "components/input",
       "components/list",
-      "components/modal",
       "components/navigation",
       "components/propertyCard",
       "components/radioButton",
