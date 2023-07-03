@@ -2071,8 +2071,8 @@
         "value": {
           "borderWidth": "{borderWidth.2}",
           "borderRadius": "{borderRadius.circle}",
-          "width": "{dimension.7}+{dimension.1}",
-          "height": "{dimension.7}+{dimension.1}"
+          "width": "{dimension.8}",
+          "height": "{dimension.8}"
         },
         "type": "composition"
       }
