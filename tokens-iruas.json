@@ -956,10 +956,14 @@
             "type": "color"
           }
         },
-        "modal": {
-          "bottom": {
-            "background": {
+        "bottomSheet": {
+          "background": {
+            "default": {
               "value": "{colors.neutral.900}",
+              "type": "color"
+            },
+            "drag": {
+              "value": "{colors.neutral.500}",
               "type": "color"
             }
           }
@@ -1496,10 +1500,14 @@
             "type": "color"
           }
         },
-        "modal": {
-          "bottom": {
-            "background": {
+        "bottomSheet": {
+          "background": {
+            "default": {
               "value": "{colors.base.white}",
+              "type": "color"
+            },
+            "drag": {
+              "value": "{colors.neutral.200}",
               "type": "color"
             }
           }
@@ -1902,14 +1910,22 @@
     }
   },
   "components/bottomSheet": {
-    "modal": {
-      "bottom": {
+    "bottomSheet": {
+      "container": {
         "value": {
           "itemSpacing": "{spacing.6}",
-          "verticalPadding": "{spacing.7}",
-          "horizontalPadding": "{spacing.5}",
           "borderRadiusTopLeft": "{borderRadius.4}",
-          "borderRadiusTopRight": "{borderRadius.4}"
+          "borderRadiusTopRight": "{borderRadius.4}",
+          "paddingTop": "{spacing.0}",
+          "paddingBottom": "{spacing.5}",
+          "horizontalPadding": "{spacing.5}"
+        },
+        "type": "composition"
+      },
+      "drag": {
+        "value": {
+          "verticalPadding": "{spacing.3}",
+          "horizontalPadding": "{spacing.3}"
         },
         "type": "composition"
       },
