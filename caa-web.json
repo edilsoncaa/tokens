@@ -3188,7 +3188,7 @@
             "value": "{light.global.text.tertiary}",
             "type": "color"
           },
-          "user": {
+          "link": {
             "value": "{color.base.white}",
             "type": "color"
           }
@@ -3361,7 +3361,7 @@
         "cover": {
           "background": {
             "value": {
-              "height": "{sizing.16}",
+              "height": "100px",
               "width": "{sizing.19}+{sizing.19}"
             },
             "type": "composition"
