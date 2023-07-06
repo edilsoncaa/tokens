@@ -3546,18 +3546,18 @@
     "toggle": {
       "container": {
         "value": {
-          "height": "{sizing.5} + {sizing.2}",
-          "width": "{sizing.7}+{sizing.2}",
+          "height": "{sizing.5}+ {sizing.2}",
+          "width": "{sizing.7}+{sizing.2}+ {sizing.1}",
           "borderRadius": "{borderRadius.pill}",
-          "verticalPadding": "{spacing.1}",
-          "horizontalPadding": "{spacing.1}"
+          "verticalPadding": "1px",
+          "horizontalPadding": "1px"
         },
         "type": "composition"
       },
       "key": {
         "value": {
-          "height": "{sizing.5}+{sizing.2}",
-          "width": "{sizing.5}+{sizing.2}",
+          "height": "{sizing.5}+{sizing.1}",
+          "width": "{sizing.5}+ {sizing.1}",
           "borderRadius": "{borderRadius.circle}"
         },
         "type": "composition"
@@ -3575,7 +3575,7 @@
             "type": "color"
           },
           "off": {
-            "value": "{color.neutral.200}",
+            "value": "{color.neutral.100}",
             "type": "color"
           }
         }
