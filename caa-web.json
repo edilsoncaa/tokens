@@ -3542,6 +3542,17 @@
       "type": "composition"
     }
   },
+  "component/toggle": {
+    "toggle": {
+      "container": {
+        "value": {
+          "height": "{sizing.5} + {sizing.2}",
+          "width": "{sizing.7}+{sizing.2}"
+        },
+        "type": "composition"
+      }
+    }
+  },
   "component/typography": {
     "typography": {
       "body": {
@@ -4121,6 +4132,7 @@
       "component/sidebar",
       "component/propertyCard",
       "component/tag",
+      "component/toggle",
       "component/typography"
     ]
   }
