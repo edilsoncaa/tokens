@@ -3547,9 +3547,38 @@
       "container": {
         "value": {
           "height": "{sizing.5} + {sizing.2}",
-          "width": "{sizing.7}+{sizing.2}"
+          "width": "{sizing.7}+{sizing.2}",
+          "borderRadius": "{borderRadius.pill}",
+          "verticalPadding": "{spacing.1}",
+          "horizontalPadding": "{spacing.1}"
         },
         "type": "composition"
+      },
+      "key": {
+        "value": {
+          "height": "{sizing.5}+{sizing.2}",
+          "width": "{sizing.5}+{sizing.2}",
+          "borderRadius": "{borderRadius.circle}"
+        },
+        "type": "composition"
+      }
+    },
+    "light": {
+      "toggle": {
+        "background": {
+          "on": {
+            "value": "{color.success.400}",
+            "type": "color"
+          },
+          "onDisabled": {
+            "value": "rgba( {color.success.400}, {opacity.80})",
+            "type": "color"
+          },
+          "off": {
+            "value": "{color.neutral.200}",
+            "type": "color"
+          }
+        }
       }
     }
   },
