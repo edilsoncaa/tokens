@@ -3565,17 +3565,32 @@
     },
     "light": {
       "toggle": {
-        "background": {
+        "enabled": {
           "on": {
             "value": "{color.success.400}",
             "type": "color"
           },
-          "onDisabled": {
-            "value": "rgba( {color.success.400}, {opacity.80})",
-            "type": "color"
-          },
           "off": {
             "value": "{color.neutral.100}",
+            "type": "color"
+          },
+          "key": {
+            "value": "{color.base.white}",
+            "type": "color"
+          }
+        },
+        "disabled": {
+          "on": {
+            "value": "rgba( {light.toggle.enabled.on} ,{opacity.80})",
+            "type": "color",
+            "description": "rgba( {light.toggle.enabled.on} ,{opacity.80})"
+          },
+          "off": {
+            "value": "rgba( {light.toggle.enabled.off} ,{opacity.40})",
+            "type": "color"
+          },
+          "key": {
+            "value": "rgba( {light.toggle.enabled.key} ,{opacity.80})",
             "type": "color"
           }
         }
