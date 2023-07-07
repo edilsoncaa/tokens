@@ -3417,6 +3417,10 @@
           "secondary": {
             "value": "{light.global.text.secondary}",
             "type": "color"
+          },
+          "iconAction": {
+            "value": "{color.neutral.100}",
+            "type": "color"
           }
         },
         "background": {
@@ -3426,6 +3430,10 @@
           },
           "degrade": {
             "value": "linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%);",
+            "type": "color"
+          },
+          "action": {
+            "value": "rgba( {color.base.dark}, {opacity.40})",
             "type": "color"
           }
         }
