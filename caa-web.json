@@ -2332,6 +2332,16 @@
       }
     }
   },
+  "component/checkbox": {
+    "checkbox": {
+      "container": {
+        "value": {
+          "itemSpacing": "{spacing.1}"
+        },
+        "type": "composition"
+      }
+    }
+  },
   "component/footer": {
     "light": {
       "footer": {
@@ -4201,6 +4211,7 @@
       "component/avatar",
       "component/blog",
       "component/button",
+      "component/checkbox",
       "component/footer",
       "component/header",
       "component/link",
