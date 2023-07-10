@@ -1344,6 +1344,10 @@
           "tagLive": {
             "value": "{color.base.white}",
             "type": "color"
+          },
+          "addStory": {
+            "value": "{color.base.white}",
+            "type": "color"
           }
         },
         "background": {
@@ -1365,6 +1369,10 @@
           },
           "button": {
             "value": "{dark.button.primary.background.default}",
+            "type": "color"
+          },
+          "addStory": {
+            "value": "{color.information.400}",
             "type": "color"
           }
         },
@@ -1402,6 +1410,10 @@
           "tagLive": {
             "value": "{color.base.white}",
             "type": "color"
+          },
+          "addStory": {
+            "value": "{color.base.white}",
+            "type": "color"
           }
         },
         "background": {
@@ -1423,6 +1435,10 @@
           },
           "button": {
             "value": "{light.button.primary.background.default}",
+            "type": "color"
+          },
+          "addStory": {
+            "value": "{color.information.400}",
             "type": "color"
           }
         },
