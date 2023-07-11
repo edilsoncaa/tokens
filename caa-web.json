@@ -1891,6 +1891,10 @@
               "value": "{color.brand.primary.50}",
               "type": "color"
             },
+            "focus": {
+              "value": "{color.brand.primary.50}",
+              "type": "color"
+            },
             "pressed": {
               "value": "{color.brand.primary.400}",
               "type": "color"
@@ -1906,6 +1910,10 @@
               "type": "color"
             },
             "hover": {
+              "value": "{color.brand.primary.600}",
+              "type": "color"
+            },
+            "focus": {
               "value": "{color.brand.primary.600}",
               "type": "color"
             },
@@ -1925,6 +1933,10 @@
             },
             "hover": {
               "value": "{dark.button.primary.background.hover}",
+              "type": "color"
+            },
+            "focus": {
+              "value": "{dark.button.primary.background.focus}",
               "type": "color"
             },
             "pressed": {
@@ -1957,6 +1969,14 @@
               "value": "{color.brand.primary.900}",
               "type": "color"
             },
+            "hover": {
+              "value": "{color.brand.primary.800}",
+              "type": "color"
+            },
+            "focu": {
+              "value": "{color.brand.primary.800}",
+              "type": "color"
+            },
             "pressed": {
               "value": "{color.brand.primary.800}",
               "type": "color"
@@ -1969,6 +1989,14 @@
           "border": {
             "default": {
               "value": "{dark.button.tonal.background.default}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{dark.button.tonal.background.hover}",
+              "type": "color"
+            },
+            "focus": {
+              "value": "{dark.button.tonal.background.hover}",
               "type": "color"
             },
             "pressed": {
@@ -2530,7 +2558,7 @@
           },
           "background": {
             "default": {
-              "value": "{color.brand.primary.500}",
+              "value": "{color.brand.gradient.100}",
               "type": "color"
             }
           }
@@ -2610,7 +2638,7 @@
           },
           "background": {
             "default": {
-              "value": "{color.brand.primary.500}",
+              "value": "{color.brand.gradient.100}",
               "type": "color"
             }
           }
