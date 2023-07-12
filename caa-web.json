@@ -1955,6 +1955,10 @@
               "value": "{color.brand.primary.200}",
               "type": "color"
             },
+            "hover": {
+              "value": "{color.brand.primary.300}",
+              "type": "color"
+            },
             "pressed": {
               "value": "{color.brand.primary.400}",
               "type": "color"
