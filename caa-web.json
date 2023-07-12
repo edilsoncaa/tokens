@@ -2925,78 +2925,75 @@
     }
   },
   "component/input": {
-    "input": {
-      "primary": {
-        "container": {
-          "value": {
-            "itemSpacing": "{spacing.1}"
+    "dark": {
+      "input": {
+        "primary": {
+          "text": {
+            "placeholder": {
+              "value": "{dark.global.text.tertiary}",
+              "type": "color"
+            },
+            "leadingIcon": {
+              "value": "{dark.global.text.tertiary}",
+              "type": "color"
+            },
+            "cleanIcon": {
+              "value": "{dark.global.text.tertiary}",
+              "type": "color"
+            },
+            "content": {
+              "value": "{dark.global.text.primary}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{color.neutral.200}",
+              "type": "color"
+            },
+            "error": {
+              "value": "{color.error.300}",
+              "type": "color"
+            },
+            "support": {
+              "value": "{dark.global.text.tertiary}",
+              "type": "color"
+            }
           },
-          "type": "composition"
-        },
-        "base": {
-          "value": {
-            "itemSpacing": "{spacing.3}",
-            "verticalPadding": "{spacing.3}",
-            "horizontalPadding": "{spacing.3}",
-            "borderWidth": "{borderWidth.1}",
-            "borderRadius": "{borderRadius.3}"
+          "background": {
+            "default": {
+              "value": "{dark.global.background.tertiary}",
+              "type": "color"
+            },
+            "focus": {
+              "value": "{dark.global.background.tertiary}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{color.neutral.25}",
+              "type": "color"
+            },
+            "error": {
+              "value": "{color.error.100}",
+              "type": "color"
+            }
           },
-          "type": "composition"
-        },
-        "content": {
-          "value": {
-            "itemSpacing": "{spacing.0}",
-            "height": "{sizing.7} + {sizing.1}"
-          },
-          "type": "composition"
-        },
-        "support": {
-          "value": {
-            "itemSpacing": "{spacing.3}"
-          },
-          "type": "composition"
-        }
-      },
-      "secondary": {
-        "container": {
-          "value": {
-            "itemSpacing": "{spacing.2}"
-          },
-          "type": "composition"
-        },
-        "base": {
-          "value": {
-            "itemSpacing": "{spacing.3}",
-            "verticalPadding": "{spacing.3}",
-            "horizontalPadding": "{spacing.5}",
-            "borderWidth": "{borderWidth.1}",
-            "borderRadius": "{borderRadius.pill}"
-          },
-          "type": "composition"
-        },
-        "content": {
-          "value": {
-            "itemSpacing": "{spacing.0}"
-          },
-          "type": "composition"
-        },
-        "support": {
-          "value": {
-            "itemSpacing": "{spacing.3}"
-          },
-          "type": "composition"
-        }
-      }
-    },
-    "inputSizing": {
-      "icon": {
-        "sm": {
-          "value": "{dimension.4}+{dimension.1}",
-          "type": "sizing"
-        },
-        "md": {
-          "value": "{dimension.6}",
-          "type": "sizing"
+          "border": {
+            "default": {
+              "value": "{color.neutral.800}",
+              "type": "color"
+            },
+            "focus": {
+              "value": "{color.neutral.600}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{dark.input.primary.background.disabled}",
+              "type": "color"
+            },
+            "error": {
+              "value": "{color.error.200}",
+              "type": "color"
+            }
+          }
         }
       }
     },
@@ -3005,6 +3002,14 @@
         "primary": {
           "text": {
             "placeholder": {
+              "value": "{light.global.text.tertiary}",
+              "type": "color"
+            },
+            "leadingIcon": {
+              "value": "{light.global.text.tertiary}",
+              "type": "color"
+            },
+            "cleanIcon": {
               "value": "{light.global.text.tertiary}",
               "type": "color"
             },
@@ -3027,7 +3032,11 @@
           },
           "background": {
             "default": {
-              "value": "{light.global.background.primary}",
+              "value": "{light.global.background.secondary}",
+              "type": "color"
+            },
+            "focus": {
+              "value": "{light.global.background.secondary}",
               "type": "color"
             },
             "disabled": {
@@ -3055,6 +3064,200 @@
             "error": {
               "value": "{color.error.100}",
               "type": "color"
+            }
+          }
+        }
+      }
+    },
+    "input": {
+      "large": {
+        "primary": {
+          "container": {
+            "value": {
+              "itemSpacing": "{spacing.1}"
+            },
+            "type": "composition"
+          },
+          "base": {
+            "value": {
+              "itemSpacing": "{spacing.3}",
+              "verticalPadding": "{spacing.4}",
+              "horizontalPadding": "{spacing.3}",
+              "borderWidth": "{borderWidth.1}",
+              "borderRadius": "{borderRadius.3}"
+            },
+            "type": "composition"
+          },
+          "content": {
+            "value": {
+              "itemSpacing": "{spacing.0}",
+              "height": "{sizing.7} + {sizing.1}"
+            },
+            "type": "composition"
+          },
+          "support": {
+            "value": {
+              "itemSpacing": "{spacing.3}"
+            },
+            "type": "composition"
+          },
+          "icon": {
+            "leading": {
+              "value": {
+                "height": "{sizing.6}",
+                "width": "{sizing.6}"
+              },
+              "type": "composition"
+            },
+            "clean": {
+              "value": {
+                "height": "{sizing.5}",
+                "width": "{sizing.5}"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "secondary": {
+          "container": {
+            "value": {
+              "itemSpacing": "{spacing.1}"
+            },
+            "type": "composition"
+          },
+          "base": {
+            "value": {
+              "itemSpacing": "{spacing.3}",
+              "verticalPadding": "{spacing.4}",
+              "horizontalPadding": "{spacing.5}",
+              "borderWidth": "{borderWidth.1}",
+              "borderRadius": "{borderRadius.pill}"
+            },
+            "type": "composition"
+          },
+          "content": {
+            "value": {
+              "itemSpacing": "{spacing.0}",
+              "height": "{sizing.7} + {sizing.1}"
+            },
+            "type": "composition"
+          },
+          "support": {
+            "value": {
+              "itemSpacing": "{spacing.3}"
+            },
+            "type": "composition"
+          },
+          "icon": {
+            "leading": {
+              "value": {
+                "height": "{sizing.6}",
+                "width": "{sizing.6}"
+              },
+              "type": "composition"
+            },
+            "clean": {
+              "value": {
+                "height": "{sizing.5}",
+                "width": "{sizing.5}"
+              },
+              "type": "composition"
+            }
+          }
+        }
+      },
+      "small": {
+        "primary": {
+          "container": {
+            "value": {
+              "itemSpacing": "{spacing.1}"
+            },
+            "type": "composition"
+          },
+          "base": {
+            "value": {
+              "itemSpacing": "{spacing.3}",
+              "verticalPadding": "{spacing.2}",
+              "horizontalPadding": "{spacing.3}",
+              "borderWidth": "{borderWidth.1}",
+              "borderRadius": "{borderRadius.2}"
+            },
+            "type": "composition"
+          },
+          "content": {
+            "value": {
+              "itemSpacing": "-{spacing.2}",
+              "height": "{sizing.7} + {sizing.1}"
+            },
+            "type": "composition"
+          },
+          "support": {
+            "value": {
+              "itemSpacing": "{spacing.3}"
+            },
+            "type": "composition"
+          },
+          "icon": {
+            "leading": {
+              "value": {
+                "height": "{sizing.6}",
+                "width": "{sizing.6}"
+              },
+              "type": "composition"
+            },
+            "clean": {
+              "value": {
+                "height": "{sizing.5}",
+                "width": "{sizing.5}"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "secondary": {
+          "container": {
+            "value": {
+              "itemSpacing": "{spacing.1}"
+            },
+            "type": "composition"
+          },
+          "base": {
+            "value": {
+              "itemSpacing": "{spacing.3}",
+              "verticalPadding": "{spacing.2}",
+              "horizontalPadding": "{spacing.5}",
+              "borderWidth": "{borderWidth.1}",
+              "borderRadius": "{borderRadius.pill}"
+            },
+            "type": "composition"
+          },
+          "content": {
+            "value": {
+              "itemSpacing": "-{spacing.2}",
+              "height": "{sizing.7} + {sizing.1}"
+            },
+            "type": "composition"
+          },
+          "support": {
+            "value": {
+              "itemSpacing": "{spacing.3}"
+            },
+            "type": "composition"
+          },
+          "icon": {
+            "leading": {
+              "value": {
+                "height": "{sizing.6}",
+                "width": "{sizing.6}"
+              },
+              "type": "composition"
+            },
+            "clean": {
+              "value": {
+                "height": "{sizing.5}",
+                "width": "{sizing.5}"
+              },
+              "type": "composition"
             }
           }
         }
