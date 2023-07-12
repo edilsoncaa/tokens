@@ -4457,10 +4457,8 @@
     "search": {
       "container": {
         "value": {
-          "verticalPadding": "{spacing.2}",
-          "horizontalPadding": "{spacing.2} + {spacing.1}",
           "borderRadius": "{borderRadius.pill}",
-          "itemSpacing": "{spacing.2}"
+          "itemSpacing": "{spacing.0}"
         },
         "type": "composition"
       },
@@ -4468,6 +4466,13 @@
         "value": {
           "verticalPadding": "{spacing.0}",
           "horizontalPadding": "{spacing.5}"
+        },
+        "type": "composition"
+      },
+      "button": {
+        "value": {
+          "verticalPadding": "{spacing.2}",
+          "horizontalPadding": "{spacing.2}"
         },
         "type": "composition"
       },
@@ -4498,6 +4503,12 @@
             "type": "composition"
           }
         }
+      },
+      "field": {
+        "value": {
+          "itemSpacing": "- {spacing.5}"
+        },
+        "type": "composition"
       }
     }
   },
