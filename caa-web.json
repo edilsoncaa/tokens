@@ -3032,11 +3032,11 @@
           },
           "background": {
             "default": {
-              "value": "{light.global.background.secondary}",
+              "value": "{light.global.background.primary}",
               "type": "color"
             },
             "focus": {
-              "value": "{light.global.background.secondary}",
+              "value": "{light.global.background.primary}",
               "type": "color"
             },
             "disabled": {
@@ -4453,6 +4453,54 @@
       }
     }
   },
+  "component/search": {
+    "search": {
+      "container": {
+        "value": {
+          "verticalPadding": "{spacing.2}",
+          "horizontalPadding": "{spacing.2} + {spacing.1}",
+          "borderRadius": "{borderRadius.pill}",
+          "itemSpacing": "{spacing.2}"
+        },
+        "type": "composition"
+      },
+      "label": {
+        "value": {
+          "verticalPadding": "{spacing.0}",
+          "horizontalPadding": "{spacing.5}"
+        },
+        "type": "composition"
+      },
+      "locations": {
+        "container": {
+          "value": {
+            "verticalPadding": "{spacing.0}",
+            "horizontalPadding": "{spacing.0}",
+            "borderRadius": "{borderRadius.5}",
+            "itemSpacing": "{spacing.0}"
+          },
+          "type": "composition"
+        },
+        "location": {
+          "container": {
+            "value": {
+              "verticalPadding": "{spacing.3}",
+              "horizontalPadding": "{spacing.4}",
+              "itemSpacing": "{spacing.3}"
+            },
+            "type": "composition"
+          },
+          "icon": {
+            "value": {
+              "height": "{sizing.6}",
+              "width": "{sizing.6}"
+            },
+            "type": "composition"
+          }
+        }
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
@@ -4472,7 +4520,8 @@
       "component/propertyCard",
       "component/tag",
       "component/toggle",
-      "component/typography"
+      "component/typography",
+      "component/search"
     ]
   }
 }
