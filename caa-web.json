@@ -4454,27 +4454,149 @@
     }
   },
   "component/search": {
+    "light": {
+      "search": {
+        "header": {
+          "default": {
+            "value": "{color.base.white}",
+            "type": "color"
+          },
+          "paidPlan": {
+            "value": "{color.brand.gradient.100}",
+            "type": "color"
+          }
+        },
+        "summary": {
+          "text": {
+            "default": {
+              "value": "{color.base.dark}",
+              "type": "color"
+            }
+          },
+          "background": {
+            "default": {
+              "value": "{color.base.white}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "divider": {
+              "value": "{color.neutral.25}",
+              "type": "color"
+            }
+          }
+        },
+        "form": {
+          "input": {
+            "text": {
+              "placeholder": {
+                "value": "{color.base.dark}",
+                "type": "color"
+              },
+              "label": {
+                "value": "{color.neutral.500}",
+                "type": "color"
+              }
+            },
+            "background": {
+              "active": {
+                "value": "{color.base.white}",
+                "type": "color"
+              },
+              "inactive": {
+                "value": "rgba( {color.base.black}, {opacity.0})",
+                "type": "color"
+              }
+            },
+            "border": {
+              "active": {
+                "value": "rgba( {color.base.black}, {opacity.0} )",
+                "type": "color"
+              },
+              "inactive": {
+                "value": "rgba( {color.base.black}, {opacity.0} )",
+                "type": "color"
+              }
+            }
+          },
+          "background": {
+            "default": {
+              "value": "{color.base.light}",
+              "type": "color"
+            }
+          }
+        },
+        "location": {
+          "text": {
+            "default": {
+              "value": "{color.base.dark}",
+              "type": "color"
+            }
+          },
+          "background": {
+            "default": {
+              "value": "{color.base.white}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{color.base.light}",
+              "type": "color"
+            }
+          }
+        },
+        "price": {
+          "text": {
+            "default": {
+              "value": "{color.base.dark}",
+              "type": "color"
+            }
+          },
+          "background": {
+            "default": {
+              "value": "{color.base.white}",
+              "type": "color"
+            }
+          }
+        }
+      }
+    },
     "search": {
-      "container": {
-        "value": {
-          "borderRadius": "{borderRadius.pill}",
-          "itemSpacing": "{spacing.0}"
+      "summary": {
+        "container": {
+          "value": {
+            "borderRadius": "{borderRadius.pill}"
+          },
+          "type": "composition"
         },
-        "type": "composition"
+        "label": {
+          "value": {
+            "verticalPadding": "{spacing.0}",
+            "horizontalPadding": "{spacing.5}"
+          },
+          "type": "composition"
+        },
+        "areaButton": {
+          "value": {
+            "verticalPadding": "{spacing.2}",
+            "horizontalPadding": "{spacing.2}"
+          },
+          "type": "composition"
+        }
       },
-      "label": {
-        "value": {
-          "verticalPadding": "{spacing.0}",
-          "horizontalPadding": "{spacing.5}"
+      "form": {
+        "container": {
+          "value": {
+            "borderRadius": "{borderRadius.pill}"
+          },
+          "type": "composition"
         },
-        "type": "composition"
-      },
-      "button": {
-        "value": {
-          "verticalPadding": "{spacing.2}",
-          "horizontalPadding": "{spacing.2}"
-        },
-        "type": "composition"
+        "areaButton": {
+          "value": {
+            "verticalPadding": "{spacing.2}",
+            "horizontalPadding": "{spacing.2}"
+          },
+          "type": "composition"
+        }
       },
       "locations": {
         "container": {
@@ -4519,82 +4641,6 @@
             "itemSpacing": "{spacing.2}"
           },
           "type": "composition"
-        }
-      }
-    },
-    "light": {
-      "search": {
-        "input": {
-          "background": {
-            "active": {
-              "value": "{color.base.white}",
-              "type": "color"
-            },
-            "inactive": {
-              "value": "rgba( {color.base.black}, {opacity.0})",
-              "type": "color"
-            }
-          },
-          "border": {
-            "active": {
-              "value": "rgba( {color.base.black}, {opacity.0} )",
-              "type": "color"
-            },
-            "inactive": {
-              "value": "rgba( {color.base.black}, {opacity.0} )",
-              "type": "color"
-            }
-          },
-          "text": {
-            "placeholder": {
-              "value": "{color.base.dark}",
-              "type": "color"
-            },
-            "label": {
-              "value": "{color.neutral.500}",
-              "type": "color"
-            }
-          }
-        },
-        "text": {
-          "default": {
-            "value": "{color.base.black}",
-            "type": "color"
-          },
-          "description": {
-            "value": "{color.neutral.500}",
-            "type": "color"
-          }
-        },
-        "location": {
-          "background": {
-            "default": {
-              "value": "{color.base.white}",
-              "type": "color"
-            },
-            "hover": {
-              "value": "{color.base.light}",
-              "type": "color"
-            }
-          }
-        },
-        "header": {
-          "default": {
-            "value": "{color.base.white}",
-            "type": "color"
-          },
-          "paidPlan": {
-            "value": "{color.brand.gradient.100}",
-            "type": "color"
-          }
-        },
-        "price": {
-          "background": {
-            "default": {
-              "value": "{color.base.white}",
-              "type": "color"
-            }
-          }
         }
       }
     }
