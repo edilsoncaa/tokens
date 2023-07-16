@@ -1579,17 +1579,45 @@
   "component/bottomSheet": {
     "dark": {
       "bottomSheet": {
+        "text": {
+          "default": {
+            "value": "{dark.global.text.primary}",
+            "type": "color"
+          }
+        },
         "background": {
-          "value": "{dark.global.background.primary}",
-          "type": "color"
+          "default": {
+            "value": "{dark.global.background.primary}",
+            "type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{color.neutral.800}",
+            "type": "color"
+          }
         }
       }
     },
     "light": {
       "bottomSheet": {
+        "text": {
+          "default": {
+            "value": "{light.global.text.primary}",
+            "type": "color"
+          }
+        },
         "background": {
-          "value": "{light.global.background.secondary}",
-          "type": "color"
+          "default": {
+            "value": "{light.global.background.secondary}",
+            "type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{color.neutral.25}",
+            "type": "color"
+          }
         }
       }
     },
@@ -2259,6 +2287,24 @@
           "commentInput": {
             "value": "rgba({color.base.white}, {opacity.60})",
             "type": "color"
+          }
+        },
+        "empty": {
+          "background": {
+            "circle": {
+              "value": "{color.brand.primary.50}",
+              "type": "color"
+            }
+          },
+          "text": {
+            "default": {
+              "value": "{light.global.text.secondary}",
+              "type": "color"
+            },
+            "icon": {
+              "value": "{color.brand.gradient.100}",
+              "type": "color"
+            }
           }
         }
       }
