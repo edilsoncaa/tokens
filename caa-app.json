@@ -2258,11 +2258,15 @@
             "default": {
               "value": "{dark.global.text.secondary}",
               "type": "color"
+            },
+            "report": {
+              "value": "{color.error.400}",
+              "type": "color"
             }
           },
           "background": {
             "default": {
-              "value": "{dark.global.background.primary}",
+              "value": "{dark.global.background.tertiary}",
               "type": "color"
             }
           }
@@ -2678,7 +2682,7 @@
         "options": {
           "container": {
             "value": {
-              "itemSpacing": "{spacing.4}",
+              "itemSpacing": "{spacing.3}",
               "verticalPadding": "{spacing.4}",
               "horizontalPadding": "{spacing.4}"
             },
