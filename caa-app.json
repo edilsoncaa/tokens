@@ -1014,6 +1014,10 @@
           "tertiary": {
             "value": "{color.neutral.900}",
             "type": "color"
+          },
+          "overlay": {
+            "value": "rgba( {color.base.black}, {opacity.70})",
+            "type": "color"
           }
         }
       },
@@ -1115,6 +1119,10 @@
           },
           "tertiary": {
             "value": "{color.neutral.25}",
+            "type": "color"
+          },
+          "overlay": {
+            "value": "rgba( {color.base.black}, {opacity.70})",
             "type": "color"
           }
         }
@@ -2215,6 +2223,10 @@
           "controls": {
             "value": "{color.base.white}",
             "type": "color"
+          },
+          "morePictures": {
+            "value": "{color.base.white}",
+            "type": "color"
           }
         },
         "border": {
@@ -2242,6 +2254,10 @@
           },
           "commentInput": {
             "value": "{dark.global.background.secondary}",
+            "type": "color"
+          },
+          "morePictures": {
+            "value": "{dark.global.background.overlay}",
             "type": "color"
           }
         },
@@ -2331,6 +2347,10 @@
           "controls": {
             "value": "{color.base.white}",
             "type": "color"
+          },
+          "morePictures": {
+            "value": "{color.base.white}",
+            "type": "color"
           }
         },
         "border": {
@@ -2358,6 +2378,10 @@
           },
           "commentInput": {
             "value": "{color.base.white}",
+            "type": "color"
+          },
+          "morePictures": {
+            "value": "{light.global.background.overlay}",
             "type": "color"
           }
         },
