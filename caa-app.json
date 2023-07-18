@@ -3861,6 +3861,169 @@
       }
     }
   },
+  "component/textarea": {
+    "dark": {
+      "textarea": {
+        "text": {
+          "placeholder": {
+            "value": "{dark.global.text.tertiary}",
+            "type": "color"
+          },
+          "content": {
+            "value": "{dark.global.text.primary}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{color.neutral.200}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{color.error.300}",
+            "type": "color"
+          },
+          "support": {
+            "value": "{dark.global.text.tertiary}",
+            "type": "color"
+          }
+        },
+        "background": {
+          "default": {
+            "value": "{dark.global.background.tertiary}",
+            "type": "color"
+          },
+          "focus": {
+            "value": "{dark.global.background.tertiary}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{color.neutral.25}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{color.error.100}",
+            "type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{color.neutral.800}",
+            "type": "color"
+          },
+          "focus": {
+            "value": "{color.neutral.600}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{dark.input.primary.background.disabled}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{color.error.200}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "light": {
+      "textarea": {
+        "text": {
+          "placeholder": {
+            "value": "{light.global.text.tertiary}",
+            "type": "color"
+          },
+          "content": {
+            "value": "{light.global.text.primary}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{color.neutral.200}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{color.error.300}",
+            "type": "color"
+          },
+          "support": {
+            "value": "{light.global.text.tertiary}",
+            "type": "color"
+          }
+        },
+        "background": {
+          "default": {
+            "value": "{light.global.background.secondary}",
+            "type": "color"
+          },
+          "focus": {
+            "value": "{light.global.background.secondary}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{color.neutral.25}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{color.error.50}",
+            "type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{color.neutral.25}",
+            "type": "color"
+          },
+          "focus": {
+            "value": "{color.neutral.200}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{light.input.primary.background.disabled}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{color.error.100}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "textarea": {
+      "container": {
+        "value": {
+          "itemSpacing": "{spacing.1}"
+        },
+        "type": "composition"
+      },
+      "base": {
+        "container": {
+          "value": {
+            "itemSpacing": "{spacing.3}",
+            "verticalPadding": "{spacing.4}",
+            "horizontalPadding": "{spacing.3}",
+            "borderWidth": "{borderWidth.1}",
+            "borderRadius": "{borderRadius.3}",
+            "height": "{sizing.14}"
+          },
+          "type": "composition"
+        }
+      },
+      "content": {
+        "container": {
+          "value": {
+            "itemSpacing": "{spacing.0}"
+          },
+          "type": "composition"
+        }
+      },
+      "support": {
+        "container": {
+          "value": {
+            "itemSpacing": "{spacing.3}"
+          },
+          "type": "composition"
+        }
+      }
+    }
+  },
   "component/title": {
     "dark": {
       "content": {
@@ -4499,6 +4662,7 @@
       "component/search",
       "component/statusBar",
       "component/stories",
+      "component/textarea",
       "component/title",
       "component/typography"
     ]
