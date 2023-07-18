@@ -1587,7 +1587,7 @@
         },
         "background": {
           "default": {
-            "value": "{dark.global.background.primary}",
+            "value": "{dark.global.background.secondary}",
             "type": "color"
           }
         },
@@ -1663,6 +1663,16 @@
               "horizontalPadding": "{spacing.4}",
               "itemSpacing": "{spacing.0}",
               "borderWidthBottom": "{borderWidth.1}"
+            },
+            "type": "composition"
+          }
+        },
+        "description": {
+          "container": {
+            "value": {
+              "verticalPadding": "{spacing.2}",
+              "horizontalPadding": "{spacing.0}",
+              "itemSpacing": "{spacing.2}"
             },
             "type": "composition"
           }
@@ -2266,7 +2276,7 @@
           },
           "background": {
             "default": {
-              "value": "{dark.global.background.tertiary}",
+              "value": "{dark.global.background.primary}",
               "type": "color"
             }
           }
