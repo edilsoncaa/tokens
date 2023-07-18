@@ -3450,6 +3450,125 @@
       }
     }
   },
+  "component/propertyCard": {
+    "dark": {
+      "property-card": {
+        "text": {
+          "primary": {
+            "value": "{dark.global.text.primary}",
+            "type": "color"
+          },
+          "secondary": {
+            "value": "{dark.global.text.secondary}",
+            "type": "color"
+          }
+        },
+        "background": {
+          "default": {
+            "value": "{dark.global.background.tertiary}",
+            "type": "color"
+          },
+          "degrade": {
+            "value": "linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%);",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "light": {
+      "property-card": {
+        "text": {
+          "primary": {
+            "value": "{light.global.text.primary}",
+            "type": "color"
+          },
+          "secondary": {
+            "value": "{light.global.text.secondary}",
+            "type": "color"
+          },
+          "iconAction": {
+            "value": "{color.neutral.800}",
+            "type": "color"
+          },
+          "iconSave": {
+            "value": "{color.brand.primary.500}",
+            "type": "color"
+          }
+        },
+        "background": {
+          "default": {
+            "value": "{color.base.white}",
+            "type": "color"
+          },
+          "degrade": {
+            "value": "linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%);",
+            "type": "color"
+          },
+          "action": {
+            "value": "rgba( {color.base.white} , {opacity.60})",
+            "type": "color"
+          },
+          "actionSave": {
+            "value": "rgba( {color.brand.primary.100} , {opacity.60})",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "propertyCard": {
+      "container": {
+        "value": {
+          "itemSpacing": "{spacing.3}",
+          "borderRadius": "{spacing.3}"
+        },
+        "type": "composition"
+      },
+      "description": {
+        "value": {
+          "itemSpacing": "{spacing.3}",
+          "verticalPadding": "{spacing.0}",
+          "horizontalPadding": "{spacing.3}"
+        },
+        "type": "composition"
+      },
+      "item": {
+        "value": {
+          "itemSpacing": "{spacing.1}"
+        },
+        "type": "composition"
+      },
+      "feature": {
+        "value": {
+          "itemSpacing": "{spacing.0}"
+        },
+        "type": "composition"
+      },
+      "icon": {
+        "value": {
+          "height": "{sizing.6}",
+          "width": "{sizing.6}"
+        },
+        "type": "composition"
+      },
+      "actions": {
+        "container": {
+          "value": {
+            "height": "{sizing.7}",
+            "width": "{sizing.7}",
+            "borderRadius": "{borderRadius.circle}"
+          },
+          "type": "composition"
+        },
+        "icon": {
+          "value": {
+            "height": "{sizing.5}+{sizing.2}",
+            "width": "{sizing.5}+{sizing.2}"
+          },
+          "type": "composition"
+        }
+      }
+    }
+  },
   "component/splashScreen": {
     "dark": {
       "splashScreen": {
@@ -3518,7 +3637,7 @@
         "label": {
           "value": {
             "verticalPadding": "{spacing.0}",
-            "horizontalPadding": "{spacing.5}"
+            "horizontalPadding": "{spacing.4}"
           },
           "type": "composition"
         },
@@ -4375,6 +4494,7 @@
       "component/list",
       "component/logo",
       "component/navbar",
+      "component/propertyCard",
       "component/splashScreen",
       "component/search",
       "component/statusBar",
