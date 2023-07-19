@@ -3654,6 +3654,12 @@
   "component/search": {
     "light": {
       "search": {
+        "background": {
+          "default": {
+            "value": "rgba( {color.base.white}, {opacity.80})",
+            "type": "color"
+          }
+        },
         "summary": {
           "text": {
             "default": {
@@ -3674,10 +3680,22 @@
             }
           }
         },
-        "background": {
-          "default": {
-            "value": "rgba( {color.base.white}, {opacity.80})",
-            "type": "color"
+        "box": {
+          "text": {
+            "primary": {
+              "value": "{color.base.dark}",
+              "type": "color"
+            },
+            "secondary": {
+              "value": "{color.neutral.500}",
+              "type": "color"
+            }
+          },
+          "background": {
+            "default": {
+              "value": "{color.base.white}",
+              "type": "color"
+            }
           }
         }
       }
