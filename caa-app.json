@@ -3654,16 +3654,6 @@
   "component/search": {
     "light": {
       "search": {
-        "header": {
-          "default": {
-            "value": "{color.base.white}",
-            "type": "color"
-          },
-          "paidPlan": {
-            "value": "{color.brand.gradient.100}",
-            "type": "color"
-          }
-        },
         "summary": {
           "text": {
             "default": {
@@ -3682,6 +3672,12 @@
               "value": "{color.neutral.25}",
               "type": "color"
             }
+          }
+        },
+        "background": {
+          "default": {
+            "value": "rgba( {color.base.white}, {opacity.80})",
+            "type": "color"
           }
         }
       }
@@ -3715,64 +3711,37 @@
           "type": "composition"
         }
       },
-      "form": {
+      "box": {
         "container": {
           "value": {
-            "borderRadius": "{borderRadius.pill}"
-          },
-          "type": "composition"
-        },
-        "areaButton": {
-          "value": {
-            "verticalPadding": "{spacing.2}",
-            "horizontalPadding": "{spacing.2}"
-          },
-          "type": "composition"
-        }
-      },
-      "locations": {
-        "container": {
-          "value": {
-            "verticalPadding": "{spacing.0}",
-            "horizontalPadding": "{spacing.0}",
-            "borderRadius": "{borderRadius.5}",
-            "itemSpacing": "{spacing.0}"
-          },
-          "type": "composition"
-        },
-        "location": {
-          "container": {
-            "value": {
-              "verticalPadding": "{spacing.3}",
-              "horizontalPadding": "{spacing.4}",
-              "itemSpacing": "{spacing.3}"
-            },
-            "type": "composition"
-          },
-          "icon": {
-            "value": {
-              "height": "{sizing.6}",
-              "width": "{sizing.6}"
-            },
-            "type": "composition"
-          }
-        }
-      },
-      "price": {
-        "container": {
-          "value": {
+            "borderRadius": "{borderRadius.4}",
             "verticalPadding": "{spacing.4}",
             "horizontalPadding": "{spacing.4}",
-            "borderRadius": "{borderRadius.5}",
             "itemSpacing": "{spacing.4}"
           },
           "type": "composition"
         },
         "header": {
-          "value": {
-            "itemSpacing": "{spacing.2}"
+          "container": {
+            "value": {
+              "itemSpacing": "{spacing.4}"
+            },
+            "type": "composition"
+          }
+        },
+        "form": {
+          "container": {
+            "value": {
+              "itemSpacing": "{spacing.4}"
+            },
+            "type": "composition"
           },
-          "type": "composition"
+          "title": {
+            "value": {
+              "itemSpacing": "{spacing.2}"
+            },
+            "type": "composition"
+          }
         }
       }
     }
