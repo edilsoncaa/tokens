@@ -2476,7 +2476,7 @@
         "container": {
           "value": {
             "verticalPadding": "{spacing.2}",
-            "horizontalPadding": "{spacing.5}",
+            "horizontalPadding": "{spacing.5}+{spacing.2}",
             "itemSpacing": "{spacing.2}",
             "borderRadius": "{borderRadius.pill}",
             "borderWidth": "{borderWidth.1}"
