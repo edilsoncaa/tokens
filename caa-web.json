@@ -3511,6 +3511,24 @@
             "value": "{light.global.background.overlay}",
             "type": "color"
           }
+        },
+        "box": {
+          "text": {
+            "primary": {
+              "value": "{light.global.text.primary}",
+              "type": "color"
+            },
+            "secondary": {
+              "value": "{light.global.text.secondary}",
+              "type": "color"
+            }
+          },
+          "background": {
+            "default": {
+              "value": "{light.global.background.primary}",
+              "type": "color"
+            }
+          }
         }
       }
     },
