@@ -3630,12 +3630,6 @@
               "itemSpacing": "{spacing.4}"
             },
             "type": "composition"
-          },
-          "title": {
-            "value": {
-              "itemSpacing": "{spacing.2}"
-            },
-            "type": "composition"
           }
         }
       }
