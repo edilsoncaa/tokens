@@ -4561,6 +4561,15 @@
       }
     },
     "search": {
+      "header": {
+        "container": {
+          "value": {
+            "horizontalPadding": "{spacing.5}",
+            "height": "{sizing.12}"
+          },
+          "type": "composition"
+        }
+      },
       "summary": {
         "container": {
           "value": {
