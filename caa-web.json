@@ -3605,6 +3605,39 @@
           },
           "type": "composition"
         }
+      },
+      "box": {
+        "container": {
+          "value": {
+            "borderRadius": "{borderRadius.4}",
+            "verticalPadding": "{spacing.4}",
+            "horizontalPadding": "{spacing.4}",
+            "itemSpacing": "{spacing.4}"
+          },
+          "type": "composition"
+        },
+        "header": {
+          "container": {
+            "value": {
+              "itemSpacing": "{spacing.4}"
+            },
+            "type": "composition"
+          }
+        },
+        "form": {
+          "container": {
+            "value": {
+              "itemSpacing": "{spacing.4}"
+            },
+            "type": "composition"
+          },
+          "title": {
+            "value": {
+              "itemSpacing": "{spacing.2}"
+            },
+            "type": "composition"
+          }
+        }
       }
     }
   },
