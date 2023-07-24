@@ -1716,6 +1716,16 @@
             },
             "type": "composition"
           }
+        },
+        "tabs": {
+          "container": {
+            "value": {
+              "verticalPadding": "{spacing.0}",
+              "horizontalPadding": "{spacing.0}",
+              "itemSpacing": "{spacing.0}"
+            },
+            "type": "composition"
+          }
         }
       }
     }
@@ -2423,8 +2433,8 @@
       "icon": {
         "container": {
           "value": {
-            "height": "{sizing.5}",
-            "width": "{sizing.5}"
+            "height": "{sizing.4}",
+            "width": "{sizing.4}"
           },
           "type": "composition"
         }
@@ -2571,7 +2581,7 @@
               "type": "color"
             },
             "selected": {
-              "value": "{light.chips.pill.text.selected}",
+              "value": "{light.chips.pill.background.selected}",
               "type": "color"
             }
           }
@@ -2614,7 +2624,7 @@
         "container": {
           "value": {
             "verticalPadding": "{spacing.2}",
-            "horizontalPadding": "{spacing.5}+{spacing.2}",
+            "horizontalPadding": "{spacing.5}",
             "itemSpacing": "{spacing.2}",
             "borderRadius": "{borderRadius.pill}",
             "borderWidth": "{borderWidth.1}"
@@ -3263,6 +3273,40 @@
               },
               "type": "composition"
             }
+          }
+        }
+      }
+    }
+  },
+  "component/filters": {
+    "filters": {
+      "container": {
+        "value": {
+          "verticalPadding": "{spacing.4}",
+          "horizontalPadding": "{spacing.4}",
+          "itemSpacing": "{spacing.6}"
+        },
+        "type": "composition"
+      },
+      "filter": {
+        "container": {
+          "value": {
+            "itemSpacing": "{spacing.3}"
+          },
+          "type": "composition"
+        }
+      }
+    },
+    "light": {
+      "filters": {
+        "text": {
+          "title": {
+            "value": "{light.global.text.primary}",
+            "type": "color"
+          },
+          "default": {
+            "value": "{light.global.text.secondary}",
+            "type": "color"
           }
         }
       }
@@ -5215,6 +5259,7 @@
       "component/checkbox",
       "component/chips",
       "component/feed",
+      "component/filters",
       "component/header",
       "component/input",
       "component/list",
