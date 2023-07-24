@@ -3516,7 +3516,7 @@
               "type": "color"
             },
             "disabled": {
-              "value": "{color.neutral.25}",
+              "value": "{light.global.background.primary}",
               "type": "color"
             },
             "error": {
