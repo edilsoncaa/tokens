@@ -1522,32 +1522,64 @@
   "component/badge": {
     "dark": {
       "badge": {
-        "text": {
-          "warning": {
-            "value": "{color.base.white}",
-            "type": "color"
+        "neutral": {
+          "text": {
+            "default": {
+              "value": "{color.base.white}",
+              "type": "color"
+            }
+          },
+          "backgroud": {
+            "default": {
+              "value": "{color.neutral.500}",
+              "type": "color"
+            }
           }
         },
-        "backgroud": {
-          "warning": {
-            "value": "{color.warning.400}",
-            "type": "color"
+        "warning": {
+          "text": {
+            "warning": {
+              "value": "{color.base.white}",
+              "type": "color"
+            }
+          },
+          "backgroud": {
+            "warning": {
+              "value": "{color.warning.400}",
+              "type": "color"
+            }
           }
         }
       }
     },
     "light": {
       "badge": {
-        "text": {
-          "warning": {
-            "value": "{color.base.white}",
-            "type": "color"
+        "neutral": {
+          "text": {
+            "default": {
+              "value": "{color.base.white}",
+              "type": "color"
+            }
+          },
+          "backgroud": {
+            "default": {
+              "value": "{color.neutral.500}",
+              "type": "color"
+            }
           }
         },
-        "backgroud": {
-          "warning": {
-            "value": "{color.warning.400}",
-            "type": "color"
+        "warning": {
+          "text": {
+            "default": {
+              "value": "{color.base.white}",
+              "type": "color"
+            }
+          },
+          "backgroud": {
+            "default": {
+              "value": "{color.warning.400}",
+              "type": "color"
+            }
           }
         }
       }
@@ -2446,11 +2478,12 @@
       "rounded": {
         "container": {
           "value": {
-            "verticalPadding": "{spacing.5}",
             "horizontalPadding": "{spacing.3}",
             "itemSpacing": "{spacing.2}",
             "borderRadius": "{borderRadius.2}",
-            "borderWidth": "{borderWidth.1}"
+            "borderWidth": "{borderWidth.1}",
+            "paddingTop": "{spacing.6}",
+            "paddingBottom": "{spacing.3}"
           },
           "type": "composition"
         },
