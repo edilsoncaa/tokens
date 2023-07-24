@@ -3295,6 +3295,16 @@
           },
           "type": "composition"
         }
+      },
+      "actions": {
+        "container": {
+          "value": {
+            "verticalPadding": "{spacing.4}",
+            "horizontalPadding": "{spacing.4}",
+            "itemSpacing": "{spacing.3}"
+          },
+          "type": "composition"
+        }
       }
     },
     "light": {
