@@ -2080,7 +2080,7 @@
               "type": "color"
             },
             "disabled": {
-              "value": "{color.neutral.50}",
+              "value": "{color.neutral.25}",
               "type": "color"
             }
           },
