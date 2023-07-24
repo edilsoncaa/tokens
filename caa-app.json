@@ -2489,11 +2489,12 @@
         },
         "selected": {
           "value": {
-            "verticalPadding": "{spacing.5}",
             "horizontalPadding": "{spacing.3}",
             "itemSpacing": "{spacing.2}",
             "borderRadius": "{borderRadius.2}",
-            "borderWidth": "1.5*{borderWidth.1}"
+            "borderWidth": "1.5*{borderWidth.1}",
+            "paddingTop": "{spacing.6}",
+            "paddingBottom": "{spacing.3}"
           },
           "type": "composition"
         },
