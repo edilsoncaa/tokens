@@ -2407,6 +2407,10 @@
               "value": "{color.brand.secondary.800}",
               "type": "color"
             }
+          },
+          "default": {
+            "value": "{color.brand.secondary.50}",
+            "type": "color"
           }
         }
       }
