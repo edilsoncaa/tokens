@@ -4563,6 +4563,52 @@
       }
     }
   },
+  "component/tag": {
+    "dark": {
+      "tag": {
+        "default": {
+          "text": {
+            "default": {
+              "value": "{light.global.text.primary}",
+              "type": "color"
+            }
+          },
+          "background": {
+            "default": {
+              "value": "{color.base.white}",
+              "type": "color"
+            }
+          }
+        }
+      }
+    },
+    "light": {
+      "tag": {
+        "default": {
+          "text": {
+            "default": {
+              "value": "{light.global.text.primary}",
+              "type": "color"
+            }
+          },
+          "background": {
+            "default": {
+              "value": "{color.base.white}",
+              "type": "color"
+            }
+          }
+        }
+      }
+    },
+    "tag": {
+      "value": {
+        "verticalPadding": "{spacing.2}",
+        "horizontalPadding": "{spacing.3}",
+        "borderRadius": "{borderRadius.pill}"
+      },
+      "type": "composition"
+    }
+  },
   "component/textarea": {
     "dark": {
       "textarea": {
@@ -5370,6 +5416,7 @@
       "component/statusBar",
       "component/stories",
       "component/tab",
+      "component/tag",
       "component/textarea",
       "component/title",
       "component/typography"
