@@ -2230,6 +2230,94 @@
               "type": "color"
             }
           }
+        },
+        "outlinedGray": {
+          "text": {
+            "default": {
+              "value": "{color.neutral.300}",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "{color.neutral.300}",
+              "type": "color"
+            },
+            "disbled": {
+              "value": "{light.button.primary.text.disabled}",
+              "type": "color"
+            }
+          },
+          "background": {
+            "default": {
+              "value": "rgba( {color.brand.primary.500} , {opacity.0})",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "{color.neutral.50}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{light.button.primary.background.disabled}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "default": {
+              "value": "{light.button.outlinedGray.text.default}",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "{light.button.outlinedGray.background.pressed}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{light.button.outlinedGray.background.disabled}",
+              "type": "color"
+            }
+          }
+        },
+        "regularGray": {
+          "text": {
+            "default": {
+              "value": "{color.neutral.300}",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "{color.neutral.300}",
+              "type": "color"
+            },
+            "disbled": {
+              "value": "{light.button.primary.text.disabled}",
+              "type": "color"
+            }
+          },
+          "background": {
+            "default": {
+              "value": "rgba( {color.brand.primary.500} , {opacity.0})",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "{color.neutral.50}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{light.button.primary.background.disabled}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "default": {
+              "value": "{light.button.regularGray.text.default}",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "{light.button.regularGray.background.pressed}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{light.button.regularGray.background.disabled}",
+              "type": "color"
+            }
+          }
         }
       }
     }
