@@ -4269,13 +4269,13 @@
             "type": "color"
           },
           "selected": {
-            "value": "{light.checkbox.border.selected}",
+            "value": "rgba ({color.brand.secondary.800},{opacity.0})",
             "type": "color"
           }
         },
         "icon": {
           "default": {
-            "value": "{color.base.white}",
+            "value": "{color.brand.secondary.800}",
             "type": "color"
           }
         },
