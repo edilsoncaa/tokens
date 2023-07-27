@@ -4214,6 +4214,110 @@
       }
     }
   },
+  "component/radio": {
+    "dark": {
+      "radio": {
+        "border": {
+          "default": {
+            "value": "{color.neutral.300}",
+            "type": "color"
+          },
+          "selected": {
+            "value": "{color.brand.secondary.800}",
+            "type": "color"
+          }
+        },
+        "background": {
+          "default": {
+            "value": "rgba ({color.brand.secondary.800},{opacity.0})",
+            "type": "color"
+          },
+          "selected": {
+            "value": "{light.checkbox.border.selected}",
+            "type": "color"
+          }
+        },
+        "icon": {
+          "default": {
+            "value": "{color.base.white}",
+            "type": "color"
+          }
+        },
+        "shadow": {
+          "default": {
+            "value": "{color.brand.secondary.900}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "light": {
+      "radio": {
+        "border": {
+          "default": {
+            "value": "{color.neutral.300}",
+            "type": "color"
+          },
+          "selected": {
+            "value": "{color.brand.secondary.800}",
+            "type": "color"
+          }
+        },
+        "background": {
+          "default": {
+            "value": "rgba ({color.brand.secondary.800},{opacity.0})",
+            "type": "color"
+          },
+          "selected": {
+            "value": "{light.checkbox.border.selected}",
+            "type": "color"
+          }
+        },
+        "icon": {
+          "default": {
+            "value": "{color.base.white}",
+            "type": "color"
+          }
+        },
+        "shadow": {
+          "default": {
+            "value": "{color.brand.secondary.50}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "radio": {
+      "container": {
+        "value": {
+          "height": "{sizing.5} + {sizing.1}",
+          "width": "{sizing.5} + {sizing.1}",
+          "borderRadius": "{borderRadius.circle}",
+          "borderWidth": "{borderWidth.1}"
+        },
+        "type": "composition"
+      },
+      "icon": {
+        "container": {
+          "value": {
+            "height": "{sizing.3}",
+            "width": "{sizing.3}"
+          },
+          "type": "composition"
+        }
+      },
+      "shadow": {
+        "container": {
+          "value": {
+            "height": "{sizing.8}",
+            "width": "{sizing.8}",
+            "borderRadius": "{borderRadius.circle}"
+          },
+          "type": "composition"
+        }
+      }
+    }
+  },
   "component/splashScreen": {
     "dark": {
       "splashScreen": {
@@ -5415,6 +5519,7 @@
       "component/modal",
       "component/navbar",
       "component/propertyCard",
+      "component/radio",
       "component/splashScreen",
       "component/search",
       "component/statusBar",
