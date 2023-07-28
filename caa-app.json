@@ -2421,7 +2421,8 @@
           "verticalPadding": "{spacing.1}",
           "horizontalPadding": "{spacing.1}",
           "borderRadius": "{borderRadius.pill}",
-          "itemSpacing": "{spacing.0}"
+          "itemSpacing": "{spacing.0}",
+          "borderWidth": "{borderWidth.1}"
         },
         "type": "composition"
       },
