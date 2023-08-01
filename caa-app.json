@@ -2750,6 +2750,41 @@
           },
           "type": "composition"
         }
+      },
+      "property": {
+        "container": {
+          "value": {
+            "itemSpacing": "{spacing.2}",
+            "borderRadius": "{borderRadius.2}",
+            "borderWidth": "{borderWidth.1}"
+          },
+          "type": "composition"
+        },
+        "selected": {
+          "value": {
+            "itemSpacing": "{spacing.2}",
+            "borderRadius": "{borderRadius.2}",
+            "borderWidth": "1.5*{borderWidth.1}"
+          },
+          "type": "composition"
+        },
+        "description": {
+          "container": {
+            "value": {
+              "verticalPadding": "{spacing.1}",
+              "horizontalPadding": "{spacing.2}",
+              "itemSpacing": "{spacing.1}"
+            },
+            "type": "composition"
+          },
+          "icon": {
+            "value": {
+              "height": "{sizing.5}",
+              "width": "{sizing.5}"
+            },
+            "type": "composition"
+          }
+        }
       }
     }
   },
