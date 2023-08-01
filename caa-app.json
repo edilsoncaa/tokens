@@ -2731,6 +2731,25 @@
           },
           "type": "composition"
         }
+      },
+      "pillIcon": {
+        "container": {
+          "value": {
+            "verticalPadding": "{spacing.2}",
+            "horizontalPadding": "{spacing.3}",
+            "itemSpacing": "{spacing.2}",
+            "borderRadius": "{borderRadius.pill}",
+            "borderWidth": "{borderWidth.1}"
+          },
+          "type": "composition"
+        },
+        "icon": {
+          "value": {
+            "height": "{sizing.5}",
+            "width": "{sizing.5}"
+          },
+          "type": "composition"
+        }
       }
     }
   },
