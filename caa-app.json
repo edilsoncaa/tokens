@@ -2314,7 +2314,7 @@
               "type": "color"
             },
             "disabled": {
-              "value": "{light.button.regularGray.background.disabled}",
+              "value": "{light.button.regularGray.background.default}",
               "type": "color"
             }
           }
