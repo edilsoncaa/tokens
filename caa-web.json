@@ -2559,7 +2559,7 @@
         },
         "background": {
           "default": {
-            "value": "{light.global.background.secondary}",
+            "value": "{light.global.background.primary}",
             "type": "color"
           },
           "controls": {
