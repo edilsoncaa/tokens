@@ -2715,7 +2715,7 @@
               "container": {
                 "value": {
                   "itemSpacing": "{spacing.2}",
-                  "height": "{sizing.25}+ {sizing.10}"
+                  "height": "{sizing.25}+ {sizing.25}+ {sizing.25}"
                 },
                 "type": "composition"
               },
@@ -2804,7 +2804,7 @@
           "container": {
             "value": {
               "verticalPadding": "{spacing.4}",
-              "horizontalPadding": "{spacing.4}",
+              "horizontalPadding": "{spacing.0}",
               "itemSpacing": "{spacing.6}"
             },
             "type": "composition"
@@ -2922,7 +2922,7 @@
           "container": {
             "value": {
               "itemSpacing": "{spacing.3}",
-              "horizontalPadding": "{spacing.4}",
+              "horizontalPadding": "{spacing.0}",
               "verticalPadding": "{spacing.5}"
             },
             "type": "composition"
@@ -4574,8 +4574,8 @@
         "container": {
           "value": {
             "itemSpacing": "{spacing.4}",
-            "verticalPadding": "{spacing.2}",
-            "horizontalPadding": "{spacing.4}"
+            "verticalPadding": "{spacing.0}",
+            "horizontalPadding": "{spacing.0}"
           },
           "type": "composition"
         },
